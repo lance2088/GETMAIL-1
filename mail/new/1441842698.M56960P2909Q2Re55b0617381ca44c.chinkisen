@@ -1,0 +1,57 @@
+Return-Path: <linux-kernel-owner@vger.kernel.org>
+Delivered-To: unknown
+Received: from imap.zoho.com (74.201.154.17:993) by chinkisen with IMAP4-SSL;
+  09 Sep 2015 23:51:38 -0000
+Delivered-To: update_shen@zoho.com
+Received-SPF: Pass (zoho.com: domain of linux-kernel-owner@vger.kernel.org designates 209.132.180.67 as permitted sender using best guess )  client-ip: 209.132.180.67
+Received: from vger.kernel.org (vger.kernel.org [209.132.180.67]) by mx.zohomail.com
+	with SMTP id 1441693497877813.0788446954895; Mon, 7 Sep 2015 23:24:57 -0700 (PDT)
+Received: (majordomo@vger.kernel.org) by vger.kernel.org id S1752965AbbIHGY5
+	for <update_shen@zoho.com>; Tue, 8 Sep 2015 02:24:57 -0400
+To: update_shen@zoho.com
+From: Majordomo@vger.kernel.org
+Subject: Welcome to linux-kernel
+Reply-To: Majordomo@vger.kernel.org
+Message-Id: <S1752965AbbIHGY5/20150908062457Z+141@vger.kernel.org>
+Date: Tue, 8 Sep 2015 02:24:57 -0400
+X-ZohoMail: SS_1 SFPD SFPP UW2468 UB2468 COSF  ZCF-710TPL-705S_2 ODL   SGR3_1_11085_810
+X-ZohoMail-Owner: <S1752965AbbIHGY5/20150908062457Z+141@vger.kernel.org>+zmo_0_<linux-kernel-owner@vger.kernel.org>
+X-ZohoMail-Sender: 209.132.180.67
+X-Zoho-Virus-Status: 2
+X-getmail-retrieved-from-mailbox: INBOX
+
+--
+
+Welcome to the linux-kernel mailing list!
+
+Please save this message for future reference.  Thank you.
+
+If you ever want to remove yourself from this mailing list,
+you can send mail to <Majordomo@vger.kernel.org> with the following
+command in the body of your email message:
+
+    unsubscribe linux-kernel
+
+or from another account, besides update_shen@zoho.com:
+
+    unsubscribe linux-kernel update_shen@zoho.com
+
+If you ever need to get in contact with the owner of the list,
+(if you have trouble unsubscribing, or have questions about the
+list itself) send email to <owner-linux-kernel@vger.kernel.org> .
+This is the general rule for most mailing lists when you need
+to contact a human.
+
+ Here's the general information for the list you've subscribed to,
+ in case you don't already have it:
+
+This is the Linux kernel development discussion and bug reporting
+mailing list.  Volume is VERY high, 200-300 messages per day!
+FAQ:   http://www.tux.org/lkml/
+
+Archives:
+  http://marc.info/?l=linux-kernel                  (Since -97)
+  http://www.cs.helsinki.fi/linux/linux-kernel/                 (1997-2004)
+  http://lkml.indiana.edu/hypermail/linux/kernel/ (Since -95)
+  http://lkml.org/                                              (since -96)
+  http://www.spinics.net/lists/kernel/

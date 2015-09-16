@@ -1,0 +1,4147 @@
+[PATCH 00/10] drm/msm: Add support for MSM8996
+[PATCH 08/10] drm/msm/mdp5: Use the newly introduced enum mdp_component_type
+[PATCH 09/10] drm/msm/mdp: Add Software Pixel Extension support
+[PATCH 10/10] drm/msm/mdp5: Basic support for MDP5 v1.7 (MSM8996)
+[PATCH 07/10] drm/msm/mdp: Update generated headers (Pixel Extension)
+[PATCH 06/10] drm/msm/hdmi: Add basic HDMI support for msm8996
+[PATCH 05/10] drm/msm/mdp5: Vote for SMMU power when performing translations
+[PATCH 04/10] drm/msm/mdp5: Avoid printing error messages for optional clocks
+[PATCH 02/10] drm/msm/mdp5: Disable hardware translation table walks (MSM8996)
+[PATCH 01/10] drm/msm/mdp5: remove the cfg pointer from SMP struct
+[PATCH 03/10] drm/msm: Fix IOMMU clean up path in case msm_iommu_new() fails
+
+
+[PATCH] PM / OPP: Return suspend_opp only if it is enabled
+
+
+[PATCH V2] kasan: fix last shadow judgement in memory_is_poisoned_16()
+
+
+[PATCH] ASoC: make dapm cache search depth configurable
+
+
+[PATCH] arm64: Add support for PTE contiguous bit.
+
+
+[PATCH] logfs: fix build warning
+
+
+[PATCH 2.6.32 00/62] 2.6.32.68-longterm review
+
+
+[RFC PATCH v2 0/3] arm/arm64: fix a migrating irq bug when hotplug cpu
+[RFC PATCH v2 2/3] genirq: rename config GENERIC_PENDING_IRQ to GENERIC_IRQ_MIGRATION
+[RFC PATCH v2 1/3] irqchip: GICv3: set non-percpu irqs status with IRQ_MOVE_PCNTXT
+[RFC PATCH v2 3/3] arm/arm64: fix a migrating irq bug when hotplug cpu
+
+
+[PATCH] staging: android: fix typo
+
+
+[PATCH V3 1/3] arm64: dts: Add reset dts config for Hisilicon Hi6220 SoC
+[PATCH V3 3/3] reset: hi6220: Reset driver for hisilicon hi6220 SoC
+[PATCH V3 2/3] reset: hisilicon: document hisi-hi6220 reset controllers bindings
+
+
+[PATCH] mm/early_ioremap: add explicit #include of asm/early_ioremap.h
+
+
+[PATCH v2 0/5] Add eeprom to the Olimex series of boards
+[PATCH v2 2/5] dts: sunxi: correct vendor prefix on OLinuXino a10s micro
+[PATCH v2 1/5] dts: sunxi: add eeprom to A10 OLinuXino Lime board
+[PATCH v2 5/5] dts: sunxi: add eeprom to A20 OLinuXino micro board
+[PATCH v2 3/5] dts: sunxi: add eeprom to A20 OLinuXino Lime board
+[PATCH v2 4/5] dts: sunxi: add eeprom to A20 OLinuXino Lime2 board
+
+
+[GIT PULL] clk: fixes for 4.3-rc1
+
+
+[PATCH] m68k/sun3: Fix virtual addresses of clock and interrupt register
+
+
+[PATCH v5 0/6] Add support for DA9150 Fuel-Gauge
+[PATCH v5 2/6] mfd: da9150: Update DT bindings for Fuel-Gauge support
+[PATCH v5 5/6] mfd: da9150: Use relative paths in DT bindings document
+[PATCH v5 1/6] mfd: da9150: Add support for Fuel-Gauge
+[PATCH v5 4/6] power: da9150: Add DT bindings documentation for
+ Fuel-Gauge
+[PATCH v5 3/6] power: Add support for DA9150 Fuel-Gauge
+[PATCH v5 6/6] mfd: da9150: Use DEFINE_RES_IRQ_NAMED() help macro for
+ IRQ resource
+
+
+[PATCH] arm/ls1021a: Add Sleep feature for ls1021
+
+
+[PATCH] drm/i915: Fix warnings while make xmldocs caused by intel_lrc.c
+
+
+[PATCH 1/2] ASoC: dapm: fix memory leak
+[PATCH 2/2] ASoC: Intel: remove unused function
+
+
+[PATCH V9 0/6] Freq/CPU%/CORE_BUSY% support
+[PATCH V9 2/6] perf,tools: read msr pmu type from header.
+[PATCH V9 4/6] perf,tools: Dump per-sample freq/CPU%/CORE_BUSY% in report -D
+[PATCH V9 5/6] perf,tools: caculate and save freq/CPU%/CORE_BUSY% in he_stat
+[PATCH V9 3/6] perf, record: introduce --freq-perf option
+[PATCH V9 1/6] perf,tools: introduce generic FEAT for CPU attributes
+[PATCH V9 6/6] perf,tools: Show freq/CPU%/CORE_BUSY% in perf report by --freq-perf
+
+
+[PATCH] thermal: imx: register irq handler later in probe
+
+
+[PATCH v2 1/3] net: irda: pxaficp_ir: use sched_clock() for time management
+[PATCH v2 3/3] net: irda: pxaficp_ir: dmaengine conversion
+[PATCH v2 2/3] net: irda: pxaficp_ir: convert to readl and writel
+
+
+[PATCH 1/4] Staging: rtl8192u: Space not allowed after &
+
+
+[PATCH 1/6] Staging: iio: addac: Prefer using the BIT macro
+[PATCH 3/6] Staging: lustre: libcfs: Prefer using the BIT macro
+[PATCH 2/6] Staging: iio: meter: Prefer using the BIT macro
+
+
+[PATCH v6 0/9] Goodix touchscreen enhancements
+[PATCH v6 8/9] Input: goodix - add sysfs interface to dump config
+[PATCH v6 7/9] Input: goodix - add support for ESD
+[PATCH v6 2/9] Input: goodix - use actual config length for each device type
+[PATCH v6 6/9] Input: goodix - use goodix_i2c_write_u8 instead of i2c_master_send
+[PATCH v6 1/9] Input: goodix - sort includes alphabetically
+[PATCH v6 4/9] Input: goodix - write configuration data to device
+[PATCH v6 5/9] Input: goodix - add power management support
+[PATCH v6 9/9] Input: goodix - add runtime power management support
+[PATCH v6 3/9] Input: goodix - reset device at init
+
+
+[PATCH 1/1] integrity: prevent loading untrusted certificates to IMA trusted keyring
+
+
+[PATCH 1/1] regulator: tps65218: Fix missing zero typo
+
+
+[PATCH] ata: pata_pxa: dmaengine conversion
+
+
+[PATCH v5 0/10] Fix broken DMAFLUSHP on Rockchips platform
+[PATCH v5 06/10] dmaengine: add API for getting dma controller's quirk
+[PATCH v5 10/10] ASoC: rockchip_i2s: modify DMA max burst to 1
+[PATCH v5 03/10] DMA: pl330: add quirk for broken no flushp
+[PATCH v5 05/10] ARM: dts: Add arm,pl330-broken-no-flushp quirk for rk3xxx platform
+[PATCH v5 07/10] DMA: pl330: implement dmaengine_get_quirks hook
+[PATCH v5 02/10] Documentation: arm-pl330: add description of arm,pl330-broken-no-flushp
+[PATCH v5 01/10] DMA: pl330: support burst mode for dev-to-mem and mem-to-dev transmit
+[PATCH v5 09/10] snd: dmaengine-pcm: add snd_dmaengine_pcm_get_quirks interface
+[PATCH v5 08/10] spi: rockchip: modify DMA max burst to 1
+[PATCH v5 04/10] ARM: dts: Add arm,pl330-broken-no-flushp quirk for rk3288 platform
+
+
+[PATCH v2 0/2] mm:constify zpool/zs_pool char members
+[PATCH v2 2/2] mm:zsmalloc: constify struct zs_pool name
+[PATCH v2 1/2] mm:zpool: constify struct zpool type
+
+
+[PATCH v1 0/3] lib/string: introduce match_string() helper
+[PATCH v1 1/3] lib/string: introduce match_string() helper
+[PATCH v1 3/3] ata: hpt366: convert to use match_string() helper
+[PATCH v1 2/3] drm/edid: convert to use match_string() helper
+
+
+[PATCH 1/4] Staging: rtl8723au: Bool tests don't need comparisons
+[PATCH 2/4] Staging: rtl8188eu: Bool tests don't need comparisons
+[PATCH 3/4] Staging: rtl8712: Bool tests don't need comparisons
+[PATCH 4/4] Staging: vt6656: Bool tests don't need comparisons
+
+
+[RESEND PATCH] usb: phy: isp1301: Export I2C module alias information
+
+
+[PATCH] coccinelle: tests: unsigned value cannot be lesser than zero
+
+
+[PATCH v1 0/2] mfd: intel-lpss: fix a bug and clean up
+[PATCH v1 2/2] mfd: intel-lpss: use writeq() helper
+[PATCH v1 1/2] mfd: intel-lpss: fix build error when !CONFIG_PM_SLEEP
+
+
+[PATCH] cgroup: fix seq_show_option merge with legacy_name
+
+
+[PATCH v2] cpufreq: imx: update the clock switch flow to support imx6ul
+
+
+[PATCH] drm/gma500: fix double freeing
+
+
+[PATCH 1/2] char: hw_random: Fix module autoload for OF platform
+ drivers
+
+
+[PATCH] soc: qcom: smem: Move RPM message ram out of smem DT node
+
+
+[tip:perf/core] perf env: Read msr pmu type from header
+
+
+[GIT PULL] Hexagon arch changes for 4.3
+
+
+[PATCH v7 0/3] can: Allwinner A10/A20 CAN Controller support - Summary
+[PATCH v7 3/3] can: Allwinner A10/A20 CAN Controller support - Kernel module
+[PATCH v7 2/3] can: Allwinner A10/A20 CAN Controller support - Defconfigs
+[PATCH v7 1/3] can: Allwinner A10/A20 CAN Controller support - Devicetree bindings
+
+
+[PATCH 4/7] f2fs: readahead cp payload pages when mount
+
+
+[PATCH 00/16] usb: gadget: amd5536udc: fix memory leaks
+[PATCH 16/16] usb: gadget: amd5536udc: match alignment 
+[PATCH 09/16] usb: gadget: amd5536udc: remove forward declaration of udc_remote_wakeup
+[PATCH 02/16] usb: gadget: amd5536udc: rewrite init_dma_pools
+[PATCH 05/16] usb: gadget: amd5536udc: use free_dma_pools
+[PATCH 12/16] usb: gadget: amd5536udc: remove forward declaration of udc_pci_*
+[PATCH 08/16] usb: gadget: amd5536udc: remove forward declaration of udc_probe
+[PATCH 01/16] usb: gadget: amd5536udc: introduce free_dma_pools
+[PATCH 14/16] usb: gadget: amd5536udc: NULL comparison
+[PATCH 03/16] usb: gadget: amd5536udc: rewrite udc_pci_probe
+[PATCH 06/16] usb: gadget: amd5536udc: remove unnecessary conditions
+[PATCH 10/16] usb: gadget: amd5536udc: remove forward declaration of udc_create_dma_chain
+[PATCH 11/16] usb: gadget: amd5536udc: remove forward declaration of udc_free_dma_chain
+[PATCH 13/16] usb: gadget: amd5536udc: remove forward declaration of udc_basic_init
+[PATCH 15/16] usb: gadget: amd5536udc: remove multiple blank lines
+[PATCH 07/16] usb: gadget: amd5536udc: unmap virt_addr
+[PATCH 04/16] usb: gadget: amd5536udc: use WARN_ON
+
+
+[PATCH 1/4] stmmac: replace all pr_xxx by their dev_xxx counterpart
+[PATCH 3/4] stmmac: remove some __func__ printing
+[PATCH 4/4] stmmac: Fix simple style problem
+[PATCH 2/4] stmmac: replace hardcoded function name by __func__
+
+
+[PATCH -tip 1/3] locking/qrwlock: Rename ->lock to ->wait_lock
+[PATCH -tip 3/3] locking/osq: Relax atomic semantics
+[PATCH -tip 2/3] sched/wake_q: Relax to acquire semantics
+
+
+[PATCH v3 1/3] Staging: rtl8723au: core: Bool tests don't need comparisons
+[PATCH v3 2/3] Staging: vt6656: Bool tests don't need comparisons
+[PATCH v3 3/3] Staging: rtl8188eu: Bool tests don't need comparisons
+
+
+[PATCH] firmware: qcom: scm: Add function stubs for ARM64
+
+
+[PATCH] dax: update PMD fault handler with PMEM API
+
+
+[git pull] Input updates for 4.3-rc0 (round 2)
+
+
+[PATCH] KVM: nVMX: nested VPID emulation
+
+
+[PATCH v12 00/21] Compile-time stack metadata validation
+[PATCH v12 16/21] x86/asm/crypto: Create stack frames in clmul_ghash_mul/update()
+[PATCH v12 02/21] x86/asm: Frame pointer macro cleanup
+[PATCH v12 09/21] x86/paravirt: Create a stack frame in PV_CALLEE_SAVE_REGS_THUNK
+[PATCH v12 04/21] x86/stacktool: Compile-time stack metadata validation
+[PATCH v12 14/21] x86/asm/crypto: Move .Lbswap_mask data to .rodata section
+[PATCH v12 10/21] x86/amd: Set ELF function type for vide()
+[PATCH v12 15/21] x86/asm/crypto: Move jump_table to .rodata section
+[PATCH v12 08/21] x86/paravirt: Add stack frame dependency to PVOP inline asm calls
+[PATCH v12 05/21] x86/stacktool: Add file and directory ignores
+[PATCH v12 03/21] x86/asm: Add C versions of frame pointer macros
+[PATCH v12 13/21] x86/asm/crypto: Create stack frames in aesni-intel_asm.S
+[PATCH v12 06/21] x86/stacktool: Add ignore macros
+[PATCH v12 20/21] x86/asm/efi: Create a stack frame in efi_call()
+[PATCH v12 12/21] x86/xen: Add xen_cpuid() and xen_setup_gdt() to stacktool whitelists
+[PATCH v12 21/21] x86/asm/power: Create stack frames in hibernate_asm_64.S
+[PATCH v12 18/21] x86/asm/acpi: Create a stack frame in do_suspend_lowlevel()
+[PATCH v12 19/21] x86/asm: Create stack frames in rwsem functions
+[PATCH v12 11/21] x86/reboot: Add ljmp instructions to stacktool whitelist
+[PATCH v12 17/21] x86/asm/entry: Create stack frames in thunk functions
+[PATCH v12 07/21] x86/xen: Add stack frame dependency to hypercall inline asm calls
+[PATCH v12 01/21] tools: Fix formatting of the "make -C tools" help message
+
+
+[PATCH v2] staging: board: Migrate away from __pm_genpd_name_add_device()
+
+
+[PATCH 1/2] dma: Add Freescale qDMA engine driver support
+[PATCH 2/2] dma: dts: Add Freescale qDMA engine driver support
+
+
+[PATCH] lib: fix data race in llist_del_first
+[PATCH v2] lib: fix data race in llist_del_first
+
+
+[PATCH v4 0/2] [media] Fix race between graph enumeration and entities registration
+[PATCH v4 1/2] [media] media-device: check before unregister if mdev was registered
+[PATCH v4 2/2] [media] media-device: split media initialization and registration
+
+
+[PATCH v4 0/6] mtd: nand: gpmi: gpmi-nand DSM and bitflip support
+[PATCH v4 4/6] mtd: nand: gpmi: add GPMI NAND support for i.MX7D
+[PATCH v4 6/6] mtd: nand: gpmi: support NAND on i.MX6UL
+[PATCH v4 3/6] mtd: nand: gpmi: may use minimum required ecc for 744 oobsize NAND
+[PATCH v4 5/6] mtd: nand: gpmi: correct bitflip for erased NAND page
+[PATCH v4 1/6] mtd: nand: gpmi: add gpmi dsm supend/resume support
+[PATCH v4 2/6] dmaengine: mxs: support i.MX7D and deep sleep mode
+
+
+[PATCH v2] Staging: iio: Move evgen interrupt generation to irq_work
+
+
+[PATCH] toshiba_acpi: Fix USB Sleep and Music always disabled
+[PATCH] toshiba_acpi: Fix hotkeys registration on some toshiba models
+
+
+drivers: staging: wilc1000 - NULL pointer dereference
+
+
+[PATCH] mmc: block: Add new ioctl to send multi commands
+
+
+[PATCH 1/2] [v3] hvc_dcc: don't ignore errors during initialization
+[PATCH 2/2] [v5] ARM64: TTY: hvc_dcc: Add support for ARM64 dcc
+
+
+[PATCH 1/2] f2fs: cover number of dirty node pages under node_write lock
+[PATCH 2/2] f2fs: no need to lock for update_inode_page all the time
+
+
+[PATCH -resend 1/1] cxgbi: fix build with EXTRA_CFLAGS
+
+
+[PATCH] Docs/kernel-parameters: Add earlycon devicetree usage
+
+
+linux-next: Tree for Sep 10
+
+
+[PATCH v4 0/5] SCPI sensors support
+[PATCH v4 1/5] Documentation: add DT bindings for ARM SCPI sensors
+[PATCH v4 5/5] arm64: dts: Add sensor node to Juno dt
+[PATCH v4 2/5] firmware: arm_scpi: Extend to support sensors
+[PATCH v4 4/5] hwmon: Support thermal zones registration for SCP temperature sensors
+[PATCH v4 3/5] hwmon: Support sensors exported via ARM SCP interface
+
+
+[PATCH] staging/dgap: Use strpbrk() instead of dgap_sindex()
+
+
+[PATCH 0/4] Staging: rtl8192u: fix checkpatch.pl issues
+
+
+[PATCH v2] ahci: qoriq: fixed using uninitialized variable warnings
+
+
+Linux 3.10.88
+
+
+[PATCH V2 0/2]  fix clock issue for fsl,spdi
+[PATCH V2 2/2] ARM: dts: imx6: change the core clock of spdif
+[PATCH V2 1/2] clk: imx6: Add SPDIF_GCLK clock in clock tree
+
+
+[PATCH 0/3] nohz: minor cleanups
+[PATCH 2/3] nohz: mark tick_nohz_init_all() as __init
+[PATCH 1/3] nohz: mark tick_nohz_full_running as __read_mostly
+[PATCH 3/3] sched: add_nr_running(): drop tick_nohz_full_cpu() check
+
+
+[PATCH v2 05/16] Staging: rtl8188eu: core: Remove explicit NULL comparison
+[PATCH v2 11/16] Staging: rtl8188eu: hal: Remove explicit NULL comparison
+[PATCH v2 15/16] Staging: rtl8188eu: os_dep: mlme_linux.c: Remove explicit NULL comparison
+[PATCH v2 12/16] Staging: rtl8188eu: hal: Hal8188ERateAdaptive.c: Remove explicit NULL comparison
+[PATCH v2 16/16] Staging: rtl8188eu: os_dep: osdep_service.c: Remove explicit NULL comparison
+[PATCH v2 06/16] Staging: rtl8188eu: Remove explicit NULL comparison
+[PATCH v2 14/16] Staging: rtl8188eu: os_dep: recv_linux.c: Remove explicit NULL comparison
+[PATCH v2 13/16] Staging: rtl8188eu: hal: rtl8188eu_xmit.c: Remove explicit NULL comparison
+
+
+[PATCH] ASoC: fix broken pxa SoC support
+
+
+[PATCH 0/5] staging: wilc1000: remove kmalloc wrappers
+[PATCH 2/5] staging: wilc1000: wilc_wfi_cfgoperations.c: replace WILC_MALLOC with kmalloc
+[PATCH 3/5] staging: wilc1000: do not include wilc_memory.h
+[PATCH 1/5] staging: wilc1000: host_interface.c: replace WILC_MALLOC with kmalloc
+[PATCH 4/5] staging: wilc1000: make: remove wilc_memory.o from wilc1000-objs
+[PATCH 5/5] staging: wilc1000: remove wilc_memory.[ch]
+
+
+[PATCH] mfd: wm8998: Fixup register defaults/readables
+
+
+[PATCH 0/3] Mediatek SPI-NOR flash driver 
+[PATCH 3/3] arm64: dts: mt8173: Add nor flash node
+[PATCH 1/3] doc: dt: add documentation for Mediatek spi-nor controller
+[PATCH 2/3] mtd: mtk-nor: mtk serial flash controller driver
+
+
+[tip:perf/core] perf trace: Add read/write to the file group
+
+
+[PATCH 00/10] Use offset_in_page() macro
+
+
+[PATCH] Staging: wilc1000: Use NULL instead of zero
+
+
+[PATCH] platform-msi: Do not cache msi_desc in handler_data
+[tip:irq/urgent] platform-msi:
+  Do not cache msi_desc in handler_data
+
+
+[PATCH] fix incorrect initialization code for trans_stat of devfreq
+[PATCH] PM / devfreq: Fix incorrect type issue.
+
+
+[PATCH v2] [media] horus3a: Fix horus3a_attach() function parameters
+
+
+[PATCH 2/7] f2fs: do in batches truncation in truncate_hole
+
+
+[PATCH] PM / wakeup: wakeup_source_create: use kstrdup_const
+
+
+[PATCH 3.4 000/146] 3.4.109-rc1 review
+[PATCH 3.4 054/146] nfs: fix high load average due to callback thread sleeping
+[PATCH 3.4 021/146] Btrfs: fix log tree corruption when fs mounted with -o discard
+[PATCH 3.4 014/146] cdc-wdm: fix endianness bug in debug statements
+[PATCH 3.4 102/146] Input: elantech - fix semi-mt protocol for v3 HW
+[PATCH 3.4 109/146] bridge: fix parsing of MLDv2 reports
+[PATCH 3.4 118/146] ozwpan: Use proper check to prevent heap overflow
+[PATCH 3.4 064/146] serial: xilinx: Use platform_get_irq to get irq description structure
+[PATCH 3.4 095/146] drm/radeon: fix VM_CONTEXT*_PAGE_TABLE_END_ADDR handling
+[PATCH 3.4 055/146] RCU pathwalk breakage when running into a symlink overmounting something
+[PATCH 3.4 101/146] ASoC: wm8994: correct BCLK DIV 348 to 384
+[PATCH 3.4 112/146] x86: bpf_jit: fix compilation of large bpf programs
+[PATCH 3.4 038/146] selinux/nlmsg: add XFRM_MSG_MIGRATE
+[PATCH 3.4 146/146] ipv6: add check for blackhole or prohibited entry in rt6_redire
+[PATCH 3.4 071/146] ARM: pxa: mainstone: use new pxa_cplds driver
+[PATCH 3.4 039/146] selinux/nlmsg: add XFRM_MSG_MAPPING
+[PATCH 3.4 137/146] x86, kvm: fix kvm's usage of kernel_fpu_begin/end()
+[PATCH 3.4 110/146] ARM: dts: imx27: only map 4 Kbyte for fec registers
+[PATCH 3.4 128/146] bridge: use _bh spinlock variant for br_fdb_update to avoid lockup
+[PATCH 3.4 121/146] drm/i915: Don't skip request retirement if the active list is empty
+[PATCH 3.4 053/146] nfs: don't call blocking operations while !TASK_RUNNING
+[PATCH 3.4 088/146] xhci: fix isoc endpoint dequeue from advancing too far on transaction error
+[PATCH 3.4 007/146] pinctrl: remove maxpin from documentation
+[PATCH 3.4 116/146] target/pscsi: Don't leak scsi_host if hba is VIRTUAL_HOST
+[PATCH 3.4 073/146] mmc: core: add missing pm event in mmc_pm_notify to fix hib restore
+[PATCH 3.4 125/146] ALSA: usb-audio: add MAYA44 USB+ mixer control names
+[PATCH 3.4 031/146] selinux/nlmsg: add XFRM_MSG_[NEW|GET]SADINFO
+[PATCH 3.4 041/146] Btrfs: fix inode eviction infinite loop after cloning into it
+[PATCH 3.4 136/146] x86, kvm: use kernel_fpu_begin/end() in kvm_load/put_guest_fpu()
+[PATCH 3.4 126/146] USB: cp210x: add ID for HubZ dual ZigBee and Z-Wave dongle
+[PATCH 3.4 045/146] dm crypt: fix deadlock when async crypto algorithm returns -EBUSY
+[PATCH 3.4 134/146] md: use kzalloc() when bitmap is disabled
+[PATCH 3.4 083/146] USB: cp210x: add ID for KCF Technologies PRN device
+[PATCH 3.4 140/146] bridge: superfluous skb->nfct check in br_nf_dev_queue_xmit
+[PATCH 3.4 078/146] nilfs2: fix sanity check of btree level in nilfs_btree_root_broken()
+[PATCH 3.4 141/146] block: fix ext_dev_lock lockdep report
+[PATCH 3.4 033/146] scsi: storvsc: Fix a bug in copy_from_bounce_buffer()
+[PATCH 3.4 097/146] ipvs: fix memory leak in ip_vs_ctl.c
+[PATCH 3.4 119/146] ozwpan: divide-by-zero leading to panic
+[PATCH 3.4 001/146] ipv6: add check for blackhole or prohibited entry in rt6_redire
+[PATCH 3.4 024/146] rtlwifi: rtl8192cu: Add new USB ID
+[PATCH 3.4 018/146] UBI: fix check for "too many bytes"
+[PATCH 3.4 075/146] xen/console: Update console event channel on resume
+[PATCH 3.4 027/146] jhash: Update jhash_[321]words functions to use correct initval
+[PATCH 3.4 070/146] ARM: pxa: pxa_cplds: add lubbock and mainstone IO
+[PATCH 3.4 123/146] Input: elantech - fix detection of touchpads where the revision matches a known rate
+[PATCH 3.4 011/146] drm/radeon: fix doublescan modes (v2)
+[PATCH 3.4 023/146] ARM: 8320/1: fix integer overflow in ELF_ET_DYN_BASE
+[PATCH 3.4 122/146] vfs: read file_handle only once in handle_to_path
+[PATCH 3.4 060/146] SCSI: add 1024 max sectors black list flag
+[PATCH 3.4 057/146] ALSA: emu10k1: Fix card shortname string buffer overflow
+[PATCH 3.4 044/146] fs/binfmt_elf.c: fix bug in loading of PIE binaries
+[PATCH 3.4 005/146] KVM: s390: Zero out current VMDB of STSI before including level3 data.
+[PATCH 3.4 068/146] powerpc/pseries: Correct cpu affinity for dlpar added cpus
+[PATCH 3.4 003/146] Drivers: hv: vmbus: Fix a bug in the error path in vmbus_open()
+[PATCH 3.4 142/146] NET: ROSE: Don't dereference NULL neighbour pointer.
+[PATCH 3.4 052/146] nfsd: fix nsfd startup race triggering BUG_ON
+[PATCH 3.4 129/146] bridge: disable softirqs around br_fdb_update to avoid lockup
+[PATCH 3.4 050/146] ptrace: fix race between ptrace_resume() and wait_task_stopped()
+[PATCH 3.4 133/146] udf: Check length of extended attributes and allocation descriptors
+[PATCH 3.4 019/146] C6x: time: Ensure consistency in __init
+[PATCH 3.4 035/146] MIPS: Hibernate: flush TLB entries earlier
+[PATCH 3.4 080/146] libata: Add helper to determine when PHY events should be ignored
+[PATCH 3.4 002/146] Bluetooth: ath3k: Add support Atheros AR5B195 combo Mini PCIe card
+[PATCH 3.4 059/146] drm/radeon: Use drm_calloc_ab for CS relocs
+[PATCH 3.4 072/146] ARM: pxa: lubbock: use new pxa_cplds driver
+[PATCH 3.4 081/146] libata: Ignore spurious PHY event on LPM policy change
+[PATCH 3.4 086/146] nfsd: fix the check for confirmed openowner in nfs4_preprocess_stateid_op
+[PATCH 3.4 107/146] xen/events: don't bind non-percpu VIRQs with percpu chip
+[PATCH 3.4 048/146] megaraid_sas: use raw_smp_processor_id()
+[PATCH 3.4 144/146] sched: Queue RT tasks to head when prio drops
+[PATCH 3.4 069/146] ext4: move check under lock scope to close a race.
+[PATCH 3.4 009/146] pinctrl: remove doc mention of the enable/disable API
+[PATCH 3.4 051/146] memstick: mspro_block: add missing curly braces
+[PATCH 3.4 047/146] IB/mlx4: Fix WQE LSO segment calculation
+[PATCH 3.4 022/146] btrfs: don't accept bare namespace as a valid xattr
+[PATCH 3.4 100/146] ASoC: wm8960: fix "RINPUT3" audio route error
+[PATCH 3.4 091/146] usb-storage: Add NO_WP_DETECT quirk for Lacie 059f:0651 devices
+[PATCH 3.4 124/146] ALSA: hda/realtek - Add a fixup for another Acer Aspire 9420
+[PATCH 3.4 062/146] 3w-xxxx: fix command completion race
+[PATCH 3.4 145/146] udp: fix behavior of wrong checksums
+[PATCH 3.4 017/146] UBI: initialize LEB number variable
+[PATCH 3.4 066/146] ALSA: emux: Fix mutex deadlock in OSS emulation
+[PATCH 3.4 010/146] pinctrl: fix example .get_group_pins implementation signature
+[PATCH 3.4 058/146] ALSA: emux: Fix mutex deadlock at unloading
+[PATCH 3.4 025/146] ASoC: cs4271: Increase delay time after reset
+[PATCH 3.4 034/146] ALSA: emu10k1: don't deadlock in proc-functions
+[PATCH 3.4 127/146] MIPS: Fix enabling of DEBUG_STACKOVERFLOW
+[PATCH 3.4 143/146] pipe: iovec: Fix memory corruption when retrying atomic copy as non-atomic
+[PATCH 3.4 093/146] ahci: avoton port-disable reset-quirk
+[PATCH 3.4 079/146] ocfs2: dlm: fix race between purge and get lock resource
+[PATCH 3.4 063/146] 3w-9xxx: fix command completion race
+[PATCH 3.4 028/146] Input: elantech - fix absolute mode setting on some ASUS laptops
+[PATCH 3.4 067/146] ALSA: emu10k1: Emu10k2 32 bit DMA mode
+[PATCH 3.4 084/146] USB: pl2303: Remove support for Samsung I330
+[PATCH 3.4 108/146] crypto: s390/ghash - Fix incorrect ghash icv buffer handling.
+[PATCH 3.4 049/146] firmware/ihex2fw.c: restore missing default in switch statement
+[PATCH 3.4 065/146] serial: of-serial: Remove device_type = "serial" registration
+[PATCH 3.4 096/146] ext4: check for zero length extent explicitly
+[PATCH 3.4 006/146] usb: musb: core: fix TX/RX endpoint order
+[PATCH 3.4 106/146] sd: Disable support for 256 byte/sector disks
+[PATCH 3.4 130/146] bridge: fix multicast router rlist endless loop
+[PATCH 3.4 012/146] usb: common: otg-fsm: only signal connect after switching to peripheral
+[PATCH 3.4 087/146] md/raid5: don't record new size if resize_stripes fails.
+[PATCH 3.4 037/146] selinux/nlmsg: add XFRM_MSG_REPORT
+[PATCH 3.4 120/146] ozwpan: unchecked signed subtraction leads to DoS
+[PATCH 3.4 004/146] e1000: add dummy allocator to fix race condition between mtu change and netpoll
+[PATCH 3.4 046/146] IB/core: disallow registering 0-sized memory region
+[PATCH 3.4 036/146] powerpc: Fix missing L2 cache size in /sys/devices/system/cpu
+[PATCH 3.4 020/146] Drivers: hv: vmbus: Don't wait after requesting offers
+[PATCH 3.4 092/146] ahci: un-staticize ahci_dev_classify
+[PATCH 3.4 032/146] x86/iommu: Fix header comments regarding standard and _FINISH macros
+[PATCH 3.4 074/146] RDMA/CMA: Canonize IPv4 on IPV6 sockets properly
+[PATCH 3.4 132/146] tracing: Have filter check for balanced ops
+[PATCH 3.4 098/146] mac80211: move WEP tailroom size check
+[PATCH 3.4 117/146] USB: serial: ftdi_sio: Add support for a Motion Tracker Development Board
+[PATCH 3.4 061/146] 3w-sas: fix command completion race
+[PATCH 3.4 135/146] ipv4: Missing sk_nulls_node_init() in ping_unhash().
+[PATCH 3.4 040/146] s390/hibernate: fix save and restore of kernel text section
+[PATCH 3.4 026/146] ext4: make fsync to sync parent dir in no-journal for real this time
+[PATCH 3.4 138/146] ipmi: fix timeout calculation when bmc is disconnected
+[PATCH 3.4 016/146] UBI: fix out of bounds write
+[PATCH 3.4 008/146] compal-laptop: Check return value of power_supply_register
+[PATCH 3.4 139/146] net: socket: Fix the wrong returns for recvmsg and sendmsg
+[PATCH 3.4 103/146] powerpc: Align TOC to 256 bytes
+[PATCH 3.4 115/146] d_walk() might skip too much
+[PATCH 3.4 085/146] USB: visor: Match I330 phone more precisely
+[PATCH 3.4 105/146] mmc: atmel-mci: fix bad variable type for clkdiv
+[PATCH 3.4 090/146] xhci: gracefully handle xhci_irq dead device
+[PATCH 3.4 089/146] xhci: Solve full event ring by increasing TRBS_PER_SEGMENT to 256
+[PATCH 3.4 029/146] RDS: Documentation: Document AF_RDS, PF_RDS and SOL_RDS correctly.
+[PATCH 3.4 082/146] rtlwifi: rtl8192cu: Fix kernel deadlock
+[PATCH 3.4 042/146] powerpc/perf: Cap 64bit userspace backtraces to PERF_MAX_STACK_DEPTH
+[PATCH 3.4 094/146] ARM: net: delegate filter to kernel interpreter when imm_offset() return value can't fit into 12bits.
+[PATCH 3.4 043/146] ACPICA: Utilities: split IO address types from data type models.
+[PATCH 3.4 114/146] fs, omfs: add NULL terminator in the end up the token list
+[PATCH 3.4 111/146] x86/mce: Fix MCE severity messages
+[PATCH 3.4 099/146] KVM: MMU: fix CR4.SMEP=1, CR0.WP=0 with shadow pages
+[PATCH 3.4 030/146] selinux/nlmsg: add XFRM_MSG_GETSPDINFO
+[PATCH 3.4 104/146] ALSA: hda - Add Conexant codecs CX20721, CX20722, CX20723 and CX20724
+[PATCH 3.4 131/146] ring-buffer-benchmark: Fix the wrong sched_priority of producer
+[PATCH 3.4 013/146] ASoC: wm8741: Fix rates constraints values
+[PATCH 3.4 076/146] xen/events: Set irq_info->evtchn before binding the channel to CPU in __startup_pirq()
+[PATCH 3.4 077/146] mm/memory-failure: call shake_page() when error hits thp tail page
+[PATCH 3.4 015/146] staging: panel: fix lcd type
+[PATCH 3.4 056/146] ALSA: hda - Fix mute-LED fixed mode
+[PATCH 3.4 113/146] lguest: fix out-by-one error in address checking.
+
+
+[PATCH 0/2] SSD1307fb updates
+[PATCH 1/2] fbdev: ssd1307fb: alphabetize headers
+[PATCH 2/2] fbdev: ssd1307fb: add ssd1309 support
+
+
+[PATCH] arm: Fix backtrace generation when IPI is masked
+[PATCH v2] arm: Fix backtrace generation when IPI is masked
+[PATCH v3] arm: Fix backtrace generation when IPI is masked
+
+
+[PATCH 0/6] hwrng: Add support for STMicroelectronics' RNG IP
+[PATCH 6/6] MAINTAINERS: Add ST's Random Number Generator to the ST entry
+[PATCH 4/6] hwrng: st: Add support for ST's HW Random Number Generator
+[PATCH 3/6] hwrng: st: Provide DT bindings for ST's Random Number Generator
+[PATCH 2/6] hwrng: core: Simplify RNG switching from sysfs
+[PATCH 1/6] Documentation: hw_random: Fix device node name /dev/hw_random => /dev/hwrng
+[PATCH 5/6] ARM: STi: STiH407: Enable the 2 HW Random Number Generators for STiH4{07,10}
+
+
+[PATCH v2] [media] s5c73m3: Export OF module alias information
+
+
+[PATCHv3 0/3] Add initial support for slimport anx78xx
+[PATCHv3 1/3] of: Add vendor prefix for Analogix Semiconductor, Inc.
+[PATCHv3 3/3] drm: bridge: anx78xx: Add anx78xx driver support by analogix.
+[PATCHv3 2/3] devicetree: Add new ANX7814 SlimPort transmitter binding.
+
+
+[PATCH] linux-firmware: Add qmss accumulator pdsp firmware for keystone SoCs
+
+
+[PATCH] staging: emxx_udc: Remove unused parameter from function
+ parameter list parameter list
+
+
+[PATCH 0/4] ARM: sun8i: Fix A23 and A33 clock gates indices 
+[PATCH 2/4] ARM: sun8i: Add the A33 AHB1 gates clock driver
+[PATCH 4/4] ARM: sun8i: A23: Add missing msgbox gate
+[PATCH 3/4] ARM: sun8i: Move A23 AHB1 gates out of common DTSI
+[PATCH 1/4] clk: sunxi: Add A33 gates support
+
+
+[PATCH 1/2] clk: at91: utmi: use pmc_read when the at91_pmc is available
+[PATCH 2/2] clk: at91: system: don't try to free_irq when there is no IRQ
+
+
+[PATCH] avr32: atngw100: remove useless include
+
+
+[PATCH v3] of_pci_irq: Silence bogus "of_irq_parse_pci() failed ..." messages.
+
+
+[PATCH] sched,numa: limit amount of virtual memory scanned in
+ task_numa_work
+
+
+[PATCHv3 1/1] ti-soc-thermal: implement omap3 support
+
+
+[RESEND PATCH v3 00/17] staging: sm750fb: coding style fixes
+[RESEND PATCH v3 14/17] staging: sm750fb: ddk750_swi2c: rename CamelCase static variables
+[RESEND PATCH v3 09/17] staging: sm750fb: ddk750_swi2c: staticize swI2C{SCL,SDA}
+[RESEND PATCH v3 03/17] staging: sm750fb: rename hwI2CReadReg to sm750_hw_i2c_read_reg
+[RESEND PATCH v3 11/17] staging: sm750fb: ddk750_hw_i2c: rename busSpeedMode
+[RESEND PATCH v3 17/17] staging: sm750fb: ddk750_*i2c: shorten lines to under 80 characters
+[RESEND PATCH v3 15/17] staging: sm750fb: ddk750_swi2c: further reduce CamelCase
+[RESEND PATCH v3 06/17] staging: sm750fb: rename swI2CInit to sm750_sw_i2c_init
+[RESEND PATCH v3 16/17] staging: sm750fb: ddk750_*i2c: remove multiple blank lines
+[RESEND PATCH v3 01/17] staging: sm750fb: rename hwI2CInit to sm750_hw_i2c_init
+[RESEND PATCH v3 08/17] staging: sm750fb: rename swI2CWriteReg to sm750_sw_i2c_write_reg
+[RESEND PATCH v3 12/17] staging: sm750fb: hw_i2c_{read,write}: rename CamelCase variables
+[RESEND PATCH v3 04/17] staging: sm750fb: rename hwI2CWriteReg to sm750_hw_i2c_write_reg
+[RESEND PATCH v3 13/17] staging: sm750fb: ddk750_hwi2c: reduce amount of CamelCase
+[RESEND PATCH v3 07/17] staging: sm750fb: rename swI2CReadReg to sm750_sw_i2c_read_reg
+[RESEND PATCH v3 02/17] staging: sm750fb: rename hwI2CClose to sm750_hw_i2c_close
+[RESEND PATCH v3 05/17] staging: sm750fb: ddk750_hwi2c: rename CamelCase static functions
+[RESEND PATCH v3 10/17] staging: sm750fb: ddk750_swi2c: rename CamelCase static functions
+
+
+tools: usbip: detach: avoid calling strlen() at each iteration
+
+
+[PATCH 1/2] lib: introduce kvasprintf_const
+[PATCH 2/2] kobject: use kvasprintf_const for formatting ->name
+
+
+[PATCH] mnt: Silence lockdep warning about i_mutex, mount and reclaim
+
+
+[PATCHv6 0/7] Fix compound_head() race
+[PATCHv6 7/7] mm: use 'unsigned int' for compound_dtor/compound_order on 64BIT
+[PATCHv6 6/7] mm: use 'unsigned int' for page order
+[PATCHv6 5/7] mm: make compound_head() robust
+[PATCHv6 3/7] zsmalloc: use page->private instead of page->first_page
+[PATCHv6 1/7] mm: drop page->slab_page
+[PATCHv6 2/7] slab, slub: use page->rcu_head instead of page->lru plus cast
+[PATCHv6 4/7] mm: pack compound_dtor and compound_order into one word in struct page
+
+
+[GIT PULL rcu/urgent] Fix regression from conversion to
+ RCU_LOCKDEP_WARN()
+
+
+[PATCH] staging: lustre: lnet: lnet: Added a space
+
+
+[RFC v5 0/3] mm: make swapin readahead to gain more thp performance
+[RFC v5 2/3] mm: make optimistic check for swapin readahead
+[RFC v5 3/3] mm: make swapin readahead to improve thp collapse rate
+[RFC v5 1/3] mm: add tracepoint for scanning pages
+
+
+[PATCH] x86/CPU: Print family/model/stepping in hex
+[tip:x86/urgent] x86/cpu: Print family/model/stepping in hex
+
+
+[PATCH v2] clk: add CS2000 Fractional-N driver
+
+
+=?UTF-8?q?=5BPATCH=5D=20staging=3A=20wlan-ng=3A=20prism2fw=3A=20coding=20style=3A=20Fixed=20too=20long=20lines=2E?=
+
+
+[GIT PULL] Btrfs
+
+
+[PATCH V4 0/4] Fast MMIO eventfd fixes
+[PATCH V4 1/4] kvm: factor out core eventfd assign/deassign logic
+[PATCH V4 3/4] kvm: fix zero length mmio searching
+[PATCH V4 2/4] kvm: fix double free for fast mmio eventfd
+[PATCH V4 4/4] kvm: add tracepoint for fast mmio
+
+
+[PATCH 2/4] Staging: rtl8192u: space required before open braces
+
+
+[PATCH] modsign: Fix GPL/OpenSSL licence incompatibility
+
+
+[GIT PULL] ARM: SoC: late fixes and dependencies
+
+
+[PATCH v3 0/1 RESEND] gpio: arizona: add support for WM8998 and WM1814
+[PATCH v3 1/1 RESEND] gpio: arizona: add support for WM8998 and WM1814
+
+
+[PATCH] compal-laptop: add charge control limit
+
+
+[PATCH] drm/i915: fix kernel-doc warnings in i915_gem.c
+
+
+[PATCH v2 0/4] ARM: dts: use syscon property instead of ctrl-module
+[PATCH v2 4/4] ARM: dts: <am4372/dra7/omap5>: Use "syscon-phy-power" instead of "ctrl-module"
+[PATCH v2 1/4] ARM: dts: dra7: Add dt node for the sycon pcie
+[PATCH v2 3/4] ARM: dts: dra7: Use "ti,dra7x-usb2-phy2" compatible string for USB2 PHY2
+[PATCH v2 2/4] ARM: dts: dra7: Use "syscon-phy-power" and "syscon-pcs" in PCIe PHY node
+
+
+[PATCH] pinctrl: samsung: s3c24xx: fix syntax error
+
+
+[PATCH 4.1 00/78] 4.1.6-stable review
+[PATCH 4.1 68/78] genirq: Dont return ENOSYS in irq_chip_retrigger_hierarchy
+[PATCH 4.1 00/78] 4.1.7-stable review
+[PATCH 4.1 66/78] irqchip/crossbar: Restore set_wake functionality
+[PATCH 4.1 04/78] mm/hwpoison: fix fail isolate hugetlbfs page w/ refcount held
+[PATCH 4.1 77/78] x86/apic: Fix fallout from x2apic cleanup
+[PATCH 4.1 59/78] drm/atmel-hlcdc: Compile suspend/resume for PM_SLEEP only
+[PATCH 4.1 05/78] clk: pxa: pxa3xx: fix CKEN register access
+[PATCH 4.1 09/78] perf: Fix fasync handling on inherited events
+[PATCH 4.1 23/78] drm/radeon: add new OLAND pci id
+[PATCH 4.1 76/78] x86/xen: make CONFIG_XEN depend on CONFIG_X86_LOCAL_APIC
+[PATCH 4.1 30/78] ARM: dts: OMAP4: Fix broken pbias device creation
+[PATCH 4.1 56/78] target/iscsi: Fix double free of a TUR followed by a solicited NOPOUT
+[PATCH 4.1 46/78] Revert "libata: Implement NCQ autosense"
+[PATCH 4.1 51/78] ALSA: hda - Shutdown CX20722 on reboot/free to avoid spurious noises
+[PATCH 4.1 20/78] EDAC, ppc4xx: Access mci->csrows array elements properly
+[PATCH 4.1 73/78] fnic: Use the local variable instead of I/O flag to acquire io_req_lock in fnic_queuecommand() to avoid deadloack
+[PATCH 4.1 10/78] perf: Fix running time accounting
+[PATCH 4.1 18/78] dm thin metadata: delete btrees when releasing metadata snapshot
+[PATCH 4.1 60/78] drm/i915: Flag the execlists context object as dirty after every use
+[PATCH 4.1 78/78] x86/idle: Restore trace_cpu_idle to mwait_idle() calls
+[PATCH 4.1 17/78] xen/xenbus: Dont leak memory when unmapping the ring on HVM backend
+[PATCH 4.1 08/78] rsi: Fix failure to load firmware after memory leak fix and fix the leak
+[PATCH 4.1 34/78] ARM: v7 setup function should invalidate L1 cache
+[PATCH 4.1 65/78] irqchip/crossbar: Restore the mask on suspend behaviour
+[PATCH 4.1 40/78] libiscsi: Fix host busy blocking during connection teardown
+[PATCH 4.1 03/78] mm/hwpoison: fix page refcount of unknown non LRU page
+[PATCH 4.1 39/78] MIPS: Fix seccomp syscall argument for MIPS64
+[PATCH 4.1 28/78] ARM: dts: omap243x: Fix broken pbias device creation
+[PATCH 4.1 14/78] rtlwifi: rtl8723be: Add module parameter for MSI interrupts
+[PATCH 4.1 71/78] can: pcan_usb: dont provide CAN FD bittimings by non-FD adapters
+[PATCH 4.1 72/78] Add factory recertified Crucial M500s to blacklist
+[PATCH 4.1 24/78] drm/vmwgfx: Fix execbuf locking issues
+[PATCH 4.1 64/78] irqchip/crossbar: Restore the irq_set_type() mechanism
+[PATCH 4.1 26/78] libfc: Fix fc_fcp_cleanup_each_cmd()
+[PATCH 4.1 42/78] crypto: nx - respect sg limit bounds when building sg lists for SHA
+[PATCH 4.1 36/78] mfd: arizona: Fix initialisation of the PM runtime
+[PATCH 4.1 44/78] Revert "libata-eh: Set information field for autosense"
+[PATCH 4.1 29/78] ARM: dts: dra7: Fix broken pbias device creation
+[PATCH 4.1 55/78] mac80211: fix invalid read in minstrel_sort_best_tp_rates()
+[PATCH 4.1 45/78] Revert "libata: Implement support for sense data reporting"
+[PATCH 4.1 41/78] sd: Fix maximum I/O size for BLOCK_PC requests
+[PATCH 4.1 13/78] iwlwifi: pcie: fix prepare card flow
+[PATCH 4.1 50/78] ALSA: usb: Add native DSD support for Gustard DAC-X20U
+[PATCH 4.1 53/78] ALSA: hda - Fix path power activation
+[PATCH 4.1 43/78] crypto: caam - fix memory corruption in ahash_final_ctx
+[PATCH 4.1 19/78] localmodconfig: Use Kbuild files too
+[PATCH 4.1 37/78] Revert x86 sigcontext cleanups
+[PATCH 4.1 32/78] ARM: 8385/1: VDSO: group link options
+[PATCH 4.1 33/78] ARM: 8384/1: VDSO: force use of BFD linker
+[PATCH 4.1 31/78] ARM: dts: OMAP5: Fix broken pbias device creation
+[PATCH 4.1 48/78] ALSA: usb-audio: Fix runtime PM unbalance
+[PATCH 4.1 52/78] ALSA: hda - Check all inputs for is_active_nid_for_any()
+[PATCH 4.1 16/78] x86/xen: build "Xen PV" APIC driver for domU as well
+[PATCH 4.1 27/78] ARM: imx6: correct i.MX6 PCIe interrupt routing
+[PATCH 4.1 63/78] 9p: ensure err is initialized to 0 in p9_client_read/write
+[PATCH 4.1 21/78] HID: hid-input: Fix accessing freed memory during device disconnect
+[PATCH 4.1 01/78] ipc,sem: fix use after free on IPC_RMID after a task using same semaphore set exits
+[PATCH 4.1 49/78] ALSA: hda - Fix the white noise on Dell laptop
+[PATCH 4.1 15/78] rtlwifi: Fix NULL dereference when PCI driver used as an AP
+[PATCH 4.1 57/78] PCI: Dont use 64-bit bus addresses on PA-RISC
+[PATCH 4.1 02/78] ipc/sem.c: update/correct memory barriers
+[PATCH 4.1 58/78] Input: gpio_keys_polled - request GPIO pin as input.
+[PATCH 4.1 38/78] regmap: regcache-rbtree: Clean new present bits on present bitmap resize
+[PATCH 4.1 75/78] arm64: perf: fix unassigned cpu_pmu->plat_device when probing PMU PPIs
+[PATCH 4.1 35/78] ARM: invalidate L1 before enabling coherency
+[PATCH 4.1 67/78] ARM: OMAP: wakeupgen: Restore the irq_set_type() mechanism
+[PATCH 4.1 11/78] perf: Fix double-free of the AUX buffer
+[PATCH 4.1 54/78] ALSA: hda: fix possible NULL dereference
+[PATCH 4.1 69/78] genirq: Introduce irq_chip_set_type_parent() helper
+[PATCH 4.1 12/78] perf: Fix PERF_EVENT_IOC_PERIOD migration race
+[PATCH 4.1 22/78] HID: uclogic: fix limit in uclogic_tablet_enable()
+[PATCH 4.1 74/78] arm64: KVM: Fix host crash when injecting a fault into a 32bit guest
+[PATCH 4.1 25/78] libfc: Fix fc_exch_recv_req() error path
+
+
+[PULL] vhost: cleanups and fixes
+
+
+[PATCH  0/2] Replace nr_node_ids for loop with for_each_node 
+[PATCH  1/2] mm: Replace nr_node_ids for loop with for_each_node in list lru
+[PATCH  2/2] powerpc:numa Do not allocate bootmem memory for non existing nodes
+
+
+[RFC][PATCH RT v2 1/3] [PATCH 1/3] locking: Add spin_trylock_or_boost() infrastructure
+
+
+[PATCH net] openvswitch: Fix IPv6 exthdr handling with ct helpers.
+
+
+[PATCH] atm: deal with setting entry before mkip was called
+
+
+[PATCH] PCI: disable MSI on SiS 761
+
+
+[PATCH 4/4] Staging: rlt8192u: Remove spaces at the start of lines
+
+
+[PATCH 0/2] mm:constify zpool/zs_pool char members
+[PATCH 1/2] mm:zpool: constify struct zpool type
+[PATCH 2/2] mm:zsmalloc: constify struct zs_pool name
+
+
+[PATCH] clocksource: Add CPU info to clocksource watchdog reporting
+
+
+[PATCH v2] ARM: exynos_defconfig: Enable USB Video Class support
+
+
+[PATCH] mfd: arizona: Fix typo in arizona_irq_map
+
+
+[PATCH v3 0/2] lib/string_helpers.c: fix infinite loop in string_get_size()
+[PATCH v3 1/2] lib/string_helpers.c: fix infinite loop in string_get_size()
+[PATCH v3 2/2] lib/test-string_helpers.c: add string_get_size() tests
+
+
+[PATCH] sched/fair: Remove unnecessary parameter for group_classify
+
+
+[PATCH v2] soc: mediatek: Move the initial setting of pmic wrap interrupt before requesting irq.
+
+
+[tip:perf/core] perf env: Adopt perf_header__set_cmdline
+
+
+[PATCH 1/5] Staging: rtl8192u: ieee80211: Replace "#include <asm/uaccess>" with "#include <linux/uaccess>"
+[PATCH 5/5] Staging: wilc1000: Replace "#include <asm/uaccess>" with "#include <linux/uaccess>"
+[PATCH 2/5] Staging: rtl8192u: ieee80211: ieee80211_softmac.c: Replace "#include <asm/uaccess>" with "#include <linux/uaccess>"
+[PATCH 4/5] Staging: rtl8192u: r8192U_core.c: Replace "#include <asm/uaccess>" with "#include <linux/uaccess>"
+[PATCH 3/5] Staging: rtl8192u: ieee80211: ieee80211_module.c: Replace "#include <asm/uaccess>" with "#include <linux/uaccess>"
+
+
+[PATCH v6 1/3] regmap: add generic macro to define regmap_irq
+[PATCH v6 3/3] mfd: add Intel Broxton Whiskey Cove PMIC driver
+[PATCH v6 2/3] mfd: update intel_soc_pmic structure to support Broxton WC PMIC
+
+
+[PATCH] btrfs: use a single if() statement for one outcome in
+ get_block_rsv()
+
+
+[PATCH v9 0/6] Allow user to request memory to be locked on page fault
+[PATCH v9 2/6] mm: mlock: Add new mlock system call
+[PATCH v9 6/6] mips: Add entry for new mlock2 syscall
+[PATCH v9 3/6] mm: Introduce VM_LOCKONFAULT
+[PATCH v9 4/6] mm: mlock: Add mlock flags to enable VM_LOCKONFAULT usage
+[PATCH v9 5/6] selftests: vm: Add tests for lock on fault
+[PATCH v9 1/6] mm: mlock: Refactor mlock, munlock, and munlockall code
+
+
+[GIT PULL] parisc architecture updates for v4.3
+
+
+[PATCH] vfio: Whitelist PCI bridges
+
+
+[PATCH] clk: add CS2000 Fractional-N driver
+
+
+[PATCH 1/4] Staging: rtl8192u: space required before open parentheses
+
+
+[PATCH v2 0/6] Arizona extcon improvements
+[PATCH v2 1/6] mfd: arizona: Add TST_CAP bits for headphone detection
+[PATCH v2 6/6] mfd: arizona: Update DT binding documentation for jack detection
+[PATCH v2 5/6] extcon: arizona: Add device binding for second jack detect pin on GPIO5
+[PATCH v2 2/6] extcon: arizona: Additional settings to improve accuracy of HP detect
+[PATCH v2 4/6] extcon: arizona: Add device binding for jack detect polarity inversion
+[PATCH v2 3/6] extcon: arizona: Ignore jd_invert for MICD_CLAMP_STS
+
+
+[PATCH v3] clk: add CS2000 Fractional-N driver
+
+
+[PATCH] spi: spidev: fix possible NULL dereference
+
+
+[PATCH 0/3] serial: samsung: Fix UART status handling and other fixes
+[PATCH 1/3] serial: samsung: remove unused 'irq' parameter
+[PATCH 3/3] serial: samsung: Fix UART status handling in DMA mode
+[PATCH 2/3] serial: samsung: remove unneded 'ignore_char' label
+
+
+[PATCH v2] r8169: Fix sleeping function called during get_stats64
+
+
+[PATCH 0/3] mailbox: rockchip: Add mailbox driver for Rockchip platform
+[PATCH 3/3] ARM64: dts: rk3368: Add mailbox device nodes
+[PATCH 1/3] dt-bindings: Add document of Rockchip mailbox
+[PATCH 2/3] mailbox: rockchip: Add Rockchip mailbox driver
+
+
+[GIT PULL] arch/nios2 update for 4.3-rc1
+
+
+[GIT PULL for v4.3-rc1] edac updates
+
+
+[PATCH] watchdog: iTCO: Fix dependencies on I2C
+
+
+[PATCH v2] RDS: verify the underlying transport exists before creating a connection
+
+
+[PATCH 0/2] Fix coding style issues and a consistence change.
+[PATCH 2/2] fs: isofs: Fix several coding style issues
+[PATCH 1/2] fs: isofs: Fix a coding style issue and change conditional to make it consistence
+
+
+[PATCH] net: smc91x: convert pxa dma to dmaengine
+
+
+cpufreq: mediatek: allow modular build
+
+
+[char-misc-next 0/8] mei: mei client bus enhancements
+[char-misc-next 5/8] mei: bus: export mei_cldev_enabled function
+[char-misc-next 8/8] mei: bus: use mei_cl_bus_ prefix consistently
+[char-misc-next 4/8] mei: bus: export uuid and protocol version to mei_cl bus drivers
+[char-misc-next 6/8] mei: bus: complete variable rename of type struct mei_cl_device
+[char-misc-next 1/8 V2] mei: make modules.alias UUID information easier to read
+[char-misc-next 3/8] mei: bus: add client protocol version to the device alias
+[char-misc-next 2/8] mei: bus: export client protocol version
+[char-misc-next 7/8] mei: bus: use mei_cldev_ prefix for the API functions
+
+
+[PATCH V1 net-next] net: only check perm protocol when register proto
+
+
+[PATCH v3 0/2] Add Cygnus PCIe Serdes/PHY support
+[PATCH v3 1/2] dt-bindings: Add Broadcom Cygnus PCIe PHY binding
+[PATCH v3 2/2] phy: cygnus: pcie: Add Cygnus PCIe PHY support
+
+
+[PATCH] igb: don't unmap hw_addr if its NULL
+
+
+[PATCH] spmi-pmic-arb: support configurable number of peripherals
+
+
+[PATCH v4 3/3] Staging: rtl8188eu: Bool tests don't need comparisons
+[PATCH v4 2/3] Staging: vt6656: Bool tests don't need comparisons
+[PATCH v4 1/3] Staging: rtl8723au: core: Bool tests don't need comparisons
+
+
+[PATCH] ACPICA: fix possible NULL dereference
+
+
+[PATCH] ether: add IEEE 1722 ethertype - TSN
+
+
+[GIT PULL] Ceph changes for 4.3-rc1
+
+
+[PATCH v3 0/1] USB DWC2 parity fix in isochronous mode
+[PATCH v3 1/1] usb: dwc2: gadget: parity fix in isochronous mode
+
+
+[PATCH 00/39] drop null test before destroy functions
+[PATCH 11/39] hfi1: drop null test before destroy functions
+[PATCH 09/39] aoe: drop null test before destroy functions
+[PATCH 08/39] pktcdvd: drop null test before destroy functions
+[PATCH 18/39] whci: drop null test before destroy functions
+[PATCH 33/39] rbd: drop null test before destroy functions
+[PATCH 04/39] debugobjects: drop null test before destroy functions
+[PATCH 07/39] fs: ext4: drop null test before destroy functions
+[PATCH 15/39] bcache: drop null test before destroy functions
+[PATCH 23/39] UBI: drop null test before destroy functions
+[PATCH 22/39] nfsd: drop null test before destroy functions
+[PATCH 17/39] md: drop null test before destroy functions
+[PATCH 25/39] net: core: drop null test before destroy functions
+[PATCH 34/39] dccp: drop null test before destroy functions
+[PATCH 14/39] SUNRPC: drop null test before destroy functions
+[PATCH 02/39] nilfs2: drop null test before destroy functions
+[PATCH 01/39] mtd: nandsim: drop null test before destroy functions
+[PATCH 05/39] xhci: drop null test before destroy functions
+[PATCH 13/39] staging: lustre: drop null test before destroy functions
+[PATCH 06/39] Btrfs: drop null test before destroy functions
+[PATCH 29/39] thunderbolt: drop null test before destroy functions
+[PATCH 03/39] firmware: google: drop null test before destroy functions
+[PATCH 31/39] KVM: MMU: drop null test before destroy functions
+[PATCH 21/39] drbd: drop null test before destroy functions
+[PATCH 26/39] dmaengine: drop null test before destroy functions
+[PATCH 19/39] jbd2: drop null test before destroy functions
+[PATCH 38/39] iommu/amd: drop null test before destroy functions
+[PATCH 32/39] drm: i915: drop null test before destroy functions
+[PATCH 20/39] ixgbe: drop null test before destroy functions
+[PATCH 10/39] atm: he: drop null test before destroy functions
+[PATCH 24/39] dlm: drop null test before destroy functions
+[PATCH 37/39] f2fs crypto: drop null test before destroy functions
+[PATCH 16/39] usb: gadget: drop null test before destroy functions
+[PATCH 30/39] block: drop null test before destroy functions
+[PATCH 12/39] dm: drop null test before destroy functions
+[PATCH 35/39] GFS2: drop null test before destroy functions
+[PATCH 39/39] usb: host: drop null test before destroy functions
+[PATCH 27/39] ocfs2: drop null test before destroy functions
+[PATCH 28/39] ecryptfs: drop null test before destroy functions
+[PATCH 36/39] jffs2: drop null test before destroy functions
+
+
+[GIT PULL] strscpy string copy function
+
+
+[PATCH V6 0/6] Fast mmio eventfd fixes
+[PATCH V6 3/6] kvm: fix double free for fast mmio eventfd
+[PATCH V6 2/6] kvm: factor out core eventfd assign/deassign logic
+[PATCH V6 1/6] kvm: don't try to register to KVM_FAST_MMIO_BUS for non mmio eventfd
+[PATCH V6 4/6] kvm: fix zero length mmio searching
+[PATCH V6 6/6] kvm: add fast mmio capabilitiy
+[PATCH V6 5/6] kvm: add tracepoint for fast mmio
+
+
+[PATCH] Staging: lustre: lustre: lov: lov_dev.c: Added missing blank line
+[PATCH v2] Staging: lustre: lustre: lov: lov_dev.c: Added missing blank line
+
+
+[PATCH RFC 0/8] Add New DRM Driver for Hisilicon's Hi6220 SoC
+[PATCH RFC 4/8] drm: hisilicon: fill interface function of plane\crtc part
+[PATCH RFC 2/8] drm: hisilicon: Add new DRM driver for hisilicon Soc
+[PATCH RFC 5/8] drm: hisilicon: fill interface function of encoder\connector part
+[PATCH RFC 1/8] dt-bindings: Document the hi6220 bindings for DRM driver
+[PATCH RFC 6/8] drm: hisilicon: Add support for fbdev
+[PATCH RFC 8/8] dts: hisilicon: Add drm driver device dts config for HiKey board
+[PATCH RFC 3/8] drm: hisilicon: Add the link to DRM/KMS interface
+[PATCH RFC 7/8] drm: hisilicon: Add support for vblank
+
+
+[PATCH 1/2] s390/crash_dump: Use for_each_mem_range
+
+
+[PATCH] PCI: Fix devfn for VPD access through function 0
+
+
+linux-next: Tree for Sep 15
+
+
+[PATCH] scsi: provide UAPI version of scsi/sg.h and scsi/scsi_ioctl.h
+
+
+[PATCH v2] mtd: blktrans: fix multiplication overflow
+
+
+[PATCH] Input: cyapa: remove variable overwriting
+
+
+[RFC PATCH v2 0/7] Pseudo-NMI for arm64 using ICC_PMR_EL1 (GICv3)
+[RFC PATCH v2 4/7] arm64: irqflags: Reorder the fiq & async macros
+[RFC PATCH v2 6/7] arm64: Implement IPI_CPU_BACKTRACE using pseudo-NMIs
+[RFC PATCH v2 1/7] irqchip: gic-v3: Reset BPR during initialization
+[RFC PATCH v2 2/7] arm64: Add support for on-demand backtrace of other CPUs
+[RFC PATCH v2 5/7] arm64: irqflags: Use ICC sysregs to implement IRQ masking
+[RFC PATCH v2 3/7] arm64: alternative: Apply alternatives early in boot process
+[RFC PATCH v2 7/7] arm64: irqflags: Automatically identify I bit mis-management
+
+
+[PATCH v4 0/7] Add support for additional bq27xxx devices
+[PATCH v4 7/7] power: bq27xxx_battery: Add interrupt handling support
+[PATCH v4 5/7] power: bq27xxx_battery: Add support for additional bq27xxx family devices
+[PATCH v4 3/7] power: bq27xxx_battery: Platform initialization must declare a device
+[PATCH v4 4/7] power: bq27xxx_battery: Fix typos and change naming for state of charge functions
+[PATCH v4 6/7] power: bq27xxx_battery: Cleanup health checking
+[PATCH v4 2/7] power: bq27x00_battery: Renaming for consistency
+[PATCH v4 1/7] power: bq27x00_battery: Remove unneeded i2c MODULE_ALIAS
+
+
+[PATCH] regualtor: core: Make error messages more informative
+
+
+[PATCH RFC] pidns: introduce syscall getvpid
+
+
+[PATCH] mmc: sdhci: call sdhci_init() before request irq
+
+
+[PATCH v4 0/2] lib/string_helpers.c: fix infinite loop in string_get_size()
+[PATCH v4 1/2] lib/string_helpers.c: fix infinite loop in string_get_size()
+[PATCH v4 2/2] lib/test-string_helpers.c: add string_get_size() tests
+
+
+[PATCH v6 0/3] can: Allwinner A10/A20 CAN Controller support - Summary
+[PATCH v6 3/3] can: Allwinner A10/A20 CAN Controller support - Kernel module
+[PATCH v6 1/3] can: Allwinner A10/A20 CAN Controller support - Devicetree bindings
+[PATCH v6 2/3] can: Allwinner A10/A20 CAN Controller support - Defconfigs
+
+
+[PATCH v2] ARM: dts: rockchip: Add dtb for the Radxa Rock 2 Square board
+
+
+[PATCH v2] Staging: ft1000: ft1000-usb: Use USB API functions rather than constants
+
+
+[PATCH 1/2] regulator: bcm590xx: Remove unneeded semicolon
+[PATCH 2/2] regulator: da9063: Remove unneeded semicolon
+
+
+[PATCH v2 0/9] Add support for FDMA DMA controller found on STi chipsets
+[PATCH v2 1/9] dmaengine: st_fdma: Add STMicroelectronics FDMA DT binding documentation
+[PATCH v2 7/9] ARM: STi: DT: STiH407: Add FDMA driver dt nodes.
+[PATCH v2 2/9] dmaengine: st_fdma: Add st fdma platform specific header
+[PATCH v2 3/9] dmaengine: st_fdma:  Add STMicroelectronics FDMA driver header file
+[PATCH v2 4/9] dmaengine: st_fdma: Add STMicroelectronics FDMA engine driver support
+[PATCH v2 8/9] MAINTAINERS: Add FDMA driver files to STi section.
+[PATCH v2 9/9] ARM: multi_v7_defconfig: Enable STi FDMA driver
+[PATCH v2 6/9] dmaengine: st_fdma: Add fdma suspend and resume callbacks.
+[PATCH v2 5/9] dmaengine: st_fdma: Add xp70 firmware loading mechanism.
+
+
+[PATCHv2 00/15] arm64: 16K translation granule support
+[PATCH 14/15] arm64: Add 16K page size support
+[PATCH 10/15] arm64: kvm: Fix {V}TCR_EL2_TG0 mask
+[PATCH 13/15] arm64: kvm: Rewrite fake pgd handling
+[PATCH 04/15] arm64: Calculate size for idmap_pg_dir at compile time
+[PATCH 12/15] arm: kvm: Move fake PGD handling to arch specific files
+[PATCH 11/15] arm64: Cleanup VTCR_EL2 computation
+[PATCH 03/15] arm64: Introduce helpers for page table levels
+[PATCH 15/15] arm64: 36 bit VA
+[PATCH 08/15] arm64: Check for selected granule support
+[PATCH 07/15] arm64: Kconfig: Fix help text about AArch32 support with 64K pages
+[PATCH 05/15] arm64: Handle 4 level page table for swapper
+[PATCH 09/15] arm64: Add page size to the kernel image header
+[PATCH 06/15] arm64: Clean config usages for page size
+[PATCH 01/15] arm64: Move swapper pagetable definitions
+[PATCH 02/15] arm64: Handle section maps for swapper/idmap
+
+
+[PATCH v3] Cleanup: membarrier selftest
+
+
+[PATCH] Input: snvs_pwrkey - remove duplicated semicolon
+
+
+[PATCH] Staging: rtl8192u: Remove unnecessary printk
+
+
+[PATCH] media: fix kernel-doc warnings in v4l2-dv-timings.h
+
+
+[PATCH] [media] c8sectpfe: fix ininitialized error return on firmware load failure
+
+
+[PATCH] staging: wilc1000: Removed curly braces
+
+
+[PATCH] cpufreq : powernv: Report Pmax throttling if capped below nominal frequency
+[PATCH v2] cpufreq : powernv: Report Pmax throttling if capped below nominal frequency
+
+
+[RFT PATCH] mips: bigsur_defconfig: convert to use libata PATA drivers
+[RFT PATCH] mips: malta_kvm_defconfig: convert to use libata PATA
+ drivers
+[RFT PATCH] mips: workpad_defconfig: convert to use libata PATA drivers
+[RFT PATCH] mips: lasat_defconfig: convert to use libata PATA drivers
+[RFT PATCH] mips: e55_defconfig: convert to use libata PATA drivers
+[RFT PATCH] mips: maltaup_xpa_defconfig: convert to use libata PATA
+ drivers
+[RFT PATCH] mips: fuloong2e_defconfig: convert to use libata PATA
+ drivers
+[RFT PATCH] mips: capcella_defconfig: convert to use libata PATA
+ drivers
+[RFT PATCH] mips: malta_kvm_guest_defconfig: convert to use libata
+ PATA drivers
+[RFT PATCH] mips: lemote2f_defconfig: convert to use libata PATA
+ drivers
+[RFT PATCH] mips: maltaaprp_defconfig: convert to use libata PATA
+ drivers
+[PATCH] mips: sb1250_swarm_defconfig: disable IDE subsystem
+[RFT PATCH] mips: mpc30x_defconfig: convert to use libata PATA drivers
+[RFT PATCH] mips: maltaup_defconfig: convert to use libata PATA drivers
+[RFT PATCH] mips: maltasmvp_eva_defconfig: convert to use libata PATA
+ drivers
+[RFT PATCH] mips: malta_qemu_32r6_defconfig: convert to use libata
+ PATA drivers
+[RFT PATCH] mips: malta_defconfig: convert to use libata PATA drivers
+
+
+[PATCH] block: kmemleak: Track the page allocations for struct request
+
+
+[RFC][PATCH RT v2 0/3] RT: Fix trylock deadlock without msleep() hack
+
+
+[PATCH v2] regmap: Allocate buffers with GFP_ATOMIC when fast_io == true
+
+
+[PATCH] gpio/pca953x: Add TI TCA9539 support
+
+
+[PATCH] tpm, tpm_crb: fix unaligned read of the command buffer address
+
+
+[PATCH] selftests/seccomp: build on aarch64, document ABI
+
+
+[PATCH v2 0/2] [media] Fix race between graph enumeration and entities registration
+[PATCH v2 2/2] [media] media-device: split media initialization and registration
+[PATCH v2 1/2] [media] media-device: check before unregister if mdev was registered
+
+
+[PATCH] userfaultfd: add missing mmput() in error path
+
+
+[GIT PULL] Kselftest updates for 4.3-rc1
+
+
+[PATCH] mm/zswap: remove unneeded initialization to NULL in zswap_entry_find_get
+
+
+[PATCH] mm/memblock: Make memblock_remove_range() static
+
+
+[PATCH v3 1/2] ARM: dts: Split audio configuration to separate
+ exynos5422-odroidxu3-audio
+[PATCH v3 2/2] ARM: dts: Add exynos5422-odroidxu4 board
+
+
+[PATCH] f2fs crypto: allocate buffer for decrypting filename
+
+
+[PATCH v3 0/8] Making the generic ACPI GSI layer irqdomain aware
+[PATCH v3 8/8] acpi: gsi: Cleanup acpi_register_gsi
+[PATCH v3 6/8] acpi: gsi: Add acpi_set_irq_model to initialize the GSI layer
+[PATCH v3 5/8] acpi: gsi: Always perform an irq domain lookup
+[PATCH v3 4/8] genirq: irqdomain: Add irq_create_acpi_mapping
+[PATCH v3 3/8] genirq: irqdomain: Allow a domain to be identified with non-DT data
+[PATCH v3 1/8] genirq: irqdomain: Use an accessor for the of_node field
+[PATCH v3 7/8] irqchip: GIC: Switch ACPI support to stacked domains
+[PATCH v3 2/8] genirq: irqdomain: Remove irqdomain dependency on struct device_node
+
+
+[PATCH] dummy_hcd: replace timeval with timespec64
+
+
+[PATCH 3.10 00/11] 3.10.88-stable review
+[PATCH 3.10 06/11] localmodconfig: Use Kbuild files too
+[PATCH 3.10 01/11] ipc,sem: fix use after free on IPC_RMID after a task using same semaphore set exits
+[PATCH 3.10 02/11] ipc/sem.c: update/correct memory barriers
+[PATCH 3.10 05/11] dm thin metadata: delete btrees when releasing metadata snapshot
+[PATCH 3.10 07/11] EDAC, ppc4xx: Access mci->csrows array elements properly
+[PATCH 3.10 11/11] arm64/mm: Remove hack in mmap randomize layout
+[PATCH 3.10 09/11] libfc: Fix fc_fcp_cleanup_each_cmd()
+[PATCH 3.10 10/11] crypto: caam - fix memory corruption in ahash_final_ctx
+[PATCH 3.10 03/11] mm/hwpoison: fix page refcount of unknown non LRU page
+[PATCH 3.10 04/11] perf: Fix fasync handling on inherited events
+[PATCH 3.10 08/11] drm/radeon: add new OLAND pci id
+
+
+[PATCH 0/2] pinctrl: uniphier: one fix, one addition
+[PATCH 1/2] pinctrl: uniphier: fix input enable settings for PH1-sLD8
+[PATCH 2/2] pinctrl: uniphier: add SD card pinmux settings
+
+
+[PATCH 0/2] irqchip: renesas: Propagate wake-up settings to parent
+[PATCH 1/2] irqchip: renesas-intc-irqpin: Propagate wake-up settings to parent
+[PATCH 2/2] irqchip: renesas-irqc: Propagate wake-up settings to parent
+
+
+First kernel patch (optimization)
+
+
+[PATCH 0/2] Fix module autoload for OF platform drivers
+
+
+[PATCH] locking: Fix up the static keys documentation
+[tip:locking/urgent] locking/static_keys:
+  Fix up the static keys documentation
+
+
+[PATCH 2/4] Staging: rtl8192u: suspect code indent for conditional statment
+
+
+[PATCH 0/5] Add eeprom to the Olimex series of boards
+[PATCH 1/5] dts: sunxi: add eeprom to A10 OLinuXino Lime board
+[PATCH 2/5] dts: sunxi: correct vendor prefix on OLinuXino a10s micro
+[PATCH 3/5] dts: sunxi: add eeprom to A20 OLinuXino Lime board
+[PATCH 5/5] dts: sunxi: add eeprom to A20 OLinuXino micro board
+[PATCH 4/5] dts: sunxi: add eeprom to A20 OLinuXino Lime2 board
+
+
+[PATCH] staging/rtl8192u: remove unused function
+
+
+[PATCH] thermal: Fix thermal_zone_of_sensor_register to match documentation
+
+
+[PATCH/RFC] mm: do not regard CMA pages as free on watermark check
+
+
+[GIT PULL] NTB bug fixes for v4.3
+
+
+[PATCH v2 0/7] Make cpuid <-> nodeid mapping persistent.
+[PATCH v2 2/7] x86, numa: Introduce a node to node array to map a node to its best online node.
+[PATCH v2 4/7] x86, acpi, cpu-hotplug: Enable acpi to register all possible cpus at boot time.
+[PATCH v2 7/7] x86, acpi, cpu-hotplug: Set persistent cpuid <-> nodeid mapping when booting.
+[PATCH v2 1/7] x86, numa: Move definition of find_near_online_node() forward.
+[PATCH v2 6/7] x86, acpi, cpu-hotplug: Enable MADT APIs to return disabled apicid.
+[PATCH v2 5/7] x86, acpi, cpu-hotplug: Introduce apicid_to_cpuid[] array to store persistent cpuid <-> apicid mapping.
+[PATCH v2 3/7] x86, gfp: Cache best near node for memory allocation.
+
+
+[GIT PULL for v4.3-rc1] media updates
+
+
+[RFC][PATCH RT v2 3/3] [PATCH 3/3] rtmutex: Wake up all top trylock waiters on unlock
+
+
+[PATCH 4/6] Staging: iio: cdc: Prefer using the BIT macro
+[PATCH 5/6] Staging: lustre: ptlrpc: Prefer using the BIT macro
+[PATCH 6/6] Staging: comedi: Prefer using the BIT macro
+
+
+[PATCH v3 0/4] serial: samsung: Fix UART status handling and other
+ fixes
+[PATCH v3 2/4] serial: samsung: remove unneded 'ignore_char' label
+[PATCH v3 4/4] serial: samsung: Fix UART status handling in DMA mode
+[PATCH v3 1/4] serial: samsung: remove unused 'irq' parameter
+[PATCH v3 3/4] serial: samsung: introduce
+ s3c24xx_serial_rx_drain_fifo() function
+
+
+[PATCH] x86, perf: Make CYCLE_ACTIVITY.* constraint on Broadwell more specific
+
+
+[PATCH] drivers: stating: wilc1000: Add a check for SPI availability
+
+
+[PATCH 0/3] GIC fixes for 4.3-rc2
+[PATCH 3/3] irqchip/GICv2m: Fix GICv2m build warning on 32 bits
+[PATCH 1/3] irqchip/GIC: Add workaround for aliased GIC400
+[PATCH 2/3] irqchip/gic-v3-its: Add missing cache flushes
+
+
+[PATCH 00/19] Lustre cleanups
+[PATCH 15/19] staging/lustre: Remove lustre used memory tracking framework
+[PATCH 02/19] staging/lustre: Remove unused OBD_VMALLOC
+[PATCH 19/19] staging/lustre: Remove server defines from lustre_disk.h
+[PATCH 09/19] staging/lustre: Convert lustre_cfg_new/free to use kzalloc/kfree
+[PATCH 10/19] staging/lustre/ptlrpc: Replace OBD_FREE_PTR with kfree
+[PATCH 05/19] staging/lustre/llite: Get rid of OBD_ALLOC/FREE_PTR
+[PATCH 14/19] staging/lustre: Remove memory allocation fault injection framework
+[PATCH 11/19] staging/lustre: Replace last users of OBD_ALLOC/FREE_LARGE
+[PATCH 13/19] staging/lustre: Remove unused OBD_ALLOC* and OBD_FREE macros
+[PATCH 07/19] staging/lustre: Remove references to OBD_ALLOC/FREE* in comments
+[PATCH 08/19] staging/lustre/fld: Replace OBD_ALLOC_GFP with kzalloc
+[PATCH 18/19] staging/lustre: remove IS_MDS|IS_OST|IS_MGS defines and users
+[PATCH 17/19] staging/lustre: Remove IS_SERVER and all users
+[PATCH 04/19] staging/lustre: Remove users of OBD_ALLOC/FREE_PTR lu_object.h
+[PATCH 06/19] staging/lustre/obdclass: replace OBD_ALLOC_GFP with kzalloc
+[PATCH 12/19] staging/lustre: Remove stray bit of userland utils code
+[PATCH 01/19] staging/lustre: Remove OBD_CPT_ALLOC_LARGE
+[PATCH 03/19] staging/lustre: Remove unused OBD_CPT_ALLOC* macros
+[PATCH 16/19] staging/lustre: remove obd_memory stats counter
+
+
+[PATCH 1/2][RFC] time: Fix timekeeping_freqadjust()'s incorrect use of abs() instead of abs64()
+[PATCH 2/2][RFC] kselftest: timers: Add adjtick test to validate adjtimex() tick adjustments
+
+
+[PATCH] ARM: exynos_defconfig: Disable simplefb support
+
+
+[PATCHv2 00/10] thermal: add COMPILE_TEST (on drivers)
+[PATCHv2 07/10] thermal: exynos: allow compile test
+[PATCHv2 08/10] thermal: qcom_spmi: allow compile test
+[PATCHv2 10/10] thermal: ti-soc: Kconfig fix to avoid menu showing wrongly
+[PATCHv2 03/10] thermal: rockchip: allow compile test
+[PATCHv2 06/10] thermal: armada: allow compile test
+[PATCHv2 04/10] thermal: kirkwood: allow compile test
+[PATCHv2 01/10] thermal: hisi: allow compile test
+[PATCHv2 02/10] thermal: spear: allow compile test
+[PATCHv2 09/10] thermal: ti-soc: allow compile test
+[PATCHv2 05/10] thermal: dove: allow compile test
+
+
+[PATCH] mm: slab: convert slab_is_available to boolean
+
+
+[PATCH v2] tpm, tpm_crb: fix unaligned read of the command buffer address
+
+
+[PATCH] KVM: VMX: align vmx->nested.nested_vmx_secondary_ctls_high to vmx->rdtscp_enabled
+
+
+[PATCH v2 0/2] pinctrl: uniphier: one fix, one addition
+[PATCH v2 2/2] pinctrl: uniphier: add SD card pinmux settings
+[PATCH v2 1/2] pinctrl: uniphier: fix input enable settings for PH1-sLD8
+
+
+[PATCH] irda: ali-ircc: Fix deadlock in ali_ircc_sir_change_speed()
+
+
+[PATCH] MODSIGN: Fix a compilation warning in extract-cert
+
+
+[RFC][PATCH 2/3] perf: Fix u16 overflows
+
+
+[PATCH] drivers/misc/sgi-gru: fix possible NULL dereference
+
+
+[PATCH 2/2] s390/crash_dump: Use PFN_PHYS and PFN_DOWN macros
+
+
+[PATCH 0/3] kobject: support namespace aware udev
+[PATCH 3/3] net/udevns: Netlink module to forward uevent to containers
+[PATCH 2/3] lib/kobject_uevent.c: add uevent forwarding function
+[PATCH 1/3] lib/kobject_uevent.c: disable broadcast of uevents to other namespaces
+
+
+[PATCH 1/2] pinctrl: rockchip: Define GPIO banks 7 and 8
+[PATCH 2/2] ARM: dts: rockchip: Add dtb for the Radxa Rock 2 Square board
+
+
+[PATCH] SUNRPC: Fix a race in xs_reset_transport
+
+
+[PATCHv2 3/3] drm/i2c: anx78xx: Add anx7814 driver support by analogix.
+
+
+[PATCH RESEND 0/2] arm: dts: berlin: use stdout-path
+[PATCH RESEND 2/2] arm: dts: berlin: use stdout-path
+[PATCH RESEND 1/2] arm: dts: berlin: add aliases for serial
+
+
+[PATCH] hwmon: (applesmc) Fix typos
+
+
+[PATCH v3 0/5] SCPI Sensor support
+[PATCH v3 5/5] arm64: dts: Add sensor node to Juno dt
+[PATCH v3 3/5] hwmon: Support sensors exported via ARM SCP interface
+[PATCH v3 4/5] hwmon: Support thermal zones registration for SCP temperature sensors
+[PATCH v3 1/5] Documentation: add DT bindings for ARM SCPI sensors
+[PATCH v3 2/5] firmware: arm_scpi: Extend to support sensors
+[Patch v3 4/5] hwmon: Support registration of thermal zones for SCP temperature sensors
+
+
+[PATCH v3] tpm, tpm_crb: fix unaligned read of the command buffer address
+
+
+[PATCH net] bridge: fix igmpv3 / mldv2 report parsing
+
+
+[PATCH] fs-writeback: drop wb->list_lock during blk_finish_plug()
+
+
+[PATCH] drm/i915: fix kernel-doc warnings in intel_lrc.c
+
+
+[PATCH v4 3/3] Staging: rtl8188eu: Bool tests don't need comparisons
+[PATCH v4 2/3] Staging: vt6656: Bool tests don't need comparisons
+[PATCH v4 1/3] Staging: rtl8723au: core: Bool tests don't need comparisons
+
+
+[PATCH v0 0/8] Simple wait queue support
+[PATCH v1 5/8] rcu: Do not call swake_up_all with rnp->lock holding
+[PATCH v1 4/8] rcu: use simple wait queues where possible in rcutree
+[PATCH v1 1/8] wait.[ch]: Introduce the simple waitqueue (swait) implementation
+[PATCH v1 8/8] orinoco_usb: Fix fallout of wait to swait completion change
+[PATCH v1 3/8] sched/completion: convert completions to use simple wait queues
+[PATCH v1 7/8] usb: gadget: f_fs: Fix fallout of wait to swait completion change
+[PATCH v1 6/8] gadgetfs: Fix fallout of wait to swait completion change
+[PATCH v1 2/8] KVM: use simple waitqueue for vcpu->wq
+
+
+[PATCH] powerpc: define empty enable_kernel_vsx() when CONFIG_VSX=n
+
+
+[PATCH 00/19] Lustre fixes
+[PATCH 10/19] staging/lustre/libcfs: minor fix in cfs_hash_for_each_relax()
+[PATCH 14/19] staging/lustre/obdclass: Eliminate hash bucket scans in lu_cache_shrink
+[PATCH 01/19] staging/lustre/lnet: Reenable lnet router debugfs
+[PATCH 13/19] staging/lustre/llite: ASSERTION( atomic_read(&d->ld_ref) == 0 ) failed
+[PATCH 07/19] staging/lustre/llite: deny non-root user for changelog operations
+[PATCH 03/19] staging/lustre/llite: cleanup open handle for client open failure
+[PATCH 02/19] staging/lustre/obdclass: reorganize busy object accounting
+[PATCH 15/19] staging/lustre: Remove unused MAY_ constants
+[PATCH 04/19] staging/lustre/llite: strengthen checks for hsm flags and archive id
+[PATCH 09/19] staging/lustre/osc: LBUG in osc_lru_reclaim
+[PATCH 12/19] staging/lustre/o2iblnd: wrong uses of kib_tx_t::tx_nfrags
+[PATCH 16/19] staging/lustre/osc: use global osc_rq_pool to reduce memory usage
+[PATCH 05/19] staging/lustre/ptlrpc: remove LUSTRE_MSG_MAGIC_V1 support
+[PATCH 11/19] staging/lustre/lnet: fix deadloop in ksocknal_push
+[PATCH 08/19] staging/lustre/o2iblnd: connection refcount fix for kiblnd_post_rx
+[PATCH 19/19] staging/lustre/ptlrpc: make ptlrpcd threads cpt-aware
+[PATCH 17/19] staging/lustre/o2iblnd: leak cmid in kiblnd_dev_need_failover
+[PATCH 06/19] staging/lustre/lmv: fix potential null pointer dereference
+[PATCH 18/19] staging/lustre/libcfs: remove unused cfs_timer_done
+
+
+[PATCH 1/2] mmc: sdhci-of-arasan: add phy support for sdhci-of-arasan
+[PATCH 2/2] Documentation: bindings: add description of phy for sdhci-of-arasan
+
+
+[PATCH RFC v3 0/6] Introduce extended syscall error reporting
+[PATCH RFC v3 4/6] perf tools: Add a simple JSON parser
+[PATCH RFC v3 6/6] perf tools: Use extended syscall error reporting
+[PATCH RFC v3 2/6] perf: Use extended syscall error reporting
+[PATCH RFC v3 1/6] exterr: Introduce extended syscall error reporting
+[PATCH RFC v3 3/6] perf/x86: Annotate a BTS error with extended error reporting
+[PATCH RFC v3 5/6] perf tools: Add userspace counterpart for extended error reporting
+
+
+[PATCH 1/2] staging: lustre: lov: fix dereference of ERR_PTR
+[PATCH 2/2] staging: lustre: lov: remove always false condition
+
+
+[PATCH] MAINTAINERS: Remove myself as nvec co-maintainer
+
+
+[PATCH] iwlwifi: mvm: fix tof.h header guard
+
+
+[PATCH] KVM: fix polling for guest halt continued even if disable it
+
+
+[PATCH 0/4] ARM: OMAP5/DRA7: minor fixes
+[PATCH 1/4] ARM: OMAP4+: PM: erratum is used by OMAP5 and DRA7 as well
+[PATCH 2/4] ARM: omap2+: board-generic: Remove stale of_irq macros
+[PATCH 4/4] ARM: OMAP5: Cleanup options for SoC only build
+[PATCH 3/4] ARM: DRA7: Select missing options for SoC only build
+
+
+[PATCH 1/3] ibmvsci: make parameters max_id and max_channel read-only
+[PATCH 3/3] ibmvsci: Allow to configure maximum LUN
+[PATCH 2/3] ibmvcsci: display default value for max_id, max_lun and max_channel.
+
+
+[PATCH] net/mac80211/rate.c: fix wrong sizeof()
+
+
+[PATCH] arm: dma-mapping: fix build warning with new DMA_ERROR_CODE definition
+
+
+[PATCH v3 0/5] kselftest improvement and cleanup
+[PATCH v3 1/5] selftests: rename jump label to static_keys
+[PATCH v3 3/5] selftests: mqueue: simplify the Makefile
+[PATCH v3 2/5] selftests: mqueue: allow extra cflags
+[PATCH v3 5/5] selftests: exec: revert to default emit rule
+[PATCH v3 4/5] selftests: change install command to rsync
+
+
+[git pull] drm fixes
+
+
+Linux 4.1.7
+
+
+[PATCH 1/2] ARM: dts: support Highspeed for rk3188-radxarock
+[PATCH 2/2] ARM: dts: support Highspeed for rk3066a platform
+
+
+[PATCH] ARC fix for 4.3
+[PATCH] ARCv2: [axs103_smp] Reduce clk for SMP FPGA configs
+
+
+[PATCH v1 00/17] add fixes, device quirks, error recovery,
+[PATCH v1 07/17] scsi: ufs: separate device and host quirks
+[PATCH v1 04/17] scsi: ufs: avoid spurious UFS host controller interrupts
+[PATCH v1 08/17] scsi: ufs: split broken LCC quirk
+[PATCH v1 10/17] scsi: ufs: make error handling bit faster
+[PATCH v1 13/17] scsi: ufs: handle non spec compliant bkops behaviour by device
+[PATCH v1 03/17] scsi: ufs: optimize system suspend handling
+[PATCH v1 01/17] scsi: ufs-qcom: add number of lanes per direction
+[PATCH v1 14/17] scsi: ufs: tune UniPro parameters to optimize hibern8 exit time
+[PATCH v1 05/17] scsi: ufs: implement scsi host timeout handler
+[PATCH v1 12/17] scsi: ufs: add retry for query descriptors
+[PATCH v1 09/17] scsi: ufs: disable vccq if it's not needed by UFS device
+[PATCH v1 02/17] scsi: ufs: add option to change default UFS power management level
+[PATCH v1 17/17] scsi: ufs-qcom: set PA_Local_TX_LCC_Enable before link startup
+[PATCH v1 15/17] scsi: ufs: fix leakage during link off state
+[PATCH v1 16/17] scsi: ufs: add delay before putting UFS rails in low power modes
+[PATCH v1 11/17] scsi: ufs: add error recovery after DL NAC error
+[PATCH v1 06/17] scsi :ufs: verify hba controller hce reg value
+
+
+[PATCH][RESEND] zlib : Fix usage example of zlib_adler32()
+
+
+[PATCH 00/17] thermal: add COMPILE_TEST (on drivers)
+[PATCH 03/17] thermal: rockchip: allow compile test
+[PATCH 13/17] thermal: int340x: allow compile test
+[PATCH 06/17] thermal: u8500: allow compile test
+[PATCH 07/17] thermal: armada: allow compile test
+[PATCH 08/17] thermal: tegra: allow compile test
+[PATCH 17/17] thermal: ti-soc: allow compile test
+[PATCH 05/17] thermal: dove: allow compile test
+[PATCH 16/17] thermal: qcom_spmi: allow compile test
+[PATCH 10/17] thermal: intel_soc_dts_iosf: allow compile test
+[PATCH 01/17] thermal: hisi: allow compile test
+[PATCH 12/17] thermal: intel_quark: allow compile test
+[PATCH 15/17] thermal: st: allow compile test
+[PATCH 11/17] thermal: intel_soc_dts: allow compile test
+[PATCH 04/17] thermal: kirkwood: allow compile test
+[PATCH 14/17] thermal: exynos: allow compile test
+[PATCH 09/17] thermal: powerclamp: allow compile test
+[PATCH 02/17] thermal: spear: allow compile test
+
+
+[RESEND PATCH 1/3] arm64: dts: Add reset dts config for Hisilicon Hi6220 SoC
+[RESEND PATCH 3/3] reset: hi6220: Reset driver for hisilicon hi6220 SoC
+[RESEND PATCH 2/3] reset: hisilicon: document hisi-hi6220 reset controllers bindings
+
+
+[PATCH] drivers: of: check input parameter name for __of_find_property
+
+
+[PATCH 0/4] at_xdmac: improvment and fixes for the interleaved mode
+[PATCH 4/4] dmaengine: at_xdmac: clean used descriptor
+[PATCH 1/4] dmaengine: at_xdmac: handle numf > 1
+[PATCH 3/4] dmaengine: at_xdmac: fix memory leak in interleaved mode
+[PATCH 2/4] dmaengine: at_xdmac: change block increment addressing mode
+
+
+[PATCH] cpufreq: s5pv210: remove superfluous CONFIG_PM ifdefs
+
+
+[tip:perf/core] perf env:
+  Rename some leftovers from rename to perf_env
+
+
+[PATCH 2/2] char: ipmi: Fix module autoload for OF platform driver
+
+
+[PATCHv2 00/16] staging: rtl8192u: code clean up
+[PATCHv2 15/16] staging: rtl8192u: r8192U_core: replace else { if() {} } by else if () {}
+[PATCHv2 03/16] staging: rtl8192u: r8192U_core: add temporary variables to keep lines under 80 characters
+[PATCHv2 14/16] staging: rtl8192u: r8192U_core: rtl8192_ioctl: reorganize function
+[PATCHv2 11/16] staging: rtl8192u: r8192U_core: rtl8192_process_phyinfo: rename variable rfpath to rfp
+[PATCHv2 04/16] staging: rtl8192u: r8192U_core: reverse conditions to get lines under 80 characters
+[PATCHv2 12/16] staging: rtl8192u: r8192U_core: rtl8192_process_phyinfo: reorganize function
+[PATCHv2 13/16] staging: rtl8192u: r8192U_core: rtl8192_tx: replace some inline conditions
+[PATCHv2 05/16] staging: rtl8192u: r8192U_core: rtl8192_adapter_start: reorganize function
+[PATCHv2 07/16] staging: rtl8192u: r8192U_core: rtl8192_process_phyinfo: rename variable pprevious_stats to prev_stats
+[PATCHv2 16/16] staging: rtl8192u: remove all code framed by symbol TO_DO_LIST
+[PATCHv2 02/16] staging: rtl8192u: r8192U_core: add line breaks to keep lines under 80 characters
+[PATCHv2 09/16] staging: rtl8192u: r8192U_core: rtl8192_process_phyinfo: rename variable slide_beacon_adc_pwdb_statistics to sb_stats
+[PATCHv2 06/16] staging: rtl8192u: r8192U_core: rtl8192_read_eeprom_info: reorganize function
+[PATCHv2 10/16] staging: rtl8192u: r8192U_core: rtl8192_process_phyinfo: remove unneeded variable
+[PATCHv2 01/16] staging: rtl8192u: r8192U_core: fix comments lines over 80 characters
+[PATCHv2 08/16] staging: rtl8192u: r8192U_core: rtl8192_process_phyinfo: rename variable slide_beacon_adc_pwdb_index to sb_index
+
+
+[PATCH] arm/xen: Enable user access to the kernel before issuing a privcmd call
+
+
+[Patch RESEND] x86/paravirt: remove unused operation
+[tip:x86/urgent] x86/paravirt: Remove the unused pv_time_ops::
+ get_tsc_khz method
+
+
+[PATCH v3] ahci: qoriq: fixed using uninitialized variable warnings
+
+
+[RFC][PATCH 1/3] perf: Restructure perf syscall point of no return
+
+
+[PATCH] ASoC: dapm: add kcontrol to switch regulator to regulated/bypass state
+
+
+[GIT PULL] More power management and ACPI updates for v4.3-rc1
+
+
+[PATCH] perf, tools, pmu-events: Add Skylake frontend MSR support
+
+
+[PATCH v4] clk: add CS2000 Fractional-N driver
+
+
+[PATCH 0/2] KASAN: fix a type conversion error and add test
+[PATCH 2/2] kasan: Fix a type conversion error
+[PATCH 1/2] lib: test_kasan: add some testcases
+
+
+[PATCH] trace/ftrace.c: remove redundant swap function
+
+
+[PATCH v2] net: stmmac: Use msleep rather then udelay for reset delay
+
+
+[PATCH v2] arm64: Introduce IRQ stack
+
+
+[PATCH 1/2] btrfs: avoid passing int param to start_transaction
+ which takes u64
+
+
+[PATCH] iio: gyro: ssp_gyro_sensor: Use devm_iio_device_register
+
+
+[PATCH v2 1/2] mmc: sdhci-of-arasan: add phy support for sdhci-of-arasan
+[PATCH v2 2/2] Documentation: bindings: add description of phy for sdhci-of-arasan
+
+
+[tip:perf/core] perf hists browser: Fixup the "cpu"
+  column width calculation
+
+
+[PATCH v5 0/4] mtd: nand: jz4780: Add NAND and BCH drivers
+[PATCH v5 1/4] mtd: nand: increase ready wait timeout and report timeouts
+[PATCH v5 2/4] dt-bindings: binding for jz4780-{nand,bch}
+[PATCH v5 3/4] mtd: nand: jz4780: driver for NAND devices on JZ4780 SoCs
+[PATCH v5 4/4] MIPS: dts: jz4780/ci20: Add NEMC, BCH and NAND device tree nodes
+
+
+[GIT PULL] MTD updates #2 for 4.3-rc1
+
+
+[PATCH 0/3] Add support for tps65217 charger
+[PATCH 1/3] devicetree: Add TPS65217 charger binding.
+[PATCH 2/3] power_supply: Add support for tps65217-charger.
+[PATCH 3/3] mfd: Add battery charger as subdevice to the tps65217.
+
+
+[PATCH] hw_random: octeon-rng: Use devm_hwrng_register
+
+
+[PATCH v2 02/16] Staging: speakup: devsynth.c: Remove explicit NULL comparison
+[PATCH v2 03/16] Staging: speakup: serialio.c: Remove explicit NULL comparison
+[PATCH v2 01/16] Staging: speakup: varhandlers.c: Remove explicit NULL comparison
+[PATCH v2 04/16] Staging: speakup: kobjects.c: Remove explicit NULL comparison
+
+
+[PATCH] pwm: atmel-hlcdc: add sama5d2 SoC support.
+
+
+[PATCH 3.12 00/33] 3.12.48-stable review
+[PATCH 3.12 01/33] mfd: lpc_ich: Assign subdevice ids automatically
+
+
+[PATCH] staging: ion: fix corruption of ion_import_dma_buf
+
+
+[PATCH] kexec: Add prefix "kexec" to output message
+
+
+[PATCH 3.14 00/18] 3.14.52-stable review
+[PATCH 3.14 01/18] ipc,sem: fix use after free on IPC_RMID after a task using same semaphore set exits
+[PATCH 3.14 13/18] libfc: Fix fc_fcp_cleanup_each_cmd()
+[PATCH 3.14 10/18] drm/radeon: add new OLAND pci id
+[PATCH 3.14 12/18] libfc: Fix fc_exch_recv_req() error path
+[PATCH 3.14 11/18] drm/vmwgfx: Fix execbuf locking issues
+[PATCH 3.14 03/18] mm/hwpoison: fix page refcount of unknown non LRU page
+[PATCH 3.14 07/18] dm thin metadata: delete btrees when releasing metadata snapshot
+[PATCH 3.14 02/18] ipc/sem.c: update/correct memory barriers
+[PATCH 3.14 16/18] arm64/mm: Remove hack in mmap randomize layout
+[PATCH 3.14 06/18] perf: Fix PERF_EVENT_IOC_PERIOD migration race
+[PATCH 3.14 14/18] regmap: regcache-rbtree: Clean new present bits on present bitmap resize
+[PATCH 3.14 15/18] crypto: caam - fix memory corruption in ahash_final_ctx
+[PATCH 3.14 05/18] perf: Fix fasync handling on inherited events
+[PATCH 3.14 09/18] EDAC, ppc4xx: Access mci->csrows array elements properly
+[PATCH 3.14 18/18] arm64: KVM: Fix host crash when injecting a fault into a 32bit guest
+[PATCH 3.14 08/18] localmodconfig: Use Kbuild files too
+
+
+[PATCH 0/5] Drivers: hv: Miscellaneous fixes 
+[PATCH 1/5] Drivers: hv: vmbus: fix init_vp_index() for reloading hv_netvsc
+
+
+[PATCH] clk: readd refcounting for struct clk instances
+
+
+[PATCH] pinctrl: core: handle pinctrl_get failure
+
+
+[PATCH] c6x: Use generic clkdev.h header
+
+
+[PATCH] [media] lnbh25: Fix lnbh25_attach() function return type
+
+
+[PATCH] ata: pata_macio: Fix module autoload for OF platform driver
+
+
+[PATCH V8 1/4] genalloc:support memory-allocation with bytes-alignment to genalloc
+[PATCH V8 3/4] qe_common: add qe_muram_ functions to manage muram
+[PATCH V8 4/4] QE: Move QE from arch/powerpc to drivers/soc
+[PATCH V8 2/4] genalloc:support memory-allocation from offset
+
+
+[PATCH 0/2] block/xen-blkfront: Support non-indirect with 64KB page granularity
+[PATCH 2/2] block/xen-blkfront: Handle non-indirect grant with 64KB pages
+[PATCH 1/2] block/xen-blkfront: Introduce blkif_ring_get_request
+
+
+[PATCH 00/17] Create and use ida and idr helper routines
+[PATCH 08/17] Update the mmc driver to use idr helper functions.
+[PATCH 06/17] Update the infiniband uverbs driver to use idr helper functions.
+[PATCH 10/17] Update the DCA DMA driver to use idr helper functions.
+[PATCH 13/17] Update the SCSI disk driver to use ida helper functions.
+[PATCH 14/17] Update the rsxx flash adapter driver to use ida helper functions.
+[PATCH 01/17] Add ida and idr helper routines.
+[PATCH 07/17] Update the memstick driver to use idr helper functions.
+[PATCH 04/17] Update the ch driver to use idr helper functions.
+[PATCH 09/17] Update the virtgpu driver to use idr helper functions.
+[PATCH 02/17] Update scsi hosts to use idr for host number mgmt
+[PATCH 12/17] Update the TI Flash Media driver to use idr helper functions.
+[PATCH 05/17] Update the md driver to use idr helper functions.
+[PATCH 03/17] Update the st driver to use idr helper functions.
+[PATCH 11/17] Update the rtsx multifunction driver to use idr helper functions.
+[PATCH 17/17] Update the ARM soc base driver to use ida helper functions.
+[PATCH 15/17] Update the NVMe SSD driver to use ida helper functions.
+[PATCH 16/17] Update the Micron PCIe SSD driver to use ida helper functions.
+
+
+[PATCH] sched/fair: Polish comments for LOAD_AVG_MAX
+
+
+[PATCH V2 0/2] process unrecognized CPER error section
+[PATCH V2 2/2] ras: acpi / apei: generate trace event for unrecognized CPER section
+[PATCH V2 1/2] efi: print unrecognized CPER section
+
+
+[RFC PATCH 0/3] 1588 support for Zynq Ultrascale+ MPSoC
+[RFC PATCH 2/3] net: macb: Add support for 1588 for Zynq Ultrascale+ MPSoC
+[RFC PATCH 3/3] devicetree: macb: Add optional property tsu-clk
+[RFC PATCH 1/3] net: macb: Add support for extended BD with a config option
+
+
+[PATCH] ARM: DTS: da850: Enable DMA use for MMC0
+
+
+[RESEND PATCH v4 0/8] i2c: Relax mandatory I2C ID table passing
+[RESEND PATCH v4 2/8] i2c: Add the ability to match device to compatible string without an of_node
+[RESEND PATCH v4 6/8] i2c: Provide a temporary .probe2() call-back type
+[RESEND PATCH v4 3/8] i2c: Match using traditional OF methods, then by vendor-less compatible strings
+[RESEND PATCH v4 7/8] mfd: 88pm860x: Move over to new I2C device .probe() call
+[RESEND PATCH v4 5/8] i2c: Export i2c_match_id() for direct use by device drivers
+[RESEND PATCH v4 4/8] i2c: Make I2C ID tables non-mandatory for DT'ed devices
+[RESEND PATCH v4 1/8] i2c: Add pointer dereference protection to i2c_match_id()
+[RESEND PATCH v4 8/8] mfd: as3722: Rid driver of superfluous I2C device ID structure
+
+
+[PATCH 3/4] Staging: rtl8192u: space required after close braces
+
+
+[PATCH 7/7] f2fs: fix overflow of size calculation
+
+
+[RFC PATCH 0/2] Containerise nproc count 
+[RFC PATCH 2/2] userns/nproc: Add hooks for userns nproc management
+[RFC PATCH 1/2] userns: Implement per-userns nproc infrastructure
+
+
+[PATCH V2  0/2] Replace nr_node_ids for loop with for_each_node 
+[PATCH V2  2/2] powerpc:numa Do not allocate bootmem memory for non existing nodes
+[PATCH V2  1/2] mm: Replace nr_node_ids for loop with for_each_node in list lru
+
+
+[PATCH v4 0/8] i2c: Relax mandatory I2C ID table passing
+[PATCH v4 6/8] i2c: Provide a temporary .probe2() call-back type
+[PATCH v4 7/8] mfd: 88pm860x: Move over to new I2C device .probe() call
+[PATCH v4 2/8] i2c: Add the ability to match device to compatible string without an of_node
+[PATCH v4 5/8] i2c: Export i2c_match_id() for direct use by device drivers
+[PATCH v4 8/8] mfd: as3722: Rid driver of superfluous I2C device ID structure
+[PATCH v4 1/8] i2c: Add pointer dereference protection to i2c_match_id()
+[PATCH v4 3/8] i2c: Match using traditional OF methods, then by vendor-less compatible strings
+[PATCH v4 4/8] i2c: Make I2C ID tables non-mandatory for DT'ed devices
+
+
+[PATCH] serial: sccnxp: convert devm irq to non devm version
+
+
+[PATCH v3] powerpc32: memset: only use dcbz once cache is enabled
+
+
+[PATCH v3 0/5] ACPI: Provide better MADT subtable sanity checks
+[PATCH v3 2/5] ACPI / ARM64: remove usage of BAD_MADT_ENTRY/BAD_MADT_GICC_ENTRY
+[PATCH v3 5/5] ACPI: remove definition of BAD_MADT_ENTRY macro
+[PATCH v3 3/5] ACPI / IA64: remove usage of BAD_MADT_ENTRY
+[PATCH v3 1/5] ACPI: add in a bad_madt_entry() function to eventually replace the macro
+[PATCH v3 4/5] ACPI / X86: remove usage of BAD_MADT_ENTRY
+
+
+[char-misc 4.3] mei: hbm: fix error in state check logic
+
+
+[PATCH 1/1] mm: kmemleak: remove unneeded initialization of object to NULL
+
+
+[PATCH 1/2] device property: Add fwnode_property_match_string()
+[PATCH 2/2] acpi-dma: Add support for "dma-names" device property
+
+
+[PATCH] syscall/mlockall: reorganize return values and remove goto-out label
+
+
+[Patch v6 0/7] Consolidate ACPI PCI root common code into ACPI core
+[Patch v6 7/7] ia64/PCI/ACPI: Use common interface to support PCI host bridge
+[Patch v6 3/7] ia64/PCI: Use common struct resource_entry to replace struct iospace_resource
+[Patch v6 2/7] ia64/PCI/ACPI: Use common ACPI resource parsing interface for host bridge
+[Patch v6 5/7] ACPI, PCI: Reset acpi_root_dev->domain to 0 when pci_ignore_seg is set
+[Patch v6 1/7] ACPI/PCI: Enhance ACPI core to support sparse IO space
+[Patch v6 4/7] PCI/ACPI: Consolidate common PCI host bridge code into ACPI core
+[Patch v6 6/7] x86/PCI/ACPI: Use common interface to support PCI host bridge
+
+
+[GIT PULL] arch/microblaze changes for 4.3-rc1
+
+
+[PATCH] arm64: dma-mapping: check whether cma area is initialized or not
+
+
+[PATCH] Input: ad714x: Convert to using managed resources
+
+
+[RFC][PATCH] Add spurious wakeup quirk for Lynxpoint controllers
+
+
+[PATCH] clk: tegra: Unlock top rates for Tegra124 DFLL clock
+
+
+[GIT PULL 00/27] perf/core2 improvements and fixes
+[PATCH 20/27] perf cpu_map: Use sysfs__read_int in get_{core,socket}_id()
+[PATCH 09/27] perf test: Add entry to test cpu topology
+[PATCH 13/27] perf env: Adopt perf_header__set_cmdline
+[PATCH 03/27] perf tests: Stop reading if objdump output crossed sections
+[PATCH 18/27] tools lib api fs: Introduce sysfs__read_{int,ull}()
+[PATCH 17/27] perf env: Read msr pmu type from header
+[PATCH 14/27] perf hists browser: Fixup the "cpu" column width calculation
+[PATCH 19/27] tools lib api cpu: Introduce cpu.[ch] to obtain cpu related information
+[PATCH 07/27] tools lib api fs: Remove debugfs, tracefs and findfs objects
+[PATCH 12/27] perf env: Rename some leftovers from rename to perf_env
+[PATCH 02/27] perf tests: Make objdump disassemble zero blocks
+[PATCH 24/27] perf tools: Introduce new sort type "socket" for the processor socket
+[PATCH 06/27] tools lib api fs: Replace debugfs/tracefs objects interface with fs.c
+[PATCH 15/27] perf evsel: Remove forward declaration of 'struct perf_evlist'
+[PATCH 23/27] perf tools: Add processor socket info to hist_entry and addr_location
+[PATCH 05/27] tools lib api fs: Make tracing_path_strerror_open message generic
+[PATCH 21/27] perf env: Introduce read_cpu_topology_map() method
+[PATCH 22/27] perf machine: Add pointer to sample's environment
+[PATCH 10/27] perf tests: Introduce iterator function for tests
+[PATCH 27/27] perf test: Add entry for hists socket filter
+[PATCH 16/27] perf tools: Add tools/include into tags directories
+[PATCH 11/27] perf env: Move perf_env out of header.h and session.c into separate object
+[PATCH 08/27] perf tools: Switch to tracing_path interface on appropriate places
+[PATCH 25/27] perf report: Introduce --socket-filter option
+[PATCH 26/27] perf hists browser: Zoom in/out for processor socket
+[PATCH 04/27] perf tests: Print objdump/dso buffers if they don't match
+[PATCH 01/27] perf tests: Take into account address of each objdump line
+
+
+[PATCH] lib/halfmd4: Use rol32 inline function in the ROUND macro
+
+
+[PATCH 5/7] f2fs: enhance multithread dio write performance
+
+
+[tip:perf/core] tools lib api fs: Introduce sysfs__read_{int,ull}
+ ()
+
+
+[PATCH] staging: sm750fb: Added a space
+
+
+[PATCH 3/7] f2fs: verify file type early in f2fs_fallocate
+
+
+[PATCH 6/7] f2fs: fix incorrect searching position when shrinking
+ extent cache
+
+
+[PATCH 0/3] Drivers: hv: vmbus: Support PCI Express pass-through driver
+[PATCH 1/3] drivers:hv: Export a function that maps Linux CPU num onto Hyper-V proc num
+
+
+[tip:perf/core] tools lib api cpu: Introduce cpu.[ch]
+  to obtain cpu related information
+
+
+[PATCH] staging: wilc1000: Added a new line
+
+
+[PATCH v4 0/2] pwm: Broadcom BCM7038 PWM controller (v4)
+[PATCH v4 1/2] Documentation: dt: add Broadcom BCM7038 PWM controller binding
+[PATCH v4 2/2] pwm: Add Broadcom BCM7038 PWM controller support
+
+
+[PATCH] kbuild: llvmlinux: Fix -fno-delete-null-pointer-checks compiler-flag
+
+
+[PATCH] mfd: max77843: Fix max77843_chg_init() return on error
+
+
+[RESEND PATCH] spi: mediatek: fix wrong error return value on probe
+
+
+[PATCH v2 0/5] ACPI probing infrastructure
+[PATCH v2 5/5] clocksource/arm_arch_timer: Convert to ACPI probing
+[PATCH v2 2/5] irqchip/acpi: Add probing infrastructure for ACPI-based irqchips
+[PATCH v2 4/5] clocksource/acpi: Add probing infrastructure for ACPI-based clocksources
+[PATCH v2 1/5] acpi: Add basic device probing infrastructure
+[PATCH v2 3/5] irqchip/gic: Convert the GIC driver to ACPI probing
+
+
+[PATCH] drm: atmel-hlcdc: add support for sama5d2 SoCs
+
+
+[RFC][PATCH RT v2 2/3] [PATCH 2/3] rt: Make cpu_chill() call rt_mutex_wait_for_lock() and
+ add new cpu_rest() as msleep(1)
+
+
+[PATCH] Staging: ft1000: use usleep_range()
+
+
+[RFC PATCH] vfio/pci: Use kernel VPD access functions
+
+
+[PATCH v2 0/2] KVM: nested VPID emulation
+
+
+[PATCH RESEND] writeback: account BDI's min_ratio for unregistered device
+
+
+[PATCH] ibmvsci: make parameters max_id and max_channel read-only
+
+
+[PATCH] spi: atmel: remove warning when !CONFIG_PM_SLEEP
+
+
+[PATCH v3] r8169: Fix sleeping function called during get_stats64, v2
+
+
+[PATCH v2 0/4] serial: samsung: Fix UART status handling and other
+ fixes
+[PATCH v2 3/4] serial: samsung: introduce
+ s3c24xx_serial_rx_drain_fifo() function
+[PATCH v2 1/4] serial: samsung: remove unused 'irq' parameter
+[PATCH v2 4/4] serial: samsung: Fix UART status handling in DMA mode
+[PATCH v2 2/4] serial: samsung: remove unneded 'ignore_char' label
+
+
+[tip:perf/core] perf machine: Add pointer to sample's environment
+
+
+[PATCH] staging: dgnc: Fixed line over 80 characters long
+
+
+[PATCH v2] ata: pata_macio: Fix module autoload for OF platform
+ driver
+
+
+[PATCH] kasan: use IS_ALIGNED in memory_is_poisoned_8()
+
+
+[PATCH v2 00/12] New paravirtual PCI front-end for Hyper-V VMs
+[PATCH v2 10/11] drivers:hv: Define the channel type for Hyper-V PCI Express pass-through
+[PATCH v2 01/12] kernel:irq:  Change signature of irq_domain_ops match() method, adding *bus_data
+[PATCH v2 11/11] drivers:pci:hv: New paravirtual PCI front-end for Hyper-V VMs
+[PATCH v2 02/12] kernel:irq: Change signature of irq_find_matching_host()
+[PATCH v2 05/12] drivers:hv: Export a function that maps Linux CPU num onto Hyper-V proc num
+[PATCH v2 09/11] kernel:irq: Implement msi match function
+[PATCH v2 07/12] drivers:x86:pci: Make it possible to implement a PCI MSI IRQ Domain in a module.
+[PATCH v2 04/12] drivers:pci: Add IRQ domain lookup by PCI domain
+[PATCH v2 06/12] drivers:hv: Export do_hypercall()
+[PATCH v2 03/12] kernel:irq: Allow for ranked matches on IRQ domains
+[PATCH v2 08/12] drivers:pci:msi: Store PCI domain (segment) as part of IRQ domain
+
+
+[PATCH v2 00/23] dmaengine/ARM: Merge the edma drivers into one
+[PATCH v2 05/23] ARM/dmaengine: edma: Move of_dma_controller_register to the dmaengine driver
+[PATCH v2 23/23] dmaengine: edma: Read channel mapping support only once from HW
+[PATCH v2 19/23] dmaengine: edma: Consolidate the comments for functions
+[PATCH v2 14/23] dmaengine: edma: Use devm_kcalloc when possible
+[PATCH v2 12/23] dmaengine: edma: Allocate memory dynamically for bitmaps and structures
+[PATCH v2 04/23] ARM: davinci/common: Convert edma driver to handle one eDMA instance per driver
+[PATCH v2 21/23] dmaengine: edma: Move the pending error check into helper function
+[PATCH v2 02/23] ARM: common: edma: Remove unused functions
+[PATCH v2 15/23] dmaengine: edma: Cleanup regarding the use of dev around the code
+[PATCH v2 17/23] dmaengine: edma: Use the edma_write_slot instead open coded memcpy_toio
+[PATCH v2 09/23] ARM: davinci: Use platform_device_register_full() to create pdev for eDMA
+[PATCH v2 07/23] ARM/dmaengine: edma: Public API to use private struct pointer
+[PATCH v2 01/23] ARM: common: edma: Fix channel parameter for irq callbacks
+[PATCH v2 18/23] dmaengine: edma: Print warning when linking slots from different eDMA
+[PATCH v2 13/23] dmaengine: edma: Parameter alignment and long line fixes
+[PATCH v2 16/23] dmaengine: edma: Use dev_dbg instead pr_debug
+[PATCH v2 06/23] ARM: common: edma: Internal API to use pointer to 'struct edma'
+[PATCH v2 20/23] dmaengine: edma: Simplify the interrupt handling
+[PATCH v2 03/23] dmaengine: edma: Simplify and optimize the edma_execute path
+[PATCH v2 11/23] ARM/dmaengine: edma: Merge the two drivers under drivers/dmaengine
+[PATCH v2 10/23] ARM: davinci: Add set dma_mask to eDMA devices
+[PATCH v2 08/23] ARM/dmaengine: edma: Remove limitation on the number of eDMA controllers
+[PATCH v2 22/23] dmaengine: edma: Simplify and optimize ccerr interrupt handler
+
+
+[PATCH] README: Add ARC architecture
+
+
+[PATCH] [media] horus3a: Fix horus3a_attach() function parameters
+
+
+[PATCH] lib/vsprintf.c: increase the size of the field_width variable
+
+
+[PATCH] PCI: IOV: reread SRIOV_NUM_VF after enabling ARI
+
+
+[PATCH 2/2] btrfs: declare rsv_count as u64 instead of int
+
+
+[PATCH] futex: eliminate cache miss from futex_hash()
+
+
+[PATCH] staging: fsl-mc: up-rev version of MC interface code
+
+
+[PATCH v2] of_pci_irq: Silence bogus "of_irq_parse_pci() failed ..." messages.
+
+
+[PATCH v2] zram: introduce comp algorithm fallback functionality
+
+
+[tip:perf/core] perf evsel: Remove forward declaration of '
+ struct perf_evlist'
+
+
+[PATCH v3] powerpc32: memcpy: only use dcbz once cache is enabled
+
+
+[PATCH RESEND 1/5] mfd: arizona: Add registers for ADC microphone detection
+[PATCH RESEND 5/5] mfd: arizona: Update DT doc for new mic detection bindings
+[PATCH RESEND 3/5] mfd: arizona: Add register bits for general purpose switch
+[PATCH RESEND 4/5] extcon: arizona: Add support for general purpose switch
+[PATCH RESEND 2/5] extcon: arizona: Add support for new ADC value headphone detect
+
+
+[PATCH 0/6] PCI: generic: Misc. bug fixes and enhanced support for MSI.
+[PATCH 3/6] PCI: generic: Quit clobbering our pci_ops.
+[PATCH 1/6] PCI: Make global and export pdev_fixup_irq().
+[PATCH 4/6] PCI: generic: Correct, and avoid overflow, in bus_max calculation.
+[PATCH 2/6] PCI: generic: Only fixup irqs for bus we are creating.
+[PATCH 6/6] PCI: generic: Allow bus default MSI controller to be specified.
+[PATCH 5/6] PCI: generic: Pass proper starting bus number to pci_scan_root_bus().
+
+
+[PATCH v4] Documentation: add Device tree bindings for hwmon/nct7802
+
+
+[RFC][4.1.5-rt5 PATCH] ARM: smp: __cpu_disable: fix sleeping function called from invalid context
+
+
+[PATCH linux-next v6 0/8] add driver for Atmel QSPI controller
+[PATCH linux-next v6 8/8] mtd: atmel-quadspi: add driver for Atmel QSPI controller
+[PATCH linux-next v6 2/8] mtd: spi-nor: remove unused read_xfer/write_xfer hooks
+[PATCH linux-next v6 3/8] mtd: spi-nor: update the SPI protocol when enabling manufacturer Quad mode
+[PATCH linux-next v6 4/8] mtd: spi-nor: use optimized commands for read/write/erase operations
+[PATCH linux-next v6 6/8] mtd: spi-nor: allow to tune the number of dummy cycles
+[PATCH linux-next v6 5/8] Documentation: mtd: add a DT property to set the number of dummy cycles
+[PATCH linux-next v6 1/8] mtd: spi-nor: read JEDEC ID with multiple I/O protocols
+[PATCH linux-next v6 7/8] Documentation: atmel-quadspi: add binding file for Atmel QSPI driver
+
+
+[PATCH 1/2] time: Fix timekeeping_freqadjust()'s incorrect use of abs() instead of abs64()
+[PATCH 2/2 (v2)] kselftest: timers: Add adjtick test to validate adjtimex() tick adjustments
+[tip:timers/urgent] time: Fix timekeeping_freqadjust()'
+ s incorrect use of abs() instead of abs64()
+
+
+Linux 3.14.52
+
+
+[PATCH v3] mlock.2: mlock2.2: Add entry to for new mlock2 syscall
+
+
+[PATCH] cpufreq: imx: update the clock swith flow to support imx6ul
+
+
+[3.16.y-ckt stable] Linux 3.16.7-ckt17
+
+
+[PATCH v3 0/3] mailbox: hisilicon: add Hi6220 mailbox driver
+[PATCH v3 2/3] mailbox: Hi6220: add mailbox driver
+[PATCH v3 1/3] dt-bindings: mailbox: Document Hi6220 mailbox driver
+[PATCH v3 3/3] arm64: dts: add Hi6220 mailbox node
+
+
+[PATCH] x86, perf, uncore: Don't make MSR uncore depend on PCI uncore
+
+
+[PATCH] mm: fix docbook comment for get_vaddr_frames()
+
+
+[PATCH] serial: 8250: simplify ralink/alchemy register remap selection
+
+
+[RFC PATCH v3] Fix: clocksource watchdog marks TSC unstable on guest VM
+
+
+[PATCH v2] arm/xen: Enable user access to the kernel before issuing a privcmd call
+
+
+[PATCH 0/4] fs: allow userland tasks to use delayed_fput infrastructure
+[PATCH 4/4] fs: export flush_delayed_fput
+[PATCH 3/4] fs: add fput_queue
+[PATCH 2/4] fs: add a kerneldoc header to fput
+[PATCH 1/4] fs: have flush_delayed_fput flush the workqueue job
+
+
+[PATCH v2 0/3] ARMv7-M: Make FORCE_MAX_ZONE_ORDER configurable from defconfig
+[PATCH v2 2/3] ARM: configs: Set FORCE_MAX_ZONE_ORDER to 9 in stm32_defconfig
+[PATCH v2 3/3] ARM: configs: Set FORCE_MAX_ZONEORDER to 9 in efm32_defconfig
+[PATCH v2 1/3] ARM: Make FORCE_MAX_ZONEORDER configurable if ARM_SINGLE_ARMV7M
+
+
+[PATCH 0/3] add CSR SiRFSoC power control module MFD driver
+[PATCH 2/3] regmap: irq: add ack_invert flag for chips using cleared bits as ack
+[PATCH 3/3] mfd: add CSR SiRFSoC on-chip power management module driver
+[PATCH 1/3] regmap: irq: add support for chips who have separate unmask registers
+
+
+[PATCH v2] lib/string_helpers.c: fix infinite loop in string_get_size()
+
+
+[PATCH] staging: speakup: Used kstrtoul instead of simple_strtoul
+
+
+[PATCH v2 0/2] ARM: gic: Document optional Clock and Power Domain properties
+[PATCH v2 2/2] irqchip: gic: Document optional Clock and Power Domain properties
+[PATCH v2 1/2] irqchip: gic: Add arm,pl390 support
+
+
+[PATCH] PM / sleep: Fix broken builds without CONFIG_PM_SLEEP_DEBUG
+
+
+[PATCH] barriers: introduce smp_mb__release_acquire and update documentation
+
+
+[PATCH 00/21] dmaengine/ARM: Merge the edma drivers into one
+[PATCH 05/21] ARM/dmaengine: edma: Move of_dma_controller_register to the dmaengine driver
+[PATCH 13/21] dmaengine: edma: Use devm_kcalloc when possible
+[PATCH 10/21] ARM/dmaengine: edma: Merge the two drivers under drivers/dmaengine
+[PATCH 19/21] dmaengine: edma: Simplify the interrupt handling
+[PATCH 06/21] ARM: common: edma: Internal API to use pointer to 'struct edma'
+[PATCH 20/21] dmaengine: edma: Move the pending error check into helper function
+[PATCH 08/21] ARM/dmaengine: edma: Remove limitation on the number of eDMA controllers
+[PATCH 03/21] dmaengine: edma: Simplify and optimize the edma_execute path
+[PATCH 15/21] dmaengine: edma: Use dev_dbg instead pr_debug
+[PATCH 12/21] dmaengine: edma: Parameter alignment and long line fixes
+[PATCH 18/21] dmaengine: edma: Consolidate the comments for functions
+[PATCH 01/21] ARM: common: edma: Fix channel parameter for irq callbacks
+[PATCH 09/21] ARM: davinci: Add set dma_mask to eDMA devices
+[PATCH 21/21] dmaengine: edma: Simplify and optimize ccerr interrupt handler
+[PATCH 11/21] dmaengine: edma: Allocate memory dynamically for bitmaps and structures
+[PATCH 02/21] ARM: common: edma: Remove unused functions
+[PATCH 16/21] dmaengine: edma: Use the edma_write_slot instead open coded memcpy_toio
+[PATCH 07/21] ARM/dmaengine: edma: Public API to use private struct pointer
+[PATCH 04/21] ARM: davinci/common: Convert edma driver to handle one eDMA instance per driver
+[PATCH 17/21] dmaengine: edma: Print warning when linking slots from different eDMA
+[PATCH 14/21] dmaengine: edma: Cleanup regarding the use of dev around the code
+
+
+[PATCH] kbuild: llvmlinux: Set appropriate compiler-flag for CONFIG_CC_OPTIMIZE_FOR_SIZE
+
+
+[PATCH v2] ARM: dts: Fix LEDs on exynos5422-odroidxu3
+
+
+[PATCH 4/4] Staging: rtl8192u: space prohibited before close parenthesis
+
+
+[GIT PULL] Thermal management updates for v4.3-rc1
+
+
+[PATCH v5 0/4] cpufreq-dt: add suspend frequency support
+[PATCH v5 1/4] PM / OPP: add dev_pm_opp_get_suspend_opp() helper
+[PATCH v5 4/4] ARM: dts: add suspend opp to exynos4412
+[PATCH v5 2/4] cpufreq: allow cpufreq_generic_suspend() to work
+ without suspend frequency
+[PATCH v5 3/4] cpufreq-dt: add suspend frequency support
+
+
+First kernel patch (optimization)
+
+
+[PATCH] check_for_tasks: read_lock(tasklist_lock) doesn't need to
+	disable irqs
+[tip:sched/core] cpu/hotplug: Read_lock(tasklist_lock) doesn'
+ t need to disable irqs
+
+
+[PATCH V2 1/3] arm64: dts: Add reset dts config for Hisilicon Hi6220 SoC
+[PATCH V2 2/3] reset: hisilicon: document hisi-hi6220 reset controllers bindings
+[PATCH V2 3/3] reset: hi6220: Reset driver for hisilicon hi6220 SoC
+
+
+[PATCH] staging: netlogic: platform: Fix miscellaneous coding style issues
+
+
+[PATCH 0/2] alpha: fix build failure
+[PATCH 2/2] alpha: lib: export __delay
+[PATCH 1/2] alpha: io: define ioremap_uc
+
+
+[PATCH v2 1/2] Staging: wilc1000: Use NULL instead of zero
+[PATCH 2/2] Staging: wilc1000: fix NULL comparison style
+
+
+[PATCH V3 1/2] ACPI / EC: Fix broken big-endian 64bit platforms using 'global_lock'
+
+
+[PATCH] ARM: multi_v7_defconfig: Enable QCOM SMD/RPM
+
+
+[PATCH v5] Documentation: add Device tree bindings for hwmon/nct7802
+
+
+[PATCH v2 07/16] Staging: lustre: libcfs: libcfs_lock.c: Remove explicit NULL comparison
+[PATCH v2 08/16] Staging: lustre: libcfs: libcfs_mem.c: Remove explicit NULL comparison
+[PATCH v2 10/16] Staging: lustre: obdclass: genops.c:  Remove explicit NULL comparison
+[PATCH v2 09/16] Staging: lustre: obdclass: obd_config.c: Remove explicit NULL comparison
+
+
+[PATCH] mmc: pxamci: fix card detect threaded interrupt
+
+
+[PATCH 1/3] power: reset: at91-reset/trivial: driver applies to SAMA5 family as well
+[PATCH 1/3] power: reset: at91-reset/trivial: driver applies to SAMA5 family as well
+[PATCH 3/3] power: reset: at91-shdwc: add new shutdown controller driver
+[PATCH 2/3] ARM: at91/dt: shdwc binding: add new shutdown controller documentation
+
+
+[PATCH 0/2] [media] Fix race between graph enumeration and entities registration
+[PATCH 2/2] [media] media-device: split media initialization and registration
+[PATCH 1/2] [media] media-device: check before unregister if mdev was registered
+
+
+[PATCH 1/2] Input: pm8941-pwrkey - remove unneded semicolon
+[PATCH 2/2] Input: mms114 - remove unneded semicolons
+
+
+[Patch v2] firmware: qcom: scm: Add function stubs for ARM64
+
+
+[PATCH] spi: fix kernel-doc warnings in spi.h
+
+
+[PATCH] regmap: Allocate buffers with GFP_ATOMIC when fast_io == true
+
+
+[GIT PULL] kbuild misc changes for v4.3-rc1
+
+
+[PATCH 1/1] thermal: ti-soc: Kconfig fix to avoid menu showing wrongly
+
+
+[PATCH 0/3] Add __ioread32_copy() and use it
+[PATCH 3/3] FIRMWARE: bcm47xx_nvram: Use __ioread32_copy() instead of open-coding
+[PATCH 1/3] lib: iomap_copy: Add __ioread32_copy()
+[PATCH 2/3] soc: qcom: smd: Use __ioread32_copy() instead of open-coding it
+
+
+[PATCH 1/3] clocksource: em_sti: remove unneeded memset()s
+[PATCH 2/3] clocksource: sh_cmt: remove unneeded memset() in sh_cmt_setup()
+[PATCH 3/3] clocksource: h8300_*: remove unneeded memset()s
+
+
+[PATCH] staging: speakup: Changed simple_strtoul to kstrtoul
+
+
+[PATCH] ARM: pxa: add resources to pxaficp_ir
+
+
+[GIT PULL] sound fixes for 4.3-rc1
+
+
+[PATCH] dmaengine: omap-dma: Enable packed accesses for cyclic transfers
+
+
+[PATCH v2 0/3] platform/chrome: vboot context support
+[PATCH v2 3/3] ARM: dts: Enable EC vboot context support on Peach boards
+[PATCH v2 1/3] sysfs: Support is_visible() on binary attributes
+[PATCH v2 2/3] platform/chrome: Support reading/writing the vboot context
+
+
+[PATCH v6 0/6] locking/qspinlock: Enhance pvqspinlock performance
+[PATCH v6 1/6] locking/qspinlock: relaxes cmpxchg & xchg ops in native code
+[PATCH v6 6/6] locking/pvqspinlock: Queue node adaptive spinning
+[PATCH v6 5/6] locking/pvqspinlock: Allow 1 lock stealing attempt
+[PATCH v6 4/6] locking/pvqspinlock: Collect slowpath lock statistics
+[PATCH v6 2/6] locking/pvqspinlock: Unconditional PV kick with _Q_SLOW_VAL
+[PATCH v6 3/6] locking/pvqspinlock, x86: Optimize PV unlock code path
+
+
+[PATCH] ARM: davinci: clock: Correct return values for API functions
+
+
+[PATCH 1/2] kconfig/merge_config.sh: Support KCONFIG_CONFIG
+
+
+[PATCH 0/1] perf/urgent fix
+[PATCH 1/1] perf header: Fixup reading of HEADER_NRCPUS feature
+
+
+[PATCH v2] hwmon: (nct7802) hwmon: (nct7802) Add device tree support
+
+
+[PATCH] staging: rtl8712: usb_ops_linux: fixed a comparison coding style issue
+
+
+[PATCH] numa-balancing: fix confusion in /proc/sys/kernel/numa_balancing
+
+
+[PATCH 0/7] [media] y2038 conversion for subsystem
+[PATCH 4/7] [media] exynos4-is: use monotonic timestamps as advertized
+[PATCH 6/7] [RFC] [media]: v4l2: introduce v4l2_timeval
+[PATCH 2/7] [media] dvb: remove unused systime() function
+[PATCH 5/7] [media] use v4l2_get_timestamp where possible
+[PATCH 1/7] [media] dvb: use ktime_t for internal timeout
+[PATCH 7/7] [RFC] [media] introduce v4l2_timespec type for timestamps
+[PATCH 3/7] [media] dvb: don't use 'time_t' in event ioctl
+
+
+[PATCH 1/2] btrfs: avoid passing int param to start_transaction
+ which takes u64
+
+
+[PATCH V3 00/14] perf tools: Fix gaps propagating maps
+[PATCH V3 07/14] perf tools: Add evsel->own_cpus
+[PATCH V3 01/14] perf tools: Simplify perf_evlist__propagate_maps logic
+[PATCH V3 09/14] perf tools: Make perf_evlist__create_maps() use perf_evlist__set_maps()
+[PATCH V3 05/14] perf tools: Fix perf_evlist__splice_list_tail not setting evlist
+[PATCH V3 13/14] perf tools: Fix task exit test setting maps
+[PATCH V3 04/14] perf tools: Add evlist->has_user_cpus
+[PATCH V3 10/14] perf tools: Factor out a function to propagate maps for a single evsel
+[PATCH V3 08/14] perf tools: Make perf_evlist__set_maps() more resilient
+[PATCH V3 02/14] perf tools: Simplify perf_evlist__set_maps logic
+[PATCH V3 11/14] perf tools: Fix perf_evlist__add() not propagating maps
+[PATCH V3 12/14] perf tools: Fix perf_evlist__create_syswide_maps() not propagating maps
+[PATCH V3 06/14] perf tools: Fix missing thread_map__put in perf_evlist__propagate_maps
+[PATCH V3 03/14] perf tools: Remove redundant validation from perf_evlist__propagate_maps
+[PATCH V3 14/14] perf tools: Fix software clock events test setting maps
+
+
+[PATCH] mm: memcontrol: fix order calculation in try_charge()
+
+
+[PATCH v2 0/4] m68k: System call updates
+[PATCH v2 2/4] m68k: Wire up userfaultfd
+[PATCH v2 1/4] m68k: Wire up direct socket calls
+[PATCH v2 4/4] m68k: Wire up membarrier
+[PATCH v2 3/4] m68k: Wire up direct ipc calls
+
+
+[PATCH v2 0/8] KVM: x86: enable cflushopt/clwb/pcommit and simplify code
+[PATCH v2 1/8] KVM: x86: allow guest to use cflushopt and clwb
+[PATCH v2 6/8] KVM: VMX: unify SECONDARY_VM_EXEC_CONTROL update
+[PATCH v2 8/8] KVM: VMX: drop rdtscp_enabled field
+[PATCH v2 3/8] KVM: VMX: drop rdtscp_enabled check in prepare_vmcs02()
+[PATCH v2 4/8] KVM: VMX: simplify rdtscp handling in vmx_cpuid_update()
+[PATCH v2 7/8] KVM: VMX: clean up bit operation on SECONDARY_VM_EXEC_CONTROL
+[PATCH v2 5/8] KVM: VMX: simplify invpcid handling in vmx_cpuid_update()
+[PATCH v2 2/8] KVM: x86: add pcommit support
+
+
+[RFC][PATCH 0/5] Fixes for abs() usage on 64bit values
+[RFC][PATCH 1/5] clocksource: Fix abs() usage w/ 64bit values
+[RFC][PATCH 4/5] percpu: Fix abs() usage in percpu_counter_compare()
+[RFC][PATCH 3/5] ext4: Fix abs() usage in  ext4_mb_check_group_pa
+[RFC][PATCH 5/5] abs(): Provide build error on passing 64bit value to abs()
+[RFC][PATCH 2/5] time: Fix abs() usage with 64-bit values.
+
+
+[PATCH V5] mm: memory hot-add: memory can not be added to movable zone defaultly
+
+
+[PATCH] ahci: qoriq: fixed using uninitialized variable warnings
+
+
+[PATCH] tracing: use kstrdup_const instead of private implementation
+
+
+linux-next: Tree for Sep 11
+
+
+[PATCH] xen/arm: correct comment in enlighten.c
+
+
+[PATCH RESEND 0/2] arm: berlin: add cpu hotplug support
+[PATCH RESEND 1/2] arm: berlin: use non-self-cleared reset register to reset cpu
+[PATCH RESEND 2/2] arm: berlin: add CPU hotplug support
+
+
+[GIT PULL] xen: features and fixes for 4.3-rc0
+
+
+[PATCH 0/2] selftests/pstore: add pstore test script
+[PATCH 1/2] selftests/pstore: add pstore test script for pre-reboot
+[PATCH 2/2] selftests/pstore: add pstore test scripts going with
+ reboot
+
+
+[PATCH] clockevents: Kill (unused) set_mode() callbacks
+[tip:timers/urgent] clockevents: Remvoe unused set_mode()
+  callback
+[tip:timers/urgent] clockevents: Remove unused set_mode()
+  callback
+
+
+[GIT PULL] target updates for v4.3-rc1
+
+
+[PATCHv2 2/3] devicetree: Add new ANX7814 SlimPort transmitter binding.
+
+
+[GIT PULL] eCryptfs fixes for 4.3-rc1
+
+
+[PATCH] drm/cma-helper: Add multi buffer support for cma fbdev
+
+
+[PATCH] nouveau: Disable AGP for SiS 761
+
+
+[PATCH] driver core: Ensure proper suspend/resume ordering
+
+
+[PATCH 1/1] PCI: remove an unnecessary if statement
+
+
+[PATCH v6 0/5] Devfreq cooling device
+[PATCH v6 4/5] devfreq_cooling: add trace information
+[PATCH v6 2/5] PM / OPP: get the voltage for all OPPs
+[PATCH v6 1/5] PM / devfreq: cache the last call to get_dev_status()
+[PATCH v6 3/5] thermal: Add devfreq cooling
+[PATCH v6 5/5] PM / devfreq: drop comment about thermal setting max_freq
+
+
+[PATCH v9 1/5] genalloc:support memory-allocation with bytes-alignment to genalloc
+[PATCH v9 4/5] CPM: modify cpm_muram_* functions
+[PATCH v9 2/5] genalloc:support allocating specific region
+[PATCH v9 5/5] QE: Move QE from arch/powerpc to drivers/soc
+[PATCH v9 3/5] qe_common: add qe_muram_ functions to manage muram
+
+
+[PATCH v2 0/1] Enable axp209 on OLinuXino lime2
+[PATCH v2 1/1] ARM: dts: sun7i: Enable axp209 driver on olinuxino lime2
+
+
+[PATCH net] r8169: Fix sleeping function called during get_stats64
+
+
+[PATCH] drm/i915: fix kernel-doc warnings in i915_gem_gtt.c
+
+
+[PATCH/TRIVIAL] Documentation: lockstat: Fix typo lokcing -> locking
+
+
+[PATCH] fs/buffer: simplify the code flow of LRU management algorithm
+
+
+[PATCH 0/8] Broadcom iProc PCIe fixes and outbound mapping support
+[PATCH 1/8] PCI: iproc: Fix code comment
+[PATCH 8/8] PCI: iproc: Fix compile warnings
+[PATCH 5/8] PCI: iproc: Improve link detection logic
+[PATCH 7/8] PCI: iproc: Add outbound mapping support
+[PATCH 3/8] PCI: iproc: Remove ARCH specific flag
+[PATCH 2/8] PCI: iproc: Remove unused code
+[PATCH 4/8] PCI: iproc: Fix PCIe reset logic
+[PATCH 6/8] PCI: iproc: Update iProc PCIe device tree bindings
+
+
+[tip:perf/core] perf env:
+  Move perf_env out of header.h and session.c into separate object
+
+
+[PATCH] ARM: qcom_defconfig: Enable SMD-RPM regulators
+
+
+[GIT PULL] Second batch of KVM changes for 4.3
+
+
+[PATCH 0/3] mfd: tps65912: Driver rewrite with DT support
+[PATCH 1/3] Documentation: tps65912: Add DT bindings for the TPS65912 PMIC
+[PATCH 2/3] mfd: tps65912: Rewrite driver adding DT support and using regmap
+[PATCH 3/3] tps65912: Cleanup TPS65912 subdevice configuration dependencies
+
+
+[PATCH 1/2] UV: NMI: insert per_cpu accessor function on uv_hub_nmi.
+[PATCH 2/2] UV: NMI: simple dump failover if kdump fails
+
+
+[PATCH 1/3] arm64: dts: Add reset dts config for Hisilicon Hi6220 SoC
+[PATCH 3/3] reset: hi6220: Reset driver for hisilicon hi6220 SoC
+[PATCH 2/3] reset: hisilicon: document hisi-hi6220 reset controllers bindings
+
+
+[PATCHv2 1/3] of: Add vendor prefix for Analogix Semiconductor, Inc.
+
+
+linux-next: Tree for Sep 9
+
+
+[PATCH v2 1/4] clk: bcm2835: Move under bcm/ with other Broadcom SoC clk drivers.
+[PATCH v2 3/4] clk: bcm2835: Add support for programming the audio domain clocks.
+[PATCH v2 4/4] ARM: bcm2835: Switch to using the new clock driver support.
+[PATCH v2 2/4] clk: bcm2835: Add binding docs for the new platform clock driver.
+
+
+[PATCH] Staging: lustre: lustre: lclient: lcommon_cl.c: Fixed coding style error
+
+
+[RFC][PATCH 3/3] perf: Fix races in computing the header sizes
+
+
+[PATCH 0/2] irqchip: renesas: Use a separate lockdep classes
+[PATCH 1/2] irqchip: renesas-irqc: Use a separate lockdep class
+[PATCH 2/2] irqchip: renesas-intc-irqpin: Use a separate lockdep class
+
+
+[PATCH v4] stmmac: fix check for phydev being open
+
+
+[PATCH] ARM: mm: avoid unneeded page protection fault for memory
+ range with (VM_PFNMAP|VM_PFNWRITE)
+
+
+[PATCH] ALSA: hdsp: fix memory leak
+
+
+[PATCH V2] kasan: use IS_ALIGNED in memory_is_poisoned_8()
+
+
+[PATCH] Cleanup: membarrier selftest
+
+
+[PATCH] ti-st: use worker instead of calling st_int_write in wake up
+
+
+[PATCH] mfd: wm831x: Fix possible NULL pointer dereference
+
+
+[PATCH] spmi: Auto-populate driver.owner in spmi_driver_register()
+
+
+[PATCH] cpufreq: cpufreq_cpu_get_raw() isn't a static function anymore
+
+
+[PATCH] extcon: axp288: Convert to using managed resources
+
+
+[GIT PULL] final round of SCSI updates for the 4.2+ merge window
+
+
+[PATCH] storvsc: use small sg_tablesize on x86
+
+
+[PATCH 0/4] crypto: [sha] x86 SHA extension optimization of SHA1
+ and SHA256
+
+
+[GIT PULL] xen: MFN/GFN/BFN terminology changes for 4.3-rc0
+
+
+[PATCH] staging: lustre: lnet: klnds: socklnd: Added a space
+
+
+[PATCH] ARM: at91/dt: sama5d3 xplained: disable pmic
+
+
+[PATCH 1/2] sama5d33ek: enable led D3
+[PATCH 2/2] ARM: at91: at91sam9n12ek/dts: fix the led labels name
+
+
+[PATCH] cpufreq: tegra20: remove superfluous CONFIG_PM ifdefs
+
+
+[GIT] Networking
+
+
+[PATCH 0/2] ASoC: Add support for the Allwinner A10 codec
+[PATCH 1/2] Documentation: bindings: Add the Allwinner A10 codec bindings
+[PATCH 2/2] ASoC: sunxi: add support for the on-chip codec on early Allwinner SoCs
+
+
+[REPOST PATCH] ftrace: Remove the unused variant ftrace_update_time
+
+
+[PATCH 1/6] Input: edt-ft5x06 - switch to newer gpio framework
+[PATCH 5/6] Input: edt-ft5x06 - do not hardcode interrupt trigger type
+[PATCH 4/6] Input: edt-ft5x06 - use generic properties API
+[PATCH 2/6] Input: edt-ft5x06 - drop parsing of irq gpio
+[PATCH 6/6] ARM: dts: set up trigger type for edt-ft5x06 interrupts
+[PATCH 3/6] Input: edt-ft5x06 - remove support for platform data
+
+
+[PATCH v2 0/7] kasan: various fixes
+[PATCH v2 3/7] kasan: accurately determine the type of the bad access
+[PATCH v2 4/7] kasan: update log messages
+[PATCH v2 1/7] kasan: update reported bug types for not user nor kernel memory accesses
+[PATCH v2 5/7] kasan: various fixes in documentation
+[PATCH v2 6/7] kasan: move KASAN_SANITIZE in arch/x86/boot/Makefile
+[PATCH v2 7/7] kasan: update reference to kasan prototype repo
+[PATCH v2 2/7] kasan: update reported bug types for kernel memory accesses
+
+
+[PATCH] staging: rtl8192e: fix memory leak
+
+
+[PATCH 0/7] tty: serial: msm: Add DMA support and fix bit definitions
+[PATCH 6/7] tty: serial: msm: Add RX DMA support
+[PATCH 3/7] tty: serial: msm: Fix command Stale Event Enable definition
+[PATCH 5/7] tty: serial: msm: Add TX DMA support
+[PATCH 7/7] tty: serial: msm: Remove 115.2 Kbps maximum baud rate limitation
+[PATCH 1/7] tty: serial: msm: Add mask value for UART_DM registers
+[PATCH 2/7] tty: serial: msm: replaces (1 << x) with BIT(x) macro
+[PATCH 4/7] tty: serial: msm: Add msm prefix to all driver functions
+
+
+[PATCH 00/11] ARM: STi: STiH407: Pinctrl updates
+[PATCH 11/11] ARM: STi: STiH407: Add spi default pinctrl groups.
+[PATCH 02/11] ARM: STi: DT: STiH407: Add i2c3 alternate pin configs
+[PATCH 10/11] ARM: DT: STiH407: Add RMII pinctrl support
+[PATCH 08/11] ARM: DT: STiH407: Add SD pinctrl config for mmc0 controller
+[PATCH 07/11] ARM: DT: STiH407: Add systrace pin configuration
+[PATCH 01/11] ARM: STi: DT: STiH407: Add a cec0 pin definition
+[PATCH 09/11] ARM: DT: STiH407: Add pinconfig for IRB UHF and IRB TX
+[PATCH 06/11] ARM: DT: STiH407: Add NAND flash controller pin configuration
+[PATCH 04/11] ARM: DT: STiH407: Add serial3 pinctrl configuration
+[PATCH 03/11] ARM: DT: STiH407: Add SPI 3 wire and 4 wire pinctrl configs
+[PATCH 05/11] ARM: DT: STiH407: Add SPI FSM (NOR Flash) Controller pin config
+
+
+[PATCH v3] stmmac: fix check for phydev being open
+
+
+[PATCH 0/2] xen/swiotlb: Add support for 64KB page granularity,
+[PATCH 2/2] xen/swiotlb: Add support for 64KB page granularity
+[PATCH 1/2] xen/swiotlb: Pass addresses rather than frame numbers to xen_arch_need_swiotlb
+
+
+[PATCH 0/4] net: a few kzalloc/memset cleanups
+[PATCH 2/4] net: jme: use kzalloc() instead of kmalloc+memset
+[PATCH 1/4] net: cavium: liquidio: use kzalloc in setup_glist()
+[PATCH 3/4] net: mv643xx_eth: use kzalloc
+[PATCH 4/4] net: qlcnic: delete redundant memsets
+
+
+[PATCH] tty/serial: at91: move ATMEL_MAX_UART
+
+
+[PATCH] block: swim3: Fix module autoload for OF platform driver
+
+
+[Patch V1] x86, mce: CPU synchronization for broadcast MCE's is surprised by offline CPUs
+
+
+[PATCH 1/1] perf/x86/intel: Fix static checker warning in lbr enable
+
+
+[PATCH 1/1] x509: only prefix strip raw serial numbers
+
+
+[PATCH] misc: add CS2000 Fractional-N driver
+
+
+[PATCH V2] mmc: block: Add new ioctl to send multi commands
+
+
+[PATCH] mmc: pwrseq: use gpiod_get() instead of index 0
+
+
+[PATCH 0/3] task_work: restore fifo ordering guarantee
+[PATCH 2/3] fput: move ->f_next_put into a union with ->f_version
+[PATCH 3/3] Revert "task_work: remove fifo ordering guarantee"
+[PATCH 1/3] fput: don't abuse task_work_add() when possible
+
+
+[GIT PULL 00/15] perf/urgent fixes
+[PATCH 02/15] perf evlist: Simplify propagate_maps() logic
+[PATCH 06/15] perf evlist: Fix splice_list_tail() not setting evlist
+[PATCH 13/15] perf evlist: Fix create_syswide_maps() not propagating maps
+[PATCH 07/15] perf evlist: Fix missing thread_map__put in propagate_maps()
+[PATCH 14/15] perf tests: Fix task exit test setting maps
+[PATCH 01/15] perf top: Fix segfault pressing -> with no hist entries
+[PATCH 10/15] perf evlist: Make create_maps() use set_maps()
+[PATCH 09/15] perf evlist: Make set_maps() more resilient
+[PATCH 04/15] perf evlist: Remove redundant validation from propagate_maps()
+[PATCH 11/15] perf evlist: Factor out a function to propagate maps for a single evsel
+[PATCH 08/15] perf evsel: Add own_cpus member
+[PATCH 15/15] perf tests: Fix software clock events test setting maps
+[PATCH 05/15] perf evlist: Add has_user_cpus member
+[PATCH 03/15] perf evlist: Simplify set_maps() logic
+[PATCH 12/15] perf evlist: Fix add() not propagating maps
+
+
+[PATCH] efi/libstub/fdt: Standardize the names of EFI stub parameters
+
+
+[linux-next RFC v7 0/6] mtd: spi-nor: improve support of QSPI nor
+[linux-next RFC v7 3/6] mtd: spi-nor: set the read op code and protocol based on the manufacturer
+[linux-next RFC v7 1/6] mtd: spi-nor: remove unused read_xfer/write_xfer hooks
+[linux-next RFC v7 6/6] mtd: atmel-quadspi: add driver for Atmel QSPI controller
+[linux-next RFC v7 2/6] mtd: spi-nor: read JEDEC ID with multiple I/O protocols
+[linux-next RFC v7 5/6] Documentation: atmel-quadspi: add binding file for Atmel QSPI driver
+[linux-next RFC v7 4/6] mtd: m25p80: add support of dual and quad spi protocols to all commands
+
+
+[PATCH] drivers/staging/andrid/ashmem.c: Fix coding style issues
+
+
+[PATCH 01/11 RESEND] ARM: OMAP: DRA7: hwmod: Add data for McASP3
+
+
+[PATCH 0/3] platform/chrome: vboot context support
+[PATCH 2/3] platform/chrome: Support reading/writing the vboot context
+[PATCH 3/3] ARM: dts: Enable EC vboot context support on Peach boards
+[PATCH 1/3] sysfs: Fix is_visible() support for binary attributes
+
+
+[PATCH] pptp: avoid releasing the sock too early
+
+
+[GIT PULL]: CRIS changes for 4.3
+
+
+[PATCH v2 1/3] ARM: dts: support Highspeed for rk3188-radxarock
+[PATCH v2 3/3] ARM: dts: support Highspeed for rk3066a-rayeager
+[PATCH v2 2/3] ARM: dts: support Highspeed for rk3066a-bqcurie2
+
+
+[PATCHv2 0/3] Add initial support for slimport anx78xx
+
+
+[PATCH] debugfs: don't access 4 bytes for a boolean
+
+
+[GIT PULL] Series of blkcg updates for 4.3
+
+
+linux-next: Tree for Sep 12
+
+
+[PATCH v2] drivers: staging: wilc1000: Add check for SPI availability
+
+
+[PATCH 0/2 v3 ] watchdog: driver for BCM7038 and newer chips.
+[PATCH 1/2 v3] watchdog: bcm7038: add device tree binding documentation
+[PATCH 2/2 v3] watchdog: Watchdog driver for Broadcom Set-Top Box
+
+
+[PATCH] blackfin: Use generic clkdev.h header
+
+
+[PATCH] perf tools: Fix segfault in 'perf top'
+
+
+[PATCH 1/6] Staging: iio: addac: adt7316.c : Prefer using BIT macro
+[PATCH 5/6] Staging: iio: impedance-analyzer: Prefer using the BIT macro
+[PATCH 2/6] Staging: iio: cdc: ad7152.c: Prefer using the BIT macro
+[PATCH 3/6] Staging: iio: meter: Prefer using the BIT macro
+[PATCH 6/6] Staging: iio: resolver: Prefer using the BIT macro
+[PATCH 4/6] Staging: iio: cdc: ad7746.c: Prefer using the BIT macro
+
+
+[PATCH] PCI: generic: Add support for Cavium ThunderX PCIe root complexes.
+
+
+[PATCH v2 1/4] Staging: rtl8723au: Bool tests don't need comparisons
+[PATCH v2 3/4] Staging: rtl8712: Bool tests don't need comparisons
+[PATCH v2 4/4] Staging: rtl8188eu: Bool tests don't need comparisons
+[PATCH v2 2/4] Staging: vt6656: Bool tests don't need comparisons
+
+
+[PATCH 1/3] ACPI: constify first argument of struct acpi_scan_handler::match
+[PATCH 2/3] ACPI: constify struct acpi_hardware_id::id
+[PATCH 3/3] ACPI / scan: use kstrdup_const in acpi_add_id()
+
+
+[PATCH] sched/fair: adjust the depth of a sched_entity when its
+ parent changes
+
+
+[PATCH 0/4] xtensa: fix build failure
+[PATCH 1/4] xtensa: fix error with dma_{alloc,free}_{attrs,coherent}
+[PATCH 2/4] xtensa: fix error with dma_supported
+[PATCH 4/4] xtensa: fix error with dma_set_mask
+[PATCH 3/4] xtensa: fix errors with dma_supported
+
+
+[PATCH 1/3] staging: fbtft: use dev_*
+[PATCH 3/3] staging: fbtft: change log level
+[PATCH 2/3] staging: fbtft: start using pr_fmt
+
+
+[GIT PULL REQUEST] watchdog - v4.3-rc1 merge window
+
+
+[PATCH] of: Check for overlap in reserved memory regions
+
+
+[PATCH v2] powerpc32: memcpy/memset: only use dcbz once cache is enabled
+
+
+[PATCH v3 0/2] [media] Fix race between graph enumeration and entities registration
+[PATCH v3 1/2] [media] media-device: check before unregister if mdev was registered
+[PATCH v3 2/2] [media] media-device: split media initialization and registration
+
+
+[tip:perf/core] perf cpu_map: Use sysfs__read_int in get_{core,
+ socket}_id()
+
+
+[PATCH] Input: elan_i2c - Expand maxmium product_id form 0xFF to  0xFFFF 
+
+
+linux-next: build failure after merge of the bluetooth tree
+
+
+[PATCH 1/1] toshiba_acpi: Remove unneeded u32 variables from *setup_keyboard
+[PATCH 1/1] toshiba_acpi: Add 0x prefix to available_kbd_modes_show funtion
+[PATCH] platform/x86: Toshiba WMI Hotkey Driver
+
+
+[GIT PULL] TTY driver revert for 4.3-rc1
+
+
+[PATCH 00/26] usb: gadget: encapsulate ep enable/disable
+[PATCH 07/26] usb: gadget: f_eem: eliminate abuse of ep->driver data
+[PATCH 24/26] usb: gadget: u_serial: eliminate abuse of ep->driver data
+[PATCH 02/26] usb: gadget: f_ncm: obtain cdev from function instead of
+ driver_data
+[PATCH 12/26] usb: gadget: f_ncm: eliminate abuse of ep->driver data
+[PATCH 06/26] usb: gadget: f_acm: eliminate abuse of ep->driver data
+[PATCH 08/26] usb: gadget: f_hid: eliminate abuse of ep->driver data
+[PATCH 03/26] usb: gadget: epautoconf: add usb_ep_autoconfig_release()
+ function
+[PATCH 09/26] usb: gadget: f_loopback: eliminate abuse of ep->driver
+ data
+[PATCH 25/26] usb: gadget: legacy: dbgp: eliminate abuse of ep->driver
+ data
+[PATCH 21/26] usb: gadget: f_uac2: eliminate abuse of ep->driver data
+[PATCH 17/26] usb: gadget: f_serial: eliminate abuse of ep->driver data
+[PATCH 22/26] usb: gadget: f_uvc: eliminate abuse of ep->driver data
+[PATCH 15/26] usb: gadget: f_printer: eliminate abuse of ep->driver
+ data
+[PATCH 20/26] usb: gadget: f_uac1: eliminate abuse of ep->driver data
+[PATCH 16/26] usb: gadget: f_rndis: eliminate abuse of ep->driver data
+[PATCH 23/26] usb: gadget: u_ether: eliminate abuse of ep->driver data
+[PATCH 10/26] usb: gadget: f_mass_storage: eliminate abuse of
+ ep->driver data
+[PATCH 18/26] usb: gadget: f_sourcesink: eliminate abuse of ep->driver
+ data
+[PATCH 01/26] usb: gadget: fix few outdated comments
+[PATCH 11/26] usb: gadget: f_midi: eliminate abuse of ep->driver data
+[PATCH 13/26] usb: gadget: f_obex: eliminate abuse of ep->driver data
+[PATCH 19/26] usb: gadget: f_subset: eliminate abuse of ep->driver data
+[PATCH 04/26] usb: gadget: introduce 'enabled' flag in struct usb_ep
+[PATCH 26/26] usb: gadget: legacy: tcm: eliminate abuse of ep->driver
+ data
+[PATCH 14/26] usb: gadget: f_phonet: eliminate abuse of ep->driver data
+[PATCH 05/26] usb: gadget: f_ecm: eliminate abuse of ep->driver data
+
+
+[PATCH v2] atomics,cmpxchg: Privatize the inclusion of asm/cmpxchg.h
+
+
+[PATCH] vfs: remove stale comment in inode_operations
+
+
+[PATCH] Staging: ft1000: ft1000-usb: Use USB API functions rather than constants
+
+
+[GIT PULL 0/8] perf/core improvements and fixes
+[PATCH 1/8] perf probe: Free perf_probe_event in cleanup_perf_probe_events()
+[PATCH 8/8] perf tools: Introduce regs_query_register_offset() for x86
+[PATCH 3/8] tools: Add err.h with ERR_PTR PTR_ERR interface
+[PATCH 7/8] perf tools: regs_query_register_offset() infrastructure
+[PATCH 6/8] perf tools: Enhance parsing events tracepoint error output
+[PATCH 2/8] perf probe: Export init/exit_probe_symbol_maps()
+[PATCH 5/8] perf evsel: Propagate error info from tp_format
+[PATCH 4/8] perf tools: Propagate error info for the tracepoint parsing
+
+
+[PATCH] bnx2x: use ktime_get_seconds() for timestamp
+
+
+[PATCH] nfsd: add a new EXPORT_OP_NOWCC flag to struct export_operations
+
+
+[PATCH v2] audio: sai: Add Power Management support
+
+
+[PATCH] ARM: Remove __ref on hotplug cpu die path
+
+
+[GIT PULL] kconfig changes for v4.3-rc1
+
+
+[PATCH 3/4] Staging: rtl8192u: do not use C99 // comments
+
+
+[PATCH 05/16] Staging: rtl8188eu: core: Remove explicit NULL comparison
+[PATCH 11/16] Staging: rtl8188eu: hal: Remove explicit NULL comparison
+[PATCH 16/16] Staging: rtl8188eu: os_dep: osdep_service.c: Remove explicit NULL comparison
+[PATCH 12/16] Staging: rtl8188eu: hal: Hal8188ERateAdaptive.c: Remove explicit NULL comparison
+[PATCH 13/16] Staging: rtl8188eu: hal: rtl8188eu_xmit.c: Remove explicit NULL comparison
+[PATCH 06/16] Staging: rtl8188eu: Remove explicit NULL comparison
+[PATCH 14/16] Staging: rtl8188eu: os_dep: recv_linux.c: Remove explicit NULL comparison
+[PATCH 15/16] Staging: rtl8188eu: os_dep: mlme_linux.c: Remove explicit NULL comparison
+
+
+[RFC 0/5] console/acpi: add DBG2 and SPCR console configuration
+[RFC 1/5] arm64: move acpi/dt decision earlier in boot process
+[RFC 2/5] of/serial: move earlycon early_param handling to serial
+[RFC 4/5] tty/console: use SPCR table to define console
+[RFC 5/5] HACK: serial: move pl011 initcall to device_initcall
+[RFC 3/5] acpi/serial: add DBG2 earlycon support
+
+
+[PATCH 00/11] Add RPM/SMD Support for QCOM platforms
+[PATCH 06/11] regulator: qcom-smd: Add PM8916 support
+[PATCH 09/11] arm: dts: Add support for PMA8084 on APQ8084
+[PATCH 01/11] soc: qcom: documentation: Update SMD/RPM Docs
+[PATCH 11/11] arm: dts: Add RPM SMD regulator support on MSM8974
+[PATCH 10/11] regulator: qcom-smd: Add support for PMA8084
+[PATCH 07/11] arm: dts: Add APQ8084 SMEM nodes
+[PATCH 06/11] regulators: qcom-smd: Add PM8916 support
+[PATCH 04/11] arm64: dts: qcom: Add RPM/SMD support on MSM8916
+[PATCH 03/11] arm64: dts: qcom: Add MSM8916 SMEM nodes
+[PATCH 05/11] arm64: dts: Add PM8916 support on MSM8916
+[PATCH 02/11] soc: qcom: smd-rpm: Add existing platform support
+[PATCH 08/11] arm: dts: Add RPM/SMD support on APQ8084
+
+
+[PATCH] ARM: rockchip: add reboot notifier
+
+
+[PATCH 1/2] dma: pxa_dma: fix the no-requestor case
+[PATCH 2/2] dma: pxa_dma: fix residue corner case
+
+
+[PATCH] at86rf230: fix build warning
+
+
+[PATCH 1/6] mfd: arizona: Add TST_CAP bits for headphone detection
+[PATCH 2/6] extcon: arizona: Additional settings to improve accuracy of HP detect
+[PATCH 5/6] extcon: arizona: Add device binding for second jack detect pin on GPIO5
+[PATCH 4/6] extcon: arizona: Add device binding for jack detect polarity inversion
+[PATCH 3/6] extcon: arizona: Ignore jd_invert for MICD_CLAMP_STS
+[PATCH 6/6] mfd: arizona: Update DT binding documentation for jack detection
+
+
+[RESEND v2] mfd: s2mps11: Add manual shutdown method for Odroid XU3
+
+
+[PATCH v2] ARM: rockchip: add reboot notifier
+
+
+[PATCHSET v2 cgroup/for-4.4] cgroup: make multi-process migration atomic
+[PATCH 3/5] reorder cgroup_migrate()'s parameters
+[PATCH 1/5] cpuset: migrate memory only for threadgroup leaders
+[PATCH 2/5] cgroup, memcg, cpuset: implement cgroup_taskset_for_each_leader()
+[PATCH 5/5] cgroup: make cgroup_update_dfl_csses() migrate all target processes atomically
+[PATCH 4/5] cgroup: separate out taskset operations from cgroup_migrate()
+
+
+[RFC v3 0/4] iio: new chemical sensor framework and channel types
+[RFC v3 1/4] iio: chemical: Add IIO_CONCENTRATION channel type
+[RFC v3 3/4] devicetree: add SGX Sensortech vendor id
+[RFC v3 4/4] iio: chemical: add SGX VZ89x VOC sensor support
+[RFC v3 2/4] iio: resistance: add IIO_RESISTANCE channel type
+
+
+[GIT PULL] kbuild core changes for v4.3-rc1
+
+
+[PATCH V3] mmc: block: Add new ioctl to send multi commands
+
+
+[PATCH v2 0/3] ARM: uniphier: add outer cache support and rework SMP operations
+[PATCH v2 3/3] ARM: dts: uniphier: add outer cache controller nodes
+[PATCH v2 2/3] ARM: uniphier: rework SMP operations to use trampoline code
+[PATCH v2 1/3] ARM: uniphier: add outer cache support
+
+
+[PATCH] x86: Fix gfp flags for coherent DMA memory allocation
+
+
+[PATCH] fsl/powerpc/b4860: Removed LIODN register from sRIO node
+
+
+[PATCH v2] arm/ls1021a: Add Sleep feature for ls1021
+
+
+[PATCH] ARM: ls1021a: Add dma-coherent property for eTSEC nodes
+
+
+[PATCH 01/16] Staging: speakup: varhandlers.c: Remove explicit NULL comparison
+[PATCH 03/16] Staging: speakup: serialio.c: Remove explicit NULL comparison
+[PATCH 04/16] Staging: speakup: kobjects.c: Remove explicit NULL comparison
+[PATCH 02/16] Staging: speakup: devsynth.c: Remove explicit NULL comparison
+
+
+linux-next: Tree for Sep 14
+
+
+[PATCH v5 0/4] iio: new chemical sensor framework and channel types
+[PATCH v5 4/4] iio: chemical: add SGX VZ89x VOC sensor support
+[PATCH v5 1/4] iio: chemical: Add IIO_CONCENTRATION channel type
+[PATCH v5 2/4] iio: resistance: add IIO_RESISTANCE channel type
+[PATCH v5 3/4] devicetree: add SGX Sensortech vendor id
+
+
+[PATCH 0/4] vhost test fixes
+[PATCH 1/4] tools/virtio: fix build after 4.2 changes
+[PATCH 2/4] vhost: move features to core
+[PATCH 4/4] virtio: introduce avail cache
+[PATCH 3/4] tools/virtio: propagate V=X to kernel build
+
+
+[PATCH] ARM: at91: at91sam9n12ek: disable i2c1
+
+
+[PATCH v2 0/9] phy: use syscon framework APIs to set ctrl mod reg
+[PATCH v2 2/9] phy: ti-pipe3: move clk initialization to a separate function
+[PATCH v2 4/9] phy: ti-pipe3: move mem resource initialization to a separate function
+[PATCH v2 8/9] phy: omap-usb2: use omap_usb_power_off to power off the PHY during probe
+[PATCH v2 9/9] phy: omap-usb2: use *syscon* framework API to power on/off the PHY
+[PATCH v2 3/9] phy: ti-pipe3: move sysctrl initialization to a separate function
+[PATCH v2 7/9] phy: ti-pipe3: use *syscon* framework API to set PCS value of the PHY
+[PATCH v2 6/9] phy: ti-pipe3: use *syscon* framework API to power on/off the PHY
+[PATCH v2 1/9] phy: ti-pipe3: introduce local struct device* in probe
+[PATCH v2 5/9] phy: ti-pipe3: use ti_pipe3_power_off to power off the PHY during probe
+
+
+[git pull] IOMMU Updates for Linux v4.3
+
+
+[PATCH 1/2 v2] airo: fix IW_AUTH_ALG_OPEN_SYSTEM
+[PATCH 2/2] airo: Implement netif_carrier_on/off
+
+
+[PATCH 1/7] f2fs: reorganize f2fs_map_blocks
+
+
+[PATCH] ASoC: mediatek: Increase periods_min in capture
+
+
+[PATCH 1/2] arm64: dts: qcom: 8x16: Add UART1 configuration nodes
+[PATCH 2/2] arm64: dts: qcom: 8x16: UART2 use DMA for RX and TX
+
+
+[PATCH] drm/nouveau: fix memory leak
+
+
+[PATCH 07/16] Staging: lustre: libcfs: libcfs_lock.c: Remove explicit NULL comparison
+[PATCH 08/16] Staging: lustre: libcfs: libcfs_mem.c: Remove explicit NULL comparison
+[PATCH 10/16] Staging: lustre: obdclass: genops.c: Remove explicit NULL comparison
+[PATCH 09/16] Staging: lustre: obdclass: obd_config.c: Remove explicit NULL comparison
+
+
+[PATCH net] openvswitch: Fix dependency on IPv6 defrag.
+
+
+[PATCH 0/2] toshiba_acpi: Hotkey updates
+[PATCH 1/2] toshiba_acpi: Unify hotkey enabling functions
+[PATCH 2/2] toshiba_acpi: Change default Hotkey enabling value
+
+
+[GIT PULL] Thermal-SoC management updates for v4.3-rc2
+
+
+[PATCH] lib/dynamic_debug.c: use kstrdup_const
+
+
+[PATCH v2] Cleanup: membarrier selftest
+
+
+[GIT PULL] pwm: Changes for v4.3-rc1
+
+
+[Patch V2] xen: use correct type for HYPERVISOR_memory_op()
+
+
+[PATCH 1/3] perf probe: Free perf probe event in cleanup_perf_probe_events()
+[PATCH 3/3] perf probe: Move init/exit_probe_symbol_maps() into callers
+[PATCH 2/3] perf probe: Export init/exit_probe_symbol_maps()
+
+
+[PATCH 00/01] kdbus: Eliminate warning caused by lack of
+ uapi/linux/kdbus.h inclusion
+[PATCH 01/01] kdbus: Eliminate warning caused by lack of
+ uapi/linux/kdbus.h inclusion
+
+
+[PATCH 1/2] staging: dgap: fix possible NULL dereference
+[PATCH 2/2] staging: dgap: remove unused variable
+
+
+[PATCH] [v2] inotify: actually check for invalid bits in sys_inotify_add_watch()
+
+
+[RFC][PATCH] mm: make zbud znd zpool to depend on zswap
+
+
+[PATCH] crypto: sun4i-ss Fix a possible driver hang with ciphers
+
+
+[PATCH v3 1/2] mfd: arizona: Add register bits to support the ANC block
+[PATCH v3 2/2] ASoC: wm5110: Add DAPM/routing hookup for the ANC block
+
+
+[PATCH] [v2] intel_pstate: Fix user input of min/max to legal policy region
+
+
+[tip:perf/core] tools lib api fs:
+  Make tracing_path_strerror_open message generic
+
+
+[PATCH 3.12 31/33] netfilter: nf_conntrack: don't release a conntrack with non-zero refcnt
+[PATCH 3.12 14/33] net: Fix skb_set_peeked use-after-free bug
+[PATCH 3.12 07/33] net/tipc: initialize security state for new connection socket
+[PATCH 3.12 17/33] ipv6: lock socket in ip6_datagram_connect()
+[PATCH 3.12 22/33] net/mlx4_core: Fix wrong index in propagating port change event to VFs
+[PATCH 3.12 03/33] ipv6: Make MLD packets to only be processed locally
+[PATCH 3.12 08/33] bridge: mdb: zero out the local br_ip variable before use
+[PATCH 3.12 32/33] PCI: Add dev_flags bit to access VPD through function 0
+[PATCH 3.12 05/33] rtnetlink: verify IFLA_VF_INFO attributes before passing them to driver
+[PATCH 3.12 06/33] ip_tunnel: fix ipv4 pmtu check to honor inner ip header df
+[PATCH 3.12 18/33] bonding: fix destruction of bond with devices different from arphrd_ether
+[PATCH 3.12 10/33] net: do not process device backlog during unregistration
+[PATCH 3.12 09/33] net: pktgen: fix race between pktgen_thread_worker() and kthread_stop()
+[PATCH 3.12 11/33] net: call rcu_read_lock early in process_backlog
+[PATCH 3.12 25/33] cifs: Send a logoff request before removing a smb session
+[PATCH 3.12 13/33] net: Fix skb csum races when peeking
+[PATCH 3.12 23/33] rds: fix an integer overflow test in rds_info_getsockopt()
+[PATCH 3.12 16/33] isdn/gigaset: reset tty->receive_room when attaching ser_gigaset
+[PATCH 3.12 04/33] net: graceful exit from netif_alloc_netdev_queues()
+[PATCH 3.12 28/33] dm cache mq: fix memory allocation failure for large cache devices
+[PATCH 3.12 30/33] netfilter: nf_conntrack: fix RCU race in nf_conntrack_find_get
+[PATCH 3.12 21/33] netlink: don't hold mutex in rcu callback when releasing mmapd ring
+[PATCH 3.12 24/33] mtip32xx: dynamically allocate buffer in debugfs functions
+[PATCH 3.12 15/33] bridge: mdb: fix double add notification
+[PATCH 3.12 26/33] lpfc: Fix scsi prep dma buf error.
+[PATCH 3.12 27/33] bio: fix argument of __bio_add_page() for max_sectors > 0xffff
+[PATCH 3.12 12/33] net: Clone skb before setting peeked flag
+[PATCH 3.12 20/33] inet: frags: fix defragmented packet's IP header for af_packet
+[PATCH 3.12 19/33] bonding: correct the MAC address for "follow" fail_over_mac policy
+[PATCH 3.12 33/33] PCI: Add VPD function 0 quirk for Intel Ethernet devices
+[PATCH 3.12 02/33] drm/radeon: fix hotplug race at startup
+[PATCH 3.12 29/33] aio: fix reqs_available handling
+
+
+[PATCH v1] mm: migrate: hugetlb: putback destination hugepage to
+ active list
+
+
+[PATCH v6 2/5] thermal: power_allocator: relax the requirement of a sustainable_power in tzp
+[PATCH v6 0/5] Let the power allocator thermal governor run on any thermal zone
+[PATCH v6 4/5] thermal: power_allocator: don't require tzp to be present for the thermal zone
+[PATCH v6 3/5] thermal: power_allocator: relax the requirement of two passive trip points
+[PATCH v6 5/5] thermal: power_allocator: exit early if there are no cooling devices
+[PATCH v6 1/5] thermal: Add a function to get the minimum power
+
+
+[tip:perf/core] perf tests:
+  Stop reading if objdump output crossed sections
+
+
+[PATCH 2.6.32 25/62] lguest: fix out-by-one error in address checking.
+[PATCH 2.6.32 27/62] x86_64: Fix strnlen_user() to not touch memory after
+ specified maximum
+[PATCH 2.6.32 06/62] eCryptfs: Remove buggy and unnecessary write in file
+ name decode routine
+[PATCH 2.6.32 18/62] s390/hibernate: fix save and restore of kernel text
+ section
+[PATCH 2.6.32 31/62] include/linux/sched.h: dont use task->pid/tgid in
+ same_thread_group/has_group_leader_pid
+[PATCH 2.6.32 55/62] s390/process: fix sfpc inline assembly
+[PATCH 2.6.32 58/62] dccp: fix auto-loading of dccp(_probe)
+[PATCH 2.6.32 21/62] md/raid5: dont record new size if resize_stripes
+ fails.
+[PATCH 2.6.32 23/62] jbd2: fix r_count overflows leading to buffer overflow
+ in journal recovery
+[PATCH 2.6.32 39/62] cx24116: fix a buffer overflow when checking userspace
+ params
+[PATCH 2.6.32 11/62] udf: Check path length when reading symlink
+[PATCH 2.6.32 32/62] __ptrace_may_access() should not deny sub-threads
+[PATCH 2.6.32 13/62] Remove repeated loads blocksize
+[PATCH 2.6.32 24/62] sd: Disable support for 256 byte/sector disks
+[PATCH 2.6.32 45/62] ext4: fix race between truncate and
+ __ext4_journalled_writepage()
+[PATCH 2.6.32 14/62] udf: Check length of extended attributes and
+ allocation descriptors
+[PATCH 2.6.32 08/62] udf: Verify i_size when loading inode
+[PATCH 2.6.32 19/62] ptrace: fix race between ptrace_resume() and
+ wait_task_stopped()
+[PATCH 2.6.32 17/62] powerpc: Fix missing L2 cache size in
+ /sys/devices/system/cpu
+[PATCH 2.6.32 41/62] staging: vt6655: device_rx_srv check sk_buff is NULL
+[PATCH 2.6.32 28/62] tracing: Have filter check for balanced ops
+[PATCH 2.6.32 34/62] MIPS: Fix race condition in lazy cache flushing.
+[PATCH 2.6.32 62/62] ipv6: Fix return of xfrm6_tunnel_rcv()
+[PATCH 2.6.32 51/62] tracing/filter: Do not WARN on operand count going
+ below zero
+[PATCH 2.6.32 47/62] nfs: increase size of EXCHANGE_ID name string buffer
+[PATCH 2.6.32 36/62] MIPS: Octeon: Delete override of
+ cpu_has_mips_r2_exec_hazard.
+[PATCH 2.6.32 54/62] mm: avoid setting up anonymous pages into file mapping
+[PATCH 2.6.32 09/62] udf: Verify symlink size before loading it
+[PATCH 2.6.32 57/62] x86/xen: Probe target addresses in set_aliased_prot()
+ before the hypercall
+[PATCH 2.6.32 22/62] powerpc: Align TOC to 256 bytes
+[PATCH 2.6.32 30/62] x86/reboot: Fix a warning message triggered by
+ stop_other_cpus()
+[PATCH 2.6.32 26/62] fs, omfs: add NULL terminator in the end up the token
+ list
+[PATCH 2.6.32 20/62] memstick: mspro_block: add missing curly braces
+[PATCH 2.6.32 02/62] sg_start_req(): make sure that theres not too many
+ elements in iovec
+[PATCH 2.6.32 38/62] s5h1420: fix a buffer overflow when checking userspace
+ params
+[PATCH 2.6.32 05/62] netlink: fix possible spoofing from non-root processes
+[PATCH 2.6.32 12/62] udf: Check component length before reading it
+[PATCH 2.6.32 35/62] MIPS: Fix cpu_has_mips_r2_exec_hazard.
+[PATCH 2.6.32 61/62] dmaengine: fix missing cnt in ?: in dmatest
+[PATCH 2.6.32 52/62] tracing/filter: Do not allow infix to exceed end of
+ string
+[PATCH 2.6.32 16/62] e1000: add dummy allocator to fix race condition
+ between mtu change and netpoll
+[PATCH 2.6.32 33/62] MIPS: Octeon: Remove udelay() causing huge IRQ latency
+[PATCH 2.6.32 50/62] mm: kmemleak: allow safe memory scanning during
+ kmemleak disabling
+[PATCH 2.6.32 15/62] udp: fix behavior of wrong checksums
+[PATCH 2.6.32 29/62] sctp: Fix race between OOTB responce and route removal
+[PATCH 2.6.32 37/62] hrtimer: Allow concurrent hrtimer_start() for self
+ restarting timers
+[PATCH 2.6.32 43/62] SUNRPC: Fix a memory leak in the backchannel code
+[PATCH 2.6.32 44/62] dmaengine: mv_xor: bug fix for racing condition in
+ descriptors cleanup
+[PATCH 2.6.32 42/62] fixing infinite OPEN loop in 4.0 stateid recovery
+[PATCH 2.6.32 60/62] dccp: catch failed request_module call in dccp_probe
+ init
+[PATCH 2.6.32 48/62] ext4: call sync_blockdev() before invalidate_bdev() in
+ put_super()
+[PATCH 2.6.32 40/62] pktgen: adjust spacing in proc file interface output
+[PATCH 2.6.32 56/62] libata: increase the timeout when setting transfer
+ mode
+[PATCH 2.6.32 46/62] Disable write buffering on Toshiba ToPIC95
+[PATCH 2.6.32 03/62] crypto: testmgr - update LZO compression test vectors
+[PATCH 2.6.32 04/62] TTY: drop driver reference in tty_open fail path
+[PATCH 2.6.32 01/62] pipe: iovec: Fix memory corruption when retrying
+ atomic copy as non-atomic
+[PATCH 2.6.32 07/62] HID: fix a couple of off-by-ones
+[PATCH 2.6.32 49/62] NET: ROSE: Dont dereference NULL neighbour pointer.
+[PATCH 2.6.32 53/62] fuse: initialize fc->release before calling it
+
+
+[tip:perf/core] perf test: Add entry to test cpu topology
+
+
+[PATCH 10/10] mm/mremap: Use offset_in_page macro
+[PATCH 07/10] mm/mlock: Use offset_in_page macro
+[PATCH 01/10] mm/msync: Use offset_in_page macro
+[PATCH 08/10] mm/vmalloc: Use offset_in_page macro
+[PATCH 02/10] mm/nommu: Use offset_in_page macro
+[PATCH 04/10] mm/early_ioremap: Use offset_in_page macro
+[PATCH 05/10] mm/percpu: Use offset_in_page macro
+[PATCH 06/10] mm/util: Use offset_in_page macro
+[PATCH 09/10] mm/mmap: Use offset_in_page macro
+[PATCH 03/10] mm/mincore: Use offset_in_page macro
+
+
+[tip:x86/headers] x86/headers: Unify 'struct _fpstate_ia32'
+  and i386 struct _fpstate
+
+
+[PATCH 13/13] Re-enable and clean up "check_config()" in headers_check.pl
+[PATCH 04/13] Always expose MAP_UNINITIALIZED to userspace
+[PATCH 01/13] Remove #ifdef CONFIG_64BIT from all asm-generic/fcntl.h
+[PATCH 03/13] Move COMPAT_ATM_ADDPARTY to net/atm/svc.c
+[PATCH 09/13] Move bp_type_idx to kernel/event/hw_breakpoint.c
+[PATCH 11/13] Always define MAX_RAW_MINORS as 65535 in userspace
+[PATCH 06/13] Move ep_take_care_of_epollwakeup() to fs/eventpoll.c
+[PATCH 05/13] Split FDPIC "struct elf_prstatus" to "struct elf_fdpic_prstatus"
+[PATCH 08/13] Move MAX_SHARED_LIBS to fs/binfmt_flat.c
+[PATCH 02/13] Use sys_ni.c instead of #ifdef to disable fork on CONFIG_NOMMU
+[PATCH 07/13] Make FB_BACKLIGHT_{LEVELS,MAX} always visible
+[PATCH 12/13] Remove AT_VECTOR_SIZE_ARCH on x86
+[PATCH 10/13] Move USE_WCACHING to drivers/block/pktcdvd.c
+
+
+[PATCH 06/16] PM / OPP: Create separate structure for regulator/supplies
+[PATCH 12/16] PM / OPP: Parse clock and voltage tolerance for v1 bindings
+[PATCH 02/16] PM / OPP: Add 'opp-microvolt-triplets' binding
+[PATCH 16/16] PM / OPP: don't print error message for deferred probing
+[PATCH 01/16] PM / OPP: Add 'supply-names' binding
+[PATCH 05/16] PM / OPP: Parse all power-supply related bindings together
+[PATCH 09/16] PM / OPP: Disable OPPs that aren't supported by the regulators
+[PATCH 15/16] PM / OPP: Add dev_pm_opp_set_rate()
+[PATCH 10/16] PM / OPP: Introduce dev_pm_opp_get_max_volt_latency()
+[PATCH 13/16] PM / OPP: Manage device clk as well
+[PATCH 08/16] PM / OPP: get/put regulators from OPP core
+[PATCH 04/16] PM / OPP: Rename routines specific to old bindings with _v1
+[PATCH 03/16] PM / OPP: Improve debug print messages with pr_fmt
+[PATCH 11/16] PM / OPP: Introduce dev_pm_opp_get_max_transition_latency()
+[PATCH 14/16] PM / OPP: Add dev_pm_opp_set_regulator() to specify regulator
+[PATCH 07/16] PM / OPP: Add multiple regulators support
+
+
+[tip:irq/urgent] genirq:
+  Update the comment for generic_handle_irq_desc
+
+
+[PATCH 0/2] Fix how CPUs are enumerated when there's more than 255 CPUs
+[PATCH 1/2] acpi: Added acpi_subtable_proc to ACPI table parsers
+
+
+[PATCH 5/7] crypto: talitos replace sg_count with sg_nents_for_len2
+[PATCH 1/7] crypto: bfin: replace sg_count by sg_nents
+[PATCH 3/7] crypto: sahara replace sahara_sg_length with sg_nents_for_len
+[PATCH 6/7] crypto: qce replace qce_countsg with sg_nents_for_len2
+[PATCH 7/7] crypto: caam replace __sg_count with sg_nents_for_len2
+[PATCH 2/7] crypto: amcc replace get_sg_count by sg_nents_for_len
+[PATCH 4/7] lib: introduce sg_nents_for_len2
+
+
+[PATCH 5/5] virtgpu: mark as a render gpu
+[PATCH 3/5] update virtio gpu driver: add 3d/virgl support
+[PATCH 1/5] virtio-gpu: add virtio_gpu_queue_ctrl_buffer_nolock
+[PATCH 2/5] virtio-gpu: add & use virtio_gpu_queue_fenced_ctrl_buffer
+[PATCH 4/5] virtio_gpu: add basic prime support
+
+
+[tip:perf/core] powerpc, perf/powerpc/hv-24x7:
+  Use PMU_TXN_READ interface
+
+
+[tip:x86/headers] x86/headers:
+  Separate out legacy user-space structure definitions
+
+
+[PATCH 2/2] ARM: domains: add memory dependencies to
+ get_domain/set_domain
+[PATCH 1/2] ARM: domains: thread_info.h no longer needs asm/domains.h
+
+
+[tip:x86/fpu] x86/fpu: Remove XSTATE_RESERVE
+
+
+[tip:core/efi] arm64, acpi/apei:
+  Implement arch_apei_get_mem_attributes()
+
+
+[tip:perf/core] perf/x86/intel/bts:
+  Disallow use by unprivileged users on paranoid systems
+
+
+[tip:x86/headers] x86/headers:
+  Convert uses of _fpstate_ia32 to _fpstate_32
+
+
+[tip:x86/fpu] x86/fpu: Print xfeature buffer size in decimal
+
+
+[tip:perf/core] perf tools:
+  Move tracing_path stuff under same namespace
+
+
+[tip:perf/core] perf probe: Print deleted events in cmd_probe()
+
+
+[tip:perf/core] perf tools:
+  Switch to tracing_path interface on appropriate places
+
+
+Applied "regulator: bcm590xx: Remove unneeded semicolon" to the regulator tree
+Applied "regulator: da9063: Remove unneeded semicolon" to the regulator tree
+Applied "regmap: Allocate buffers with GFP_ATOMIC when fast_io == true" to the regmap tree
+[PATCH] ARM: pgtable: Fix typo in the comment
+
+
+[tip:sched/core] sched/fair: Fix nohz.next_balance update
+
+
+[tip:perf/core] x86/insn: perf tools:
+  Add new memory protection keys instructions
+
+
+[tip:perf/core] perf tools: Always use non inlined file name for 
+ 'srcfile' sort key
+
+
+[tip:perf/core] perf/x86/intel/bts: Set event->
+ hw.itrace_started in pmu::start to match the new logic
+
+
+[tip:x86/fpu] x86/fpu: Add xfeature_enabled()
+  helper instead of test_bit()
+
+
+[tip:perf/core] tools lib api fs:
+  Move tracing_path interface into api/fs/tracing_path.c
+
+
+[PATCH 09/13] perf event: Use machine->env to find the cpu -> socket mapping
+[PATCH 13/13] Revert "perf evlist: Add backpointer for perf_env to evlist"
+[PATCH 11/13] Revert "perf evsel: Add a backpointer to the evlist a evsel is in"
+[PATCH 04/13] perf env: Introduce read_cpu_topology_map() method
+[PATCH 12/13] perf evsel: Remove forward declaration of 'struct perf_evlist'
+[PATCH 03/13] perf env: Adopt perf_header__set_cmdline
+[PATCH 06/13] perf top: Cache the cpu topology info when "-s socket" is used
+[PATCH 02/13] perf env: Rename some leftovers from rename to perf_env
+[PATCH 05/13] perf sort: Set flag stating if the "socket" key is being used
+[PATCH 01/13] perf env: Move perf_env out of header.h and session.c into separate object
+[PATCH 07/13] perf hists browser: Fixup the "cpu" column width calculation
+[PATCH 10/13] perf report: Do not blindly use env->cpu[al.cpu].socket_id
+[PATCH 08/13] perf machine: Add pointer to sample's environment
+
+
+[PATCH 06/13] Hide ep_take_care_of_epollwakeup() behind #ifdef __KERNEL__
+[PATCH 12/13] Hide AT_VECTOR_SIZE_ARCH behind #ifdef __KERNEL__
+[PATCH 09/13] Hide bp_type_idx behind #ifdef __KERNEL__
+[PATCH 08/13] Hide MAX_SHARED_LIBS behind #ifdef __KERNEL__
+[PATCH 05/13] Hide some of "struct elf_prstatus" behind #ifdef __KERNEL__
+[PATCH 01/13] Remove #ifdef CONFIG_64BIT from all asm-generic/fcntl.h
+[PATCH 11/13] Hide MAX_RAW_MINORS behind #ifdef __KERNEL__
+[PATCH 07/13] Make FB_BACKLIGHT_{LEVELS,MAX} always visible
+[PATCH 13/13] Re-enable and clean up "check_config()" in headers_check.pl
+[PATCH 02/13] Always expose __SYSCALL(... fork ...)
+[PATCH 03/13] Hide COMPAT_ATM_ADDPARTY behind #ifdef __KERNEL__
+[PATCH 10/13] Hide USE_WCACHING behind #ifdef __KERNEL__
+[PATCH 04/13] Always expose MAP_UNINITIALIZED to userspace
+
+
+[tip:perf/core] perf tests: Make objdump disassemble zero blocks
+
+
+[tip:sched/core] sched/fair: Defer calling scaling functions
+
+
+[tip:x86/headers] x86/headers:
+  Make sigcontext pointers bit independent
+
+
+[tip:perf/core] tools lib api fs: Add FSTYPE__configured() method
+
+
+GFS2: Pull request (merge window)
+
+
+[tip:sched/core] sched/fair:
+  Name utilization related data and functions consistently
+
+
+[PATCH 1/1] hwmon: coretemp: use dynamically allocated array to store per core data
+
+
+[tip:perf/core] perf/core: Invert perf_read_group() loops
+
+
+[tip:locking/core] locking/qspinlock/x86:
+  Fix performance regression under unaccelerated VMs
+
+
+[PATCH] fix ufs write vs. readpage race when writing into a hole
+
+
+[tip:perf/core] perf tests: Print objdump/dso buffers if they don
+ 't match
+
+
+[tip:x86/fpu] x86/fpu:
+  Check CPU-provided sizes against struct declarations
+
+
+[tip:perf/core] perf/core: Drop PERF_EVENT_TXN
+
+
+[tip:x86/urgent] x86/ldt: Fix small LDT allocation for Xen
+
+
+[tip:sched/core] sched/fair:
+  Initialize task load and utilization before placing task on rq
+
+
+[PATCH 2/3] drivers:hv: Export the API to invoke a hypercall on Hyper-V
+[PATCH 3/3] drivers:hv: Define the channel type for Hyper-V PCI Express pass-through
+
+
+[PATCH 3/3] ARM: bcm2835: Add the auxiliary clocks to the device tree.
+[PATCH 1/3] clk: bcm2835: Add bindings for the auxiliary peripheral clock gates.
+[PATCH 2/3] clk: bcm2835: Add a driver for the auxiliary peripheral clock gates.
+
+
+[tip:sched/core] sched/fair: Unify switched_{from,to}_fair()
+  and task_move_group_fair()
+
+
+[tip:x86/headers] x86/headers: Unify 'struct sigcontext_ia32'
+  and 'struct sigcontext_32'
+
+
+[tip:perf/core] perf report: Introduce --socket-filter option
+
+
+[PATCH v2 4/5] seccomp: add a way to access filters via bpf fds
+[PATCH v2 5/5] seccomp: add a way to attach a filter via eBPF fd
+[PATCH v2 2/5] seccomp: make underlying bpf ref counted as well
+[PATCH v2 3/5] ebpf: add a way to dump an eBPF program
+[PATCH v2 1/5] ebpf: add a seccomp program type
+
+
+[tip:irq/urgent] irqchip/renesas-irqc:
+  Use a separate lockdep class
+
+
+[RFC PATCH v4 2/3] vfio: platform: access device property as a list of strings
+[RFC PATCH v4 1/3] vfio: platform: add device properties skeleton and user API
+[RFC PATCH v4 3/3] vfio: platform: return device properties as arrays of unsigned integers
+
+
+[tip:x86/headers] x86/headers:
+  Convert sigcontext_ia32 uses to sigcontext_32
+
+
+[tip:perf/core] tools lib api fs:
+  Move SYSFS_MAGIC PROC_SUPER_MAGIC into fs.c
+
+
+[tip:x86/headers] x86/headers: Clean up the kernel'
+ s struct sigcontext types to be ABI-clean
+
+
+[PATCH v4 1/2] acpi: Added acpi_subtable_proc to ACPI table parsers
+[PATCH v4 2/2] x86, acpi: Handle apic/x2apic entries in MADT in correct order
+[PATCH v4 0/2] Fix how CPUs are enumerated when there's more than 255 CPUs
+
+
+[tip:x86/fpu] x86/fpu:
+  Correct and check XSAVE xstate size calculations
+
+
+[tip:irq/urgent] irqchip/GICv2m:
+  Fix GICv2m build warning on 32 bits
+
+
+[tip:perf/core] tools lib traceevent:
+  Support function __get_dynamic_array_len
+
+
+[tip:x86/fpu] x86/fpu: Remove partial LWP support definitions
+
+
+[tip:perf/core] perf session: Don't call dump_sample()
+  when evsel is NULL
+
+
+[PATCH v2 1/2] KVM: nVMX: enhance allocate/free_vpid to handle shadow  vpid
+[PATCH v2 2/2] KVM: nVMX: nested VPID emulation
+
+
+[PATCH 2/3] zpool/zsmalloc/zbud: align on interfaces
+[PATCH 1/3] zram: make max_zpage_size configurable
+[PATCH 3/3] zram: use common zpool interface
+
+
+[tip:sched/core] sched/numa:
+  Convert sched_numa_balancing to a static_branch
+
+
+[PATCH] x86: wmi: Remove private %pUL implementation
+
+
+[tip:x86/headers] x86/headers: Remove <asm/sigcontext.h>
+  references on the kernel side
+
+
+[PATCH v2 1/5] stmmac: replace all pr_xxx by their netdev_xxx counterpart
+[PATCH v2 2/5] stmmac: replace hardcoded function name by __func__
+[PATCH v2 4/5] stmmac: Fix simple style problem
+[PATCH v2 5/5] stmmac: replace if (netif_msg_type) by their netif_xxx counterpart
+[PATCH v2 3/5] stmmac: remove some __func__ printing
+
+
+[tip:x86/fpu] x86/fpu/mpx: Rework MPX 'xstate' types
+
+
+[tip:x86/headers] x86/headers: Clean up too long lines
+
+
+[tip:x86/headers] x86/headers:
+  Unify register type definitions between 32-bit compat and i386
+
+
+[tip:perf/core] perf tools:
+  Store the cpu socket and core ids in the perf.data header
+
+
+[PATCH v2] igb: don't unmap NULL hw_addr
+
+
+[PATCH 3/4] acpi: multi proc support
+[PATCH 2/4] x86, arm64, acpi: Added acpi_subtable_proc
+[PATCH 4/4] x86, acpi: Handle apic/x2apic entries in MADT in correct order
+
+
+[PATCH 03/11] x86/intel_rdt: Cache Allocation documentation
+[PATCH 09/11] x86/intel_rdt: Intel haswell Cache Allocation enumeration
+[PATCH 08/11] x86/intel_rdt: Hot cpu support for Cache Allocation
+[PATCH 05/11] x86/intel_rdt: Add Class of service management
+[PATCH 04/11] x86/intel_rdt: Add support for Cache Allocation detection
+[PATCH 11/11] x86,cgroup/intel_rdt : Add a cgroup interface to manage Intel cache allocation
+[PATCH 07/11] x86/intel_rdt: Implement scheduling support for Intel RDT
+[PATCH 06/11] x86/intel_rdt: Add L3 cache capacity bitmask management
+[PATCH 02/11] x86/intel_rapl: Modify hot cpu notification handling
+[PATCH 01/11] x86/intel_cqm: Modify hot cpu notification handling
+[PATCH 10/11] x86,cgroup/intel_rdt : Add intel_rdt cgroup documentation
+
+
+[tip:x86/headers] x86/headers:
+  Use ABI types consistently in sigcontext*.h
+
+
+[tip:perf/core] perf tools:
+  Add processor socket info to hist_entry and addr_location
+
+
+[tip:perf/core] tools lib api fs: Replace debugfs/
+ tracefs objects interface with fs.c
+
+
+[tip:perf/core] perf tests:
+  Take into account address of each objdump line
+
+
+[PATCH 2/2] kconfig/merge_config.sh: Accept a single file
+
+
+[PATCH v3 1/6] mfd: arizona: Add TST_CAP bits for headphone
+ detection
+
+
+[Bugfix] PCI, x86: Correctly allocate IRQs for PCI devices managed by non-PCI drivers
+
+
+[PATCH] mv643xx_eth: Neaten mv643xx_eth_program_multicast_filter
+
+
+[PATCH 3/4] crypto: [sha] glue code for Intel SHA extensions
+ optimized SHA1 & SHA256
+[PATCH 4/4] crypto: [sha] Add build support for Intel SHA
+ Extensions optimized SHA1 and SHA256
+[PATCH 1/4] crypto: [sha] Intel SHA Extensions optimized SHA1
+ transform function
+[PATCH 2/4] crypto: [sha] Intel SHA Extensions optimized SHA256
+ transform function
+
+
+[tip:perf/core] x86/insn: perf tools: Add new memory instructions
+
+
+Crypto Fixes for 4.3
+
+
+[tip:perf/core] perf probe: Split add_perf_probe_events()
+
+
+[tip:sched/core] sched/fair: Have task_move_group_fair()
+  unconditionally add the entity load to the runqueue
+
+
+[tip:core/efi] acpi/apei:
+  Use appropriate pgprot_t to map GHES memory
+
+
+[tip:perf/core] perf/x86: Improve accuracy of perf/sched clock
+
+
+[tip:x86/fpu] x86/fpu:
+  Add C structures for AVX-512 state components
+
+
+[PATCH v2] crypto/testmgr: don't copy from source IV too much
+
+
+[PATCH 2/5] hv: add helpers to handle hv_util device state
+[PATCH 3/5] hv: fcopy: use wrappers to propagate state
+[PATCH 5/5] hv: vss: use wrappers to propagate state
+[PATCH 4/5] hv: kvp: use wrappers to propaigate state
+
+
+[tip:perf/core] perf intel-pt: Add support for PERF_RECORD_SWITCH
+
+
+[tip:perf/core] x86/insn: perf tools: Add new SHA instructions
+
+
+[tip:x86/fpu] x86/fpu: Rework YMM definition
+
+
+[tip:perf/core] perf test: Add entry for hists socket filter
+
+
+[PATCH 1/2] x86, perf: Add PEBS frontend profiling for Skylake
+[PATCH 2/2] x86, perf: Fix Skylake FRONTEND MSR extrareg mask
+
+
+[tip:perf/core] perf/core: Split perf_event_read()
+  and perf_event_count()
+
+
+[PATCH v2] perf tools: Fix segfault in 'perf top'
+
+
+[tip:perf/core] perf tools:
+  Add a test for decoding of new x86 instructions
+
+
+[tip:x86/headers] x86/headers: Clean up uapi/asm/sigcontext32.h
+
+
+[tip:irq/urgent] irqchip/gic-v3-its: Add missing cache flushes
+
+
+[tip:irq/urgent] irqchip/GIC: Add workaround for aliased GIC400
+
+
+[tip:perf/core] perf tools: Copy linux/filter.h to tools/include
+
+
+[tip:locking/core] locking/atomics, cmpxchg:
+  Privatize the inclusion of asm/cmpxchg.h
+
+
+[PATCH 1/4] acpi: rename acpi_table_parse_entries
+[PATCH 0/4] Fix how CPUs are enumerated when there's more than 255 CPUs
+
+
+[PATCH 1/1] fs: global sync to not clear error status of individual
+ inodes
+
+
+[PATCH] xhci: create one unified function to calculate TRB TD remainder.
+
+
+[tip:perf/urgent] perf header:
+  Fixup reading of HEADER_NRCPUS feature
+
+
+[PATCH] sched: make policy-testing consistent in core
+
+
+[tip:x86/headers] x86/headers: Remove direct sigcontext32.h uses
+
+
+[tip:perf/core] tools lib api fs:
+  Add STR and PATH_MAX macros to fs object
+
+
+[PATCH 4/4] devicetree: bindings:Allwinner sun4i keypad
+[PATCH 3/4] input: Add new sun4i-keypad driver
+[PATCH 1/4] ARM:dts:sun7i: Add keypad clk node
+[PATCH 2/4] ARM: dts: sun7i: Add keypad node to Allwinner A20 SoC
+
+
+[tip:sched/core] sched/fair: Convert arch_scale_cpu_capacity()
+  from weak function to #define
+
+
+[PATCH 2/2] deps: avoid multiple calls to memmove by just setting duplicates to 0
+[PATCH 1/2] deps: parallel initialization of (device-)drivers
+
+
+[tip:perf/core] perf/core: Add return value for perf_event_read()
+
+
+[tip:perf/core] perf/core: Add group reads to perf_event_read()
+
+
+[tip:sched/core] sched/fair: Have task_move_group_fair()
+  also detach entity load from the old runqueue
+
+
+[PATCH v3] zram: fix possible use after free in zcomp_create()
+
+
+[tip:perf/core] perf/x86/intel:
+  Fix LBR callstack issue caused by FREEZE_LBRS_ON_PMI
+
+
+[PATCH] rnndb: Add Pixel Extension registers
+
+
+[PATCH 1/1] rcu_sync: Cleanup the CONFIG_PROVE_RCU checks
+
+
+[tip:irq/urgent] powerpc, irq:
+  Use access helper irq_data_get_affinity_mask()
+
+
+[PATCH] tty: fix data race in tty_buffer_flush
+
+
+[tip:perf/core] perf tools:
+  Remove mountpoint arg from perf_debugfs_mount
+
+
+[tip:perf/core] perf/x86/intel/ds:
+  Work around BTS leaking kernel addresses
+
+
+[tip:x86/fpu] x86/fpu: Move XSAVE-disabling code to a helper
+
+
+[tip:x86/headers] x86/headers: Move the 'struct sigcontext'
+  definitions into the UAPI header
+
+
+[tip:sched/core] sched/fair:
+  Make load tracking frequency scale-invariant
+
+
+[tip:perf/core] x86/insn: perf tools: Add new xsave instructions
+
+
+[tip:sched/core] sched/fair: Factor out the {at,
+ de}taching of the per entity load {to,from} the runqueue
+
+
+[Bugfix 0/3] Convert eata driver to a normal PCI device driver
+[Bugfix 1/3] eata: Use IDA to manage eata board IDs
+[Bugfix 2/3] eata: Implement PCI driver to manage eata PCI devices
+[Bugfix 3/3] eata: Enhance eata driver to support PCI device hot-removal
+
+
+[PATCH] ipv6: fix ifnullfree.cocci warnings
+
+
+[tip:locking/urgent] locking/static_keys: Fix a silly typo
+
+
+[tip:x86/headers] x86/headers: Fix (old)
+  header file dependency bug in uapi/asm/sigcontext32.h
+
+
+[tip:perf/core] perf/core: Add a 'flags'
+  parameter to the PMU transactional interfaces
+
+
+[tip:perf/core] perf/core: Rename perf_event_read_{one,group},
+  perf_read_hw
+
+
+[tip:perf/core] perf tools: Introduce new sort type "socket"
+  for the processor socket
+
+
+[PATCH] tty/vt: don't set font mappings on vc not supporting this
+
+
+[PATCH block/for-linus] block: don't release bdi while request_queue
+ has live references
+
+
+[tip:x86/fpu] x86/fpu: Rework XSTATE_* macros to remove magic '2'
+
+
+[PATCH 2/2] x86, acpi: Handle apic/x2apic entries in MADT in correct order
+
+
+[tip:sched/core] sched/fair:
+  Get rid of scaling utilization by capacity_orig
+
+
+[PATCH] staging/rtl8192u: remove unused function
+
+
+[PATCH] drm/msm/dsi: Updata LNn_CFG4 register settings for 28nm PHY
+
+
+[tip:x86/headers] x86/headers: Clean up and better document uapi/
+ asm/sigcontext.h
+
+
+[PATCH V3] kasan: use IS_ALIGNED in memory_is_poisoned_8()
+
+
+[tip:perf/core] perf/x86/intel/pt:
+  Fix KVM warning due to doing rdmsr() before the CPUID test
+
+
+[tip:perf/core] perf hists browser: Zoom in/
+ out for processor socket
+
+
+[tip:perf/core] sparc, perf/sparc: Remove unnecessary assignment
+
+
+[tip:irq/urgent] irqchip/renesas-intc-irqpin:
+  Use a separate lockdep class
+
+
+[tip:x86/fpu] x86/fpu/math-emu: Remove !NO_UNDOC_CODE
+
+
+[PATCH v2] kasan: Fix a type conversion error
+
+
+[HACK] nohz: improve nohz idle hadling in nohz full cores (was Re:
+ The tick when exit idle for nohz_full cpu)
+
+
+[tip:perf/core] perf stat: Quieten failed to read counter message
+
+
+[tip:x86/fpu] x86/fpu:
+  Check to ensure increasing-offset xstate offsets
+
+
+[tip:x86/fpu] x86/fpu: Remove 'xfeature_nr'
+
+
+[tip:sched/core] sched/numa:
+  Disable sched_numa_balancing on UMA systems
+
+
+[tip:perf/core] tools lib api fs:
+  Move debugfs__strerror_open into tracing_path.c object
+
+
+[tip:perf/core] perf tools: Add tools/
+ include into tags directories
+
+
+[tip:perf/core] perf/core: Define PERF_PMU_TXN_READ interface
+
+
+[tip:perf/core] perf/core:
+  Delete PF_EXITING checks from perf_cgroup_exit() callback
+[tip:sched/core] sched/core:
+  Delete PF_EXITING checks from cpu_cgroup_exit() callback
+
+
+[tip:x86/urgent] x86/apic: Serialize LVTT and TSC_DEADLINE writes
+
+
+[PATCH v3] crypto: omap-aes: Add support for GCM mode
+
+
+[tip:x86/fpu] x86/fpu: Rename XSAVE macros
+
+
+[tip:irq/urgent] irqchip/renesas-intc-irqpin:
+  Propagate wake-up settings to parent
+
+
+[tip:sched/core] sched: 'Annotate' migrate_tasks()
+
+
+[tip:perf/core] tools lib api fs: Remove debugfs,
+  tracefs and findfs objects
+
+
+[tip:x86/fpu] x86/fpu: Rename XFEATURES_NR_MAX
+
+
+[tip:perf/core] perf cpumap:
+  Factor out functions to get core_id and socket_id
+
+
+[tip:sched/core] sched/fair:
+  Make utilization tracking CPU scale-invariant
+
+
+[PATCH] kernel/resource.c: fix muxed resource handling in __request_region()
+
+
+[tip:sched/core] sched/fair: Fix switched_to_fair()'
+ s per entity load tracking
+
+
+[tip:irq/urgent] irqchip/renesas-irqc:
+  Propagate wake-up settings to parent
+
+
+[tip:perf/core] perf probe: Split del_perf_probe_events()
+
+
+[tip:perf/core] tools lib api fs: Add FSTYPE__mount() method
+
+
+[tip:perf/core] perf probe: Move print logic into cmd_probe()
+
+
+[tip:perf/core] tools lib api fs: Add debugfs into fs.c object
+
+
+[tip:perf/core] perf tests: Introduce iterator function for tests
+
+
+[tip:perf/core] tools lib api fs: Add tracefs into fs.c object
+
+
+[tip:perf/core] perf env: Introduce read_cpu_topology_map()
+  method
+
+
+[PATCH] tty: fix data race on tty_buffer.commit
+
+
+[tip:sched/core] sched/numa: Remove the NUMA sched_feature
+
+
+[tip:perf/core] perf probe:
+  Link trace_probe_event into perf_probe_event
+
+
+[tip:perf/core] x86/insn: perf tools:
+  Pedantically tweak opcode map for MPX instructions
+
+
+[tip:perf/core] perf tools:
+  Display build warning if x86 instruction decoder differs from kernel
+
+
+[tip:sched/core] sched/numa:
+  Rename numabalancing_enabled to sched_numa_balancing
+
+
+2342

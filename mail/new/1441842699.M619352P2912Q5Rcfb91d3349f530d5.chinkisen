@@ -1,0 +1,191 @@
+Return-Path: <linux-kernel-owner@vger.kernel.org>
+Delivered-To: unknown
+Received: from imap.zoho.com (74.201.154.17:993) by chinkisen with IMAP4-SSL;
+  09 Sep 2015 23:51:39 -0000
+Delivered-To: update_shen@zoho.com
+Received-SPF: Pass (zoho.com: domain of linux-kernel-owner@vger.kernel.org designates 209.132.180.67 as permitted sender using best guess )  client-ip: 209.132.180.67
+Received: from vger.kernel.org (vger.kernel.org [209.132.180.67]) by mx.zohomail.com
+	with SMTP id 1441694001315155.79607906722413; Mon, 7 Sep 2015 23:33:21 -0700 (PDT)
+Received: (majordomo@vger.kernel.org) by vger.kernel.org via listexpand
+	id S1752775AbbIHGcx (ORCPT <rfc822;update_shen@zoho.com> + 4 others);
+	Tue, 8 Sep 2015 02:32:53 -0400
+Received: from lgeamrelo01.lge.com ([156.147.1.125]:56784 "EHLO
+	lgeamrelo01.lge.com" rhost-flags-OK-OK-OK-OK) by vger.kernel.org
+	with ESMTP id S1751807AbbIHGcv (ORCPT
+	<rfc822;linux-kernel@vger.kernel.org>);
+	Tue, 8 Sep 2015 02:32:51 -0400
+Received: from unknown (HELO byungchulpark-X58A-UD3R) (10.177.222.33)
+	by 156.147.1.125 with ESMTP; 8 Sep 2015 15:32:49 +0900
+X-Original-SENDERIP: 10.177.222.33
+X-Original-MAILFROM: byungchul.park@lge.com
+Date: Tue, 8 Sep 2015 15:32:40 +0900
+From: Byungchul Park <byungchul.park@lge.com>
+To: Wanpeng Li <wanpeng.li@hotmail.com>
+Cc: Peter Zijlstra <peterz@infradead.org>,
+	Ingo Molnar <mingo@kernel.org>, linux-kernel@vger.kernel.org,
+	yuyang.du@intel.com
+Subject: Re: [PATCH] sched: fix lose fair sleeper bonus in switch_to_fair()
+Message-ID: <20150908063240.GF6455@byungchulpark-X58A-UD3R>
+References: <BLU437-SMTP673D7DC6D7C5CD73C3DE5A80540@phx.gbl>
+ <20150907140221.GZ3644@twins.programming.kicks-ass.net>
+ <BLU437-SMTP772FB074F08496419EA1F680530@phx.gbl>
+ <20150908052817.GD6455@byungchulpark-X58A-UD3R>
+ <BLU437-SMTP40DF7F2F5C048B7C3CBF8780530@phx.gbl>
+ <20150908061426.GE6455@byungchulpark-X58A-UD3R>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <20150908061426.GE6455@byungchulpark-X58A-UD3R>
+User-Agent: Mutt/1.5.21 (2010-09-15)
+Sender: linux-kernel-owner@vger.kernel.org
+Precedence: bulk
+List-ID: <linux-kernel.vger.kernel.org>
+X-Mailing-List: linux-kernel@vger.kernel.org
+X-ZohoMail: ZRCVF-DATE_1 ZCSF-700_1 SS_1 SFPD SFPP UW24682468 UB2468 ZFF-PB_1 ZMHF-MSGIDDMNPTN_1 COSF  ZCF-710TPL ODL   SGR3_1_11085_72
+X-ZohoMail-Owner: <20150908063240.GF6455@byungchulpark-X58A-UD3R>+zmo_0_<linux-kernel-owner@vger.kernel.org>
+X-ZohoMail-Sender: 156.147.1.125
+X-Zoho-Virus-Status: 2
+X-getmail-retrieved-from-mailbox: INBOX
+
+On Tue, Sep 08, 2015 at 03:14:26PM +0900, Byungchul Park wrote:
+> On Tue, Sep 08, 2015 at 01:38:08PM +0800, Wanpeng Li wrote:
+> > On 9/8/15 1:28 PM, Byungchul Park wrote:
+> > >On Tue, Sep 08, 2015 at 11:46:01AM +0800, Wanpeng Li wrote:
+> > >>On 9/7/15 10:02 PM, Peter Zijlstra wrote:
+> > >>>Please always Cc at least the person who wrote the lines you modify.
+> > >>>
+> > >>>On Mon, Sep 07, 2015 at 05:45:20PM +0800, Wanpeng Li wrote:
+> > >>>>The sleeper task will be normalized when moved from fair_sched_class, in
+> > >>>>order that vruntime will be adjusted either the task is running or sleeping
+> > >>>>when moved back. The nomalization in switch_to_fair for sleep task will
+> > >>>>result in lose fair sleeper bonus in place_entity() once the vruntime -
+> > >>>>cfs_rq->min_vruntime is big when moved from fair_sched_class.
+> > >>>>
+> > >>>>This patch fix it by adjusting vruntime just during migrating as original
+> > >>>>codes since the vruntime of the task has usually NOT been normalized in
+> > >>>>this case.
+> > >>>Sorry, I cannot follow that at all. Maybe its me being sleep deprived,
+> > >>>but could you try that again?
+> > >>When changing away from the fair class while sleeping, relative
+> > >>vruntime is calculated to handle the case sleep when moved from
+> > >>fair_sched_class and running when moved to fair_sched_class. The
+> > >i don't think relative vruntime is calculated to handle the special case
+> > >you mentioned. i think the calculation is necessary for all cases detaching
+> > 
+> > Please refer why the relative vruntime caculation is introduced to
+> > switched_from_fair(): https://lkml.org/lkml/2011/1/17/129
+> 
+> hello,
+> 
+> it is just a bug caused by not calculating a relative vruntime when
+> detached a task from cfs_rq, which is necessary though.
+> 
+> > 
+> > >a task from a cfs_rq.
+> > >
+> > >>absolute vruntime will be calculated in enqueue_entity() either the
+> > >>task is running or sleeping when moved back. The fair sleeper bonus
+> > >i think absolute vruntime is calculated in enqueue_entuty() only when the
+> > >task is on rq. therefore in the case that the task is not on rq,
+> > >switched_to_fair() has to calculate the absolute vruntime instread.
+> > 
+> > Absolute vruntime is caculated in place_entity() which is called by
+> > enqueue_entity() for DEQUEUE_SLEEP task.
+> 
+> as you may know, place_entity() is not for calculating an absolute
+> vruntime though.. anyway the important thing here is that, when a
+> sleeping task is moved back to fair class, enqueue_entity() for
+> DEQUEUE_SLEEP task won't be called.
+
+you may talk about calling enqueue_entity() when the task is woken up,
+not just when it is moved back. right? 
+
+even if yes, i think place_entity() should not be used directly for
+calculating an absolute vruntime. it should be called after non/normalizing
+operations.
+
+> 
+> thanks,
+> byungchul
+> 
+> > 
+> > Regards,
+> > Wanpeng Li
+> > 
+> > >
+> > >>should be gained in place_entity() if the task is still sleeping.
+> > >>However, after recent commit ( 23ec30ddd7c1306: 'sched: add two
+> > >>functions for att(det)aching a task to(from) a cfs_rq'), the
+> > >>absolute vruntime will be calculated in switched_to_fair(), so the
+> > >>max_vruntime() which is called in place_entity() will select the
+> > >>absolute vruntime which is calculated in switched_to_fair() as the
+> > >>se->vruntime and lose the fair sleeper bonus.
+> > >please refer my another reply, and let me know if i missed something.
+> > >
+> > >thanks,
+> > >byungchul
+> > >
+> > >>Regards,
+> > >>Wanpeng Li
+> > >>
+> > >>>>Signed-off-by: Wanpeng Li <wanpeng.li@hotmail.com>
+> > >>>>---
+> > >>>>  kernel/sched/fair.c |   11 +++++++----
+> > >>>>  1 files changed, 7 insertions(+), 4 deletions(-)
+> > >>>>
+> > >>>>diff --git a/kernel/sched/fair.c b/kernel/sched/fair.c
+> > >>>>index d26d3b7..eb9aa35 100644
+> > >>>>--- a/kernel/sched/fair.c
+> > >>>>+++ b/kernel/sched/fair.c
+> > >>>>@@ -8005,9 +8005,6 @@ static void attach_task_cfs_rq(struct task_struct *p)
+> > >>>>  	/* Synchronize task with its cfs_rq */
+> > >>>>  	attach_entity_load_avg(cfs_rq, se);
+> > >>>>-
+> > >>>>-	if (!vruntime_normalized(p))
+> > >>>>-		se->vruntime += cfs_rq->min_vruntime;
+> > >>>>  }
+> > >>>>  static void switched_from_fair(struct rq *rq, struct task_struct *p)
+> > >>>>@@ -8066,14 +8063,20 @@ void init_cfs_rq(struct cfs_rq *cfs_rq)
+> > >>>>  #ifdef CONFIG_FAIR_GROUP_SCHED
+> > >>>>  static void task_move_group_fair(struct task_struct *p)
+> > >>>>  {
+> > >>>>+	struct sched_entity *se = &p->se;
+> > >>>>+	struct cfs_rq *cfs_rq = cfs_rq_of(se);
+> > >>>>+
+> > >>>>  	detach_task_cfs_rq(p);
+> > >>>>  	set_task_rq(p, task_cpu(p));
+> > >>>>  #ifdef CONFIG_SMP
+> > >>>>  	/* Tell se's cfs_rq has been changed -- migrated */
+> > >>>>-	p->se.avg.last_update_time = 0;
+> > >>>>+	se->avg.last_update_time = 0;
+> > >>>>  #endif
+> > >>>>  	attach_task_cfs_rq(p);
+> > >>>>+
+> > >>>>+	if (!vruntime_normalized(p))
+> > >>>>+		se->vruntime += cfs_rq->min_vruntime;
+> > >>>>  }
+> > >>>>  void free_fair_sched_group(struct task_group *tg)
+> > >>>>-- 
+> > >>>>1.7.1
+> > >>>>
+> > >>--
+> > >>To unsubscribe from this list: send the line "unsubscribe linux-kernel" in
+> > >>the body of a message to majordomo@vger.kernel.org
+> > >>More majordomo info at  http://vger.kernel.org/majordomo-info.html
+> > >>Please read the FAQ at  http://www.tux.org/lkml/
+> > 
+> > --
+> > To unsubscribe from this list: send the line "unsubscribe linux-kernel" in
+> > the body of a message to majordomo@vger.kernel.org
+> > More majordomo info at  http://vger.kernel.org/majordomo-info.html
+> > Please read the FAQ at  http://www.tux.org/lkml/
+> --
+> To unsubscribe from this list: send the line "unsubscribe linux-kernel" in
+> the body of a message to majordomo@vger.kernel.org
+> More majordomo info at  http://vger.kernel.org/majordomo-info.html
+> Please read the FAQ at  http://www.tux.org/lkml/
+--
+To unsubscribe from this list: send the line "unsubscribe linux-kernel" in
+the body of a message to majordomo@vger.kernel.org
+More majordomo info at  http://vger.kernel.org/majordomo-info.html
+Please read the FAQ at  http://www.tux.org/lkml/

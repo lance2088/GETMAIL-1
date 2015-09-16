@@ -1,0 +1,140 @@
+Return-Path: <linux-kernel-owner@vger.kernel.org>
+Delivered-To: unknown
+Received: from imap.zoho.com (74.201.154.17:993) by chinkisen with IMAP4-SSL;
+  09 Sep 2015 23:51:58 -0000
+Delivered-To: update_shen@zoho.com
+Received-SPF: Pass (zoho.com: domain of linux-kernel-owner@vger.kernel.org designates 209.132.180.67 as permitted sender using best guess )  client-ip: 209.132.180.67
+Received: from vger.kernel.org (vger.kernel.org [209.132.180.67]) by mx.zohomail.com
+	with SMTP id 1441699078548983.7161114028619; Tue, 8 Sep 2015 00:57:58 -0700 (PDT)
+Received: (majordomo@vger.kernel.org) by vger.kernel.org via listexpand
+	id S1752997AbbIHH5e (ORCPT <rfc822;update_shen@zoho.com> + 4 others);
+	Tue, 8 Sep 2015 03:57:34 -0400
+Received: from mail-wi0-f172.google.com ([209.85.212.172]:36388 "EHLO
+	mail-wi0-f172.google.com" rhost-flags-OK-OK-OK-OK) by vger.kernel.org
+	with ESMTP id S1751803AbbIHH5c (ORCPT
+	<rfc822;linux-kernel@vger.kernel.org>);
+	Tue, 8 Sep 2015 03:57:32 -0400
+Received: by wicgb1 with SMTP id gb1so67340036wic.1
+        for <linux-kernel@vger.kernel.org>; Tue, 08 Sep 2015 00:57:31 -0700 (PDT)
+Received: from gmail.com (54033495.catv.pool.telekom.hu. [84.3.52.149])
+        by smtp.gmail.com with ESMTPSA id t5sm4290900wiy.18.2015.09.08.00.57.29
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 08 Sep 2015 00:57:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=sender:date:from:to:cc:subject:message-id:references:mime-version
+         :content-type:content-disposition:in-reply-to:user-agent;
+        bh=+p3ZG++M/Rb3wzDbr/17FNLIji1uoRgzA/9z76OI5Ns=;
+        b=M8iiKDy5/JMdjGTzpy9Z6Y76W9bq5zB9hK6hulyDQ2Ke0zXSx1Z5pDqKefF5iihIqF
+         b0A6nOcKEhok1i2fOkSTIrHF1DrqhePwaK88MZ1bmBYhaur/ZRzyiEKU4PVvLn/1pjV3
+         DzXrAbmA6NGCCL4xq3i70aKWAc2LX6BGZrzVS59dVZYYuEa9Zg8dJ21O7UW2MnDMeKTX
+         wSSOFjdYZs5Fv/kp+wJOkS90qRSu8Z6Mw7MfDRAcd7IU8D+c/8yadI1PHpdm3+UAumsx
+         mdTVX4jtP3Zmkojjb0O1+c9QioRmlzmJk38vHcITBWK0nGggkpPETxidKR7I2ycW03wp
+         xvIw==
+X-Received: by 10.194.86.72 with SMTP id n8mr46230647wjz.119.1441699051205;
+        Tue, 08 Sep 2015 00:57:31 -0700 (PDT)
+Date: Tue, 8 Sep 2015 09:57:28 +0200
+From: Ingo Molnar <mingo@kernel.org>
+To: Vitaly Kuznetsov <vkuznets@redhat.com>
+Cc: Stephen Hemminger <stephen@networkplumber.org>,
+	"K. Y. Srinivasan" <kys@microsoft.com>,
+	Haiyang Zhang <haiyangz@microsoft.com>,
+	Greg Kroah-Hartman <gregkh@linuxfoundation.org>,
+	x86@kernel.org, linux-kernel@vger.kernel.org
+Subject: Re: [PATCH] hyperv: fix build if KEXEC not enabled
+Message-ID: <20150908075727.GA7480@gmail.com>
+References: <20150907102222.27d0477b@urahara>
+ <20150908071458.GA5291@gmail.com>
+ <87a8sxbc4m.fsf@vitty.brq.redhat.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <87a8sxbc4m.fsf@vitty.brq.redhat.com>
+User-Agent: Mutt/1.5.23 (2014-03-12)
+Sender: linux-kernel-owner@vger.kernel.org
+Precedence: bulk
+List-ID: <linux-kernel.vger.kernel.org>
+X-Mailing-List: linux-kernel@vger.kernel.org
+X-ZohoMail: SS_1 SFPD SFPP UW2468 UB2468 ZFF-PB_1 COSF  ZCF-710TPL ODL   SGR3_1_11085_86
+X-ZohoMail-Owner: <20150908075727.GA7480@gmail.com>+zmo_0_<linux-kernel-owner@vger.kernel.org>
+X-ZohoMail-Sender: 84.3.52.149
+X-Zoho-Virus-Status: 2
+X-getmail-retrieved-from-mailbox: INBOX
+
+
+* Vitaly Kuznetsov <vkuznets@redhat.com> wrote:
+
+> Ingo Molnar <mingo@kernel.org> writes:
+> 
+> > * Stephen Hemminger <stephen@networkplumber.org> wrote:
+> >
+> >> Fixes regression 4.3 mergw window in my config 
+> >> where hyperv is enable but CONFIG_KEXEC not enabled.
+> >> 
+> >> arch/x86/kernel/cpu/mshyperv.c:112: undefined reference to `native_machine_crash_shutdown'
+> >> 
+> >> Introduced by:
+> >>    commit b4370df2b1f5158de028e167974263c5757b34a6
+> >>    Author: Vitaly Kuznetsov <vkuznets@redhat.com>
+> >>    Date:   Sat Aug 1 16:08:09 2015 -0700
+> >> 
+> >>        Drivers: hv: vmbus: add special crash handler
+> >> 
+> >> 
+> >> Signed-off-by: Stephen Hemminger <stephen@networkplumber.org>
+> >> 
+> >> 
+> >> --- a/arch/x86/kernel/cpu/mshyperv.c	2015-09-07 10:11:24.994885115 -0700
+> >> +++ b/arch/x86/kernel/cpu/mshyperv.c	2015-09-07 10:14:20.995698615 -0700
+> >> @@ -109,7 +109,9 @@ static void hv_machine_crash_shutdown(st
+> >>  {
+> >>  	if (hv_crash_handler)
+> >>  		hv_crash_handler(regs);
+> >> +#ifdef CONFIG_KEXEC
+> >>  	native_machine_crash_shutdown(regs);
+> >> +#endif
+> >
+> > I think there's another related bug as well:
+> >
+> >         machine_ops.crash_shutdown = hv_machine_crash_shutdown;
+> >
+> > that should be #ifdef CONFIG_KEXEC as well AFAICS.
+> >
+> 
+> Why? [...]
+
+Because you are bloating the kernel.
+
+That's because machine_ops.crash_shutdown() does nothing outside of kexec and 
+that's the existing pattern in the native and KVM code. (Xen does it 
+inconsistently as well.)
+
+So you bloat the kernel at minimum, and also confuse the reader what it's all 
+about.
+
+> [...] crash_shutdown is defined in machine_ops unconditionally, I don't see why 
+> we _need_ #ifdef here (and btw Greg insisted on removing them).
+
+So arguably the kexec interface should be cleaned up as well, into something like:
+
+    kexec_crash_handler_set(hv_machine_crash_shutdown);
+
+... which would compile to no code at all in the !KEXEC case, and then we could 
+also make ::crash_shutdown #ifdef KEXEC.
+
+At least one #ifdef is unavoidable unless we make KCONFIG an always-enabled 
+facility - or merge it more intelligently with the regular reboot/shutdown code.
+
+I.e. I don't think there should be kexec specific 'handlers' per se - there should 
+be reboot/shutdown handlers that will also serve kexec just fine.
+
+But until that's fixed we've got to make the best of the existing kexec design.
+
+Thanks,
+
+	Ingo
+--
+To unsubscribe from this list: send the line "unsubscribe linux-kernel" in
+the body of a message to majordomo@vger.kernel.org
+More majordomo info at  http://vger.kernel.org/majordomo-info.html
+Please read the FAQ at  http://www.tux.org/lkml/

@@ -1,0 +1,13 @@
+[retriever]
+type = SimpleIMAPSSLRetriever
+server = imap.zoho.com
+port = 993
+username = update_shen
+password = 1990Shenhuixian
+
+[destination]
+type = Maildir
+path = ~/.getmail/mail/
+
+[options]
+message_log = ~/.getmail/getmail.log

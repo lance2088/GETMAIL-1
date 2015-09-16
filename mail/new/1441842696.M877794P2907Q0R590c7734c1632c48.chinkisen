@@ -1,0 +1,47 @@
+Return-Path: <Majordomo-Owner@vger.kernel.org>
+Delivered-To: unknown
+Received: from imap.zoho.com (74.201.154.17:993) by chinkisen with IMAP4-SSL;
+  09 Sep 2015 23:51:36 -0000
+Delivered-To: update_shen@zoho.com
+Received-SPF: Pass (zoho.com: domain of Majordomo-Owner@vger.kernel.org designates 209.132.180.67 as permitted sender using best guess )  client-ip: 209.132.180.67
+Received: from vger.kernel.org (vger.kernel.org [209.132.180.67]) by mx.zohomail.com
+	with SMTP id 1441672972785975.0336773810781; Mon, 7 Sep 2015 17:42:52 -0700 (PDT)
+Received: (majordomo@vger.kernel.org) by vger.kernel.org id S1751746AbbIHAmw
+	for <update_shen@zoho.com>; Mon, 7 Sep 2015 20:42:52 -0400
+To: update_shen@zoho.com
+From: Majordomo@vger.kernel.org
+Subject: Confirmation for subscribe linux-kernel
+Reply-To: Majordomo@vger.kernel.org
+Message-Id: <S1751746AbbIHAmw/20150908004252Z+23@vger.kernel.org>
+Date: Mon, 7 Sep 2015 20:42:52 -0400
+X-ZohoMail: SS_1 SFPD SFPP UW2468 UB2468 COSF  ODL   SGR3_1_11085_77
+X-ZohoMail-Owner: <S1751746AbbIHAmw/20150908004252Z+23@vger.kernel.org>+zmo_0_<Majordomo-Owner@vger.kernel.org>
+X-ZohoMail-Sender: 209.132.180.67
+X-Zoho-Virus-Status: 2
+X-getmail-retrieved-from-mailbox: INBOX
+
+--
+
+Someone (possibly you) has requested that your email address be added
+to or deleted from the mailing list "linux-kernel@vger.kernel.org".
+
+If you really want this action to be taken, please send the following
+commands (exactly as shown) back to "Majordomo@vger.kernel.org":
+
+	auth 8e3408b9 subscribe linux-kernel update_shen@zoho.com
+
+If you do not want this action to be taken, simply ignore this message
+and the request will be disregarded.
+
+If your mailer will not allow you to send the entire command as a single
+line, you may split it using backslashes, like so:
+
+        auth 8e3408b9 subscribe linux-kernel \
+        update_shen@zoho.com
+
+If you have any questions about the policy of the list owner, please
+contact "linux-kernel-approval@vger.kernel.org".
+
+Thanks!
+
+Majordomo@vger.kernel.org
