@@ -2,8 +2,8 @@
 type = SimpleIMAPSSLRetriever
 server = imap.zoho.com
 port = 993
-username = update_shen
-password = 1990Shenhuixian
+username = xxx
+password = xxx
 
 [destination]
 type = Maildir
